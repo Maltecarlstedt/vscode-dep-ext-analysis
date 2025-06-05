@@ -136,8 +136,6 @@ python vulnerability_propagation_analysis.py --vuln-csv results.csv --ext-dirs e
 - **Alexander Brunnegård** - [GitHuB](https://github.com/alexanderbrunnegard)
 - **Thesis Supervisor:** Mohannad Alhanahnah
 
-For questions or collaboration, feel free to reach out.
-
 ---
 
 This repository is maintained as part of a master's thesis at Chalmers University of Technology.
