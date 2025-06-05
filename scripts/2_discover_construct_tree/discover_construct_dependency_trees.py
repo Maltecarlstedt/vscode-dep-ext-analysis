@@ -872,7 +872,7 @@ class DependencyAnalyzer:
             cache_key = self.get_package_cache_key(name, version)
             all_deps_seen.add(cache_key)
 
-            # Get dependency info (now always returns a dict, even with empty languages)
+            # Get dependency info
             dep_info = self.get_dependency_info(name, version)
 
             # Check if this dependency has compiled languages
