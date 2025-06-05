@@ -1,0 +1,21 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "ssh2@unknown": {
+      "name": "ssh2",
+      "version": "unknown",
+      "github": "https://github.com/mscdex/ssh2",
+      "languages": {
+        "JavaScript": 758698,
+        "C++": 64172,
+        "C": 2096,
+        "Python": 449,
+        "Batchfile": 41
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@leanprover/infoview@0.8.5": {
+      "name": "@leanprover/infoview",
+      "version": "0.8.5",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@vscode-elements/react-elements",
+          "version": "0.5.0",
+          "github": "",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.0.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100760,
+                "TypeScript": 2011603,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "es-module-lexer",
+          "version": "1.5.4",
+          "github": "https://github.com/guybedford/es-module-lexer",
+          "languages": {
+            "JavaScript": 1022274,
+            "C": 36497,
+            "TypeScript": 8440
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

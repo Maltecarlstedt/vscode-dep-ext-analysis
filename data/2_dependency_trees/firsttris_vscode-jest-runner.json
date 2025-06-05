@@ -1,0 +1,160 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "jest-editor-support@31.1.2": {
+      "name": "jest-editor-support",
+      "version": "31.1.2",
+      "github": "https://github.com/jest-community/jest-editor-support",
+      "languages": {
+        "TypeScript": 171610,
+        "JavaScript": 1896
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "jest-snapshot",
+          "version": "27.5.1",
+          "github": "https://github.com/facebook/jest",
+          "languages": {
+            "TypeScript": 3539240,
+            "JavaScript": 911724,
+            "CSS": 25056,
+            "Prolog": 3500,
+            "Shell": 404,
+            "Handlebars": 260
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "jest-haste-map",
+              "version": "27.5.1",
+              "github": "https://github.com/facebook/jest",
+              "languages": {
+                "TypeScript": 3539240,
+                "JavaScript": 911724,
+                "CSS": 25056,
+                "Prolog": 3500,
+                "Shell": 404,
+                "Handlebars": 260
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "fb-watchman",
+                  "version": "2.0.2",
+                  "github": "https://github.com/facebook/watchman",
+                  "languages": {
+                    "C++": 1400922,
+                    "Python": 898662,
+                    "Rust": 239936,
+                    "Java": 152490,
+                    "CMake": 121909,
+                    "Thrift": 106460,
+                    "C": 68154,
+                    "JavaScript": 53008,
+                    "Ruby": 16953,
+                    "Shell": 8758,
+                    "CSS": 5325,
+                    "Dockerfile": 1604,
+                    "Starlark": 1322,
+                    "Batchfile": 366
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "bser",
+                      "version": "2.1.1",
+                      "github": "https://github.com/facebook/watchman",
+                      "languages": {
+                        "C++": 1400922,
+                        "Python": 898662,
+                        "Rust": 239936,
+                        "Java": 152490,
+                        "CMake": 121909,
+                        "Thrift": 106460,
+                        "C": 68154,
+                        "JavaScript": 53008,
+                        "Ruby": 16953,
+                        "Shell": 8758,
+                        "CSS": 5325,
+                        "Dockerfile": 1604,
+                        "Starlark": 1322,
+                        "Batchfile": 366
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "fsevents",
+                  "version": "unknown",
+                  "github": "https://github.com/fsevents/fsevents",
+                  "languages": {
+                    "C": 12888,
+                    "JavaScript": 11408,
+                    "Python": 716,
+                    "Shell": 438
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "pretty-format",
+              "version": "27.5.1",
+              "github": "https://github.com/facebook/jest",
+              "languages": {
+                "TypeScript": 3539240,
+                "JavaScript": 911724,
+                "CSS": 25056,
+                "Prolog": 3500,
+                "Shell": 404,
+                "Handlebars": 260
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-is",
+                  "version": "17.0.2",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

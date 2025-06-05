@@ -1,0 +1,213 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@marp-team/marp-cli@4.1.2": {
+      "name": "@marp-team/marp-cli",
+      "version": "4.1.2",
+      "github": "https://github.com/marp-team/marp-cli",
+      "languages": {
+        "TypeScript": 558044,
+        "SCSS": 49028,
+        "JavaScript": 12372,
+        "Pug": 3140,
+        "Dockerfile": 1693,
+        "Shell": 159,
+        "CSS": 144
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "puppeteer-core",
+          "version": "24.2.1",
+          "github": "https://github.com/puppeteer/puppeteer.git#main",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@puppeteer/browsers",
+              "version": "2.7.1",
+              "github": "https://github.com/puppeteer/puppeteer.git#main",
+              "languages": {},
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "proxy-agent",
+                  "version": "6.5.0",
+                  "github": "https://github.com/TooTallNate/proxy-agents",
+                  "languages": {
+                    "TypeScript": 218188,
+                    "JavaScript": 15003
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "pac-proxy-agent",
+                      "version": "7.2.0",
+                      "github": "https://github.com/TooTallNate/proxy-agents",
+                      "languages": {
+                        "TypeScript": 218188,
+                        "JavaScript": 15003
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "@tootallnate/quickjs-emscripten",
+                          "version": "0.23.0",
+                          "github": "https://github.com/justjake/quickjs-emscripten",
+                          "languages": {
+                            "TypeScript": 677729,
+                            "Makefile": 143764,
+                            "C": 40130,
+                            "JavaScript": 7986,
+                            "Shell": 1186
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "tar-fs",
+                  "version": "3.0.8",
+                  "github": "https://github.com/mafintosh/tar-fs",
+                  "languages": {
+                    "JavaScript": 20184
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "bare-fs",
+                      "version": "4.0.1",
+                      "github": "https://github.com/holepunchto/bare-fs",
+                      "languages": {
+                        "JavaScript": 80480,
+                        "C": 60457,
+                        "CMake": 204
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bare-stream",
+                          "version": "2.6.5",
+                          "github": "https://github.com/holepunchto/bare-stream",
+                          "languages": {
+                            "JavaScript": 27971
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "bare-buffer",
+                              "version": "unknown",
+                              "github": "https://github.com/holepunchto/bare-buffer",
+                              "languages": {
+                                "JavaScript": 40751,
+                                "C": 18181,
+                                "CMake": 609
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "bare-path",
+                      "version": "3.0.0",
+                      "github": "https://github.com/holepunchto/bare-path",
+                      "languages": {
+                        "JavaScript": 23794
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bare-os",
+                          "version": "3.6.0",
+                          "github": "https://github.com/holepunchto/bare-os",
+                          "languages": {
+                            "C": 23105,
+                            "JavaScript": 4696,
+                            "CMake": 204
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ws",
+          "version": "8.18.1",
+          "github": "https://github.com/websockets/ws",
+          "languages": {
+            "JavaScript": 434710
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bufferutil",
+              "version": "unknown",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "unknown",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

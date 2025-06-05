@@ -1,0 +1,169 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "node-red@0.18.4": {
+      "name": "node-red",
+      "version": "0.18.4",
+      "github": "https://github.com/node-red/node-red",
+      "languages": {
+        "JavaScript": 2534686,
+        "HTML": 5974,
+        "Shell": 265,
+        "CSS": 44
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bcrypt",
+          "version": "unknown",
+          "github": "https://github.com/kelektiv/node.bcrypt.js",
+          "languages": {
+            "C++": 41528,
+            "JavaScript": 31027,
+            "C": 4772,
+            "Dockerfile": 1498,
+            "Python": 1264,
+            "Shell": 1037,
+            "Makefile": 203
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "express-session",
+          "version": "1.15.6",
+          "github": "https://github.com/expressjs/session",
+          "languages": {
+            "JavaScript": 118061,
+            "Shell": 226
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "crc",
+              "version": "3.4.4",
+              "github": "https://github.com/alexgorbatchev/node-crc",
+              "languages": {
+                "Python": 170310,
+                "TypeScript": 47655,
+                "Shell": 11106,
+                "JavaScript": 9316,
+                "C": 8463,
+                "Makefile": 595
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "node-red-node-feedparser",
+          "version": "0.1.12",
+          "github": "https://github.com/node-red/node-red-nodes/tree/master/social/feedparser",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "request",
+              "version": "2.85.0",
+              "github": "https://github.com/request/request",
+              "languages": {
+                "JavaScript": 305377,
+                "Shell": 3006
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "http-signature",
+                  "version": "1.2.0",
+                  "github": "https://github.com/joyent/node-http-signature",
+                  "languages": {
+                    "JavaScript": 95746,
+                    "Makefile": 13276,
+                    "Emacs Lisp": 178
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "sshpk",
+                      "version": "1.14.1",
+                      "github": "https://github.com/arekinath/node-sshpk",
+                      "languages": {
+                        "JavaScript": 304051,
+                        "Makefile": 15447
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bcrypt-pbkdf",
+                          "version": "1.0.1",
+                          "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                          "languages": {
+                            "JavaScript": 23230
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "tweetnacl",
+                              "version": "0.14.5",
+                              "github": "https://github.com/dchest/tweetnacl-js",
+                              "languages": {
+                                "JavaScript": 2964046,
+                                "C": 45485,
+                                "Go": 3796,
+                                "HTML": 1898,
+                                "Makefile": 716
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "tweetnacl",
+                          "version": "0.14.5",
+                          "github": "https://github.com/dchest/tweetnacl-js",
+                          "languages": {
+                            "JavaScript": 2964046,
+                            "C": 45485,
+                            "Go": 3796,
+                            "HTML": 1898,
+                            "Makefile": 716
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

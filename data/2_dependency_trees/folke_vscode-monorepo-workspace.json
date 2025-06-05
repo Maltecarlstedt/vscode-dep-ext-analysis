@@ -1,0 +1,34 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "ultra-runner@3.10.5": {
+      "name": "ultra-runner",
+      "version": "3.10.5",
+      "github": "https://github.com/folke/ultra-runner",
+      "languages": {
+        "TypeScript": 87790,
+        "JavaScript": 3982,
+        "Shell": 64
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "pid-cwd",
+          "version": "1.2.0",
+          "github": "https://github.com/NeekSandhu/pid-cwd",
+          "languages": {
+            "C++": 13113,
+            "JavaScript": 1664,
+            "C": 611
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

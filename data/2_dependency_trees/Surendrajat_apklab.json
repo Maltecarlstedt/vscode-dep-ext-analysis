@@ -1,0 +1,52 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "apk-mitm@1.2.1": {
+      "name": "apk-mitm",
+      "version": "1.2.1",
+      "github": "https://github.com/shroudedcode/apk-mitm",
+      "languages": {
+        "TypeScript": 43537,
+        "JavaScript": 148
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@tybys/cross-zip",
+          "version": "3.1.0",
+          "github": "https://github.com/toyobayashi/cross-zip",
+          "languages": {
+            "JavaScript": 13732
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@tybys/oid",
+              "version": "3.0.0",
+              "github": "https://github.com/toyobayashi/oid",
+              "languages": {
+                "TypeScript": 58061,
+                "JavaScript": 20415,
+                "HTML": 10530,
+                "Java": 8627,
+                "C": 8001,
+                "C++": 7832,
+                "CMake": 4185,
+                "Batchfile": 2162,
+                "Shell": 977
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

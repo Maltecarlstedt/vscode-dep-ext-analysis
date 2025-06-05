@@ -1,0 +1,191 @@
+{
+  "ext_native": true,
+  "dependencies": {
+    "react-dom@18.2.0": {
+      "name": "react-dom",
+      "version": "18.2.0",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100320,
+        "TypeScript": 2011063,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "scheduler",
+          "version": "0.23.2",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react@18.2.0": {
+      "name": "react",
+      "version": "18.2.0",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100320,
+        "TypeScript": 2011063,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "web-tree-sitter@0.24.7": {
+      "name": "web-tree-sitter",
+      "version": "0.24.7",
+      "github": "https://github.com/tree-sitter/tree-sitter",
+      "languages": {
+        "Rust": 1691672,
+        "C": 695534,
+        "TypeScript": 177544,
+        "JavaScript": 27283,
+        "C++": 21420,
+        "HTML": 10823,
+        "Zig": 10125,
+        "Makefile": 7810,
+        "CMake": 6685,
+        "Python": 4610,
+        "Swift": 2613,
+        "Go": 749,
+        "Dockerfile": 127,
+        "RenderScript": 1
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "win-ca@3.5.1": {
+      "name": "win-ca",
+      "version": "3.5.1",
+      "github": "https://github.com/ukoloff/win-ca",
+      "languages": {
+        "LiveScript": 35635,
+        "C++": 2592,
+        "JavaScript": 1367,
+        "C": 784,
+        "Python": 641,
+        "Batchfile": 128
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-forge",
+          "version": "1.3.1",
+          "github": "https://github.com/digitalbazaar/forge",
+          "languages": {
+            "JavaScript": 1642997,
+            "HTML": 73308,
+            "ActionScript": 25864,
+            "C": 13441,
+            "Python": 3547,
+            "CSS": 1244
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "ws@8.18.0": {
+      "name": "ws",
+      "version": "8.18.0",
+      "github": "https://github.com/websockets/ws",
+      "languages": {
+        "JavaScript": 434710
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bufferutil",
+          "version": "unknown",
+          "github": "https://github.com/websockets/bufferutil",
+          "languages": {
+            "C": 3682,
+            "JavaScript": 2450,
+            "Python": 848
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "utf-8-validate",
+          "version": "unknown",
+          "github": "https://github.com/websockets/utf-8-validate",
+          "languages": {
+            "JavaScript": 3173,
+            "Python": 912,
+            "C++": 899
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

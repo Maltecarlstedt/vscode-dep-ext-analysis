@@ -1,0 +1,358 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "npm@10.9.2": {
+      "name": "npm",
+      "version": "10.9.2",
+      "github": "https://github.com/npm/cli",
+      "languages": {
+        "JavaScript": 13592801,
+        "Handlebars": 25866,
+        "Shell": 10986,
+        "PowerShell": 3366,
+        "Batchfile": 1180
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@npmcli/run-script",
+          "version": "9.0.2",
+          "github": "https://github.com/npm/run-script",
+          "languages": {
+            "JavaScript": 28513,
+            "Shell": 51,
+            "Batchfile": 34
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-gyp",
+              "version": "11.0.0",
+              "github": "https://github.com/nodejs/node-gyp",
+              "languages": {
+                "Python": 1524276,
+                "JavaScript": 188336,
+                "Emacs Lisp": 14363,
+                "C#": 7931,
+                "C++": 1656,
+                "Shell": 1041,
+                "Batchfile": 201
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "node-gyp",
+          "version": "11.0.0",
+          "github": "https://github.com/nodejs/node-gyp",
+          "languages": {
+            "Python": 1524276,
+            "JavaScript": 188336,
+            "Emacs Lisp": 14363,
+            "C#": 7931,
+            "C++": 1656,
+            "Shell": 1041,
+            "Batchfile": 201
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "salesforcedx-vscode-apex@63.11.0": {
+      "name": "salesforcedx-vscode-apex",
+      "version": "63.11.0",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@salesforce/source-deploy-retrieve-bundle",
+          "version": "12.19.2",
+          "github": "https://github.com/forcedotcom/source-deploy-retrieve",
+          "languages": {
+            "TypeScript": 1210605,
+            "CSS": 14257,
+            "Apex": 13676,
+            "JavaScript": 4904,
+            "Shell": 265,
+            "HTML": 177
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "proxy-agent",
+              "version": "6.5.0",
+              "github": "https://github.com/TooTallNate/proxy-agents",
+              "languages": {
+                "TypeScript": 218188,
+                "JavaScript": 15003
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "pac-proxy-agent",
+                  "version": "7.2.0",
+                  "github": "https://github.com/TooTallNate/proxy-agents",
+                  "languages": {
+                    "TypeScript": 218188,
+                    "JavaScript": 15003
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@tootallnate/quickjs-emscripten",
+                      "version": "0.23.0",
+                      "github": "https://github.com/justjake/quickjs-emscripten",
+                      "languages": {
+                        "TypeScript": 677729,
+                        "Makefile": 143764,
+                        "C": 40130,
+                        "JavaScript": 7986,
+                        "Shell": 1186
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "salesforcedx-vscode-lwc@63.11.0": {
+      "name": "salesforcedx-vscode-lwc",
+      "version": "63.11.0",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "jest-editor-support",
+          "version": "30.3.1",
+          "github": "https://github.com/jest-community/jest-editor-support",
+          "languages": {
+            "TypeScript": 171610,
+            "JavaScript": 1896
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "jest-snapshot",
+              "version": "27.5.1",
+              "github": "https://github.com/facebook/jest",
+              "languages": {
+                "TypeScript": 3539240,
+                "JavaScript": 911724,
+                "CSS": 25056,
+                "Prolog": 3500,
+                "Shell": 404,
+                "Handlebars": 260
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "jest-haste-map",
+                  "version": "27.5.1",
+                  "github": "https://github.com/facebook/jest",
+                  "languages": {
+                    "TypeScript": 3539240,
+                    "JavaScript": 911724,
+                    "CSS": 25056,
+                    "Prolog": 3500,
+                    "Shell": 404,
+                    "Handlebars": 260
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "fb-watchman",
+                      "version": "2.0.2",
+                      "github": "https://github.com/facebook/watchman",
+                      "languages": {
+                        "C++": 1400922,
+                        "Python": 898662,
+                        "Rust": 239936,
+                        "Java": 152490,
+                        "CMake": 121909,
+                        "Thrift": 106460,
+                        "C": 68154,
+                        "JavaScript": 53008,
+                        "Ruby": 16953,
+                        "Shell": 8758,
+                        "CSS": 5325,
+                        "Dockerfile": 1604,
+                        "Starlark": 1322,
+                        "Batchfile": 366
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bser",
+                          "version": "2.1.1",
+                          "github": "https://github.com/facebook/watchman",
+                          "languages": {
+                            "C++": 1400922,
+                            "Python": 898662,
+                            "Rust": 239936,
+                            "Java": 152490,
+                            "CMake": 121909,
+                            "Thrift": 106460,
+                            "C": 68154,
+                            "JavaScript": 53008,
+                            "Ruby": 16953,
+                            "Shell": 8758,
+                            "CSS": 5325,
+                            "Dockerfile": 1604,
+                            "Starlark": 1322,
+                            "Batchfile": 366
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "fsevents",
+                      "version": "unknown",
+                      "github": "https://github.com/fsevents/fsevents",
+                      "languages": {
+                        "C": 12888,
+                        "JavaScript": 11408,
+                        "Python": 716,
+                        "Shell": 438
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "pretty-format",
+                  "version": "27.5.1",
+                  "github": "https://github.com/facebook/jest",
+                  "languages": {
+                    "TypeScript": 3539240,
+                    "JavaScript": 911724,
+                    "CSS": 25056,
+                    "Prolog": 3500,
+                    "Shell": 404,
+                    "Handlebars": 260
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react-is",
+                      "version": "17.0.2",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "salesforcedx-vscode-soql@63.11.0": {
+      "name": "salesforcedx-vscode-soql",
+      "version": "63.11.0",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@salesforce/soql-language-server",
+          "version": "0.7.1",
+          "github": "https://github.com/forcedotcom/soql-language-server",
+          "languages": {
+            "TypeScript": 82496,
+            "JavaScript": 331
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "antlr4-c3",
+              "version": "1.1.16",
+              "github": "https://github.com/mike-lischke/antlr4-c3",
+              "languages": {
+                "TypeScript": 144268,
+                "C++": 86017,
+                "Dart": 44932,
+                "C#": 43645,
+                "Java": 40596,
+                "ANTLR": 32393,
+                "CMake": 10297,
+                "JavaScript": 9847,
+                "Shell": 800,
+                "Batchfile": 58
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

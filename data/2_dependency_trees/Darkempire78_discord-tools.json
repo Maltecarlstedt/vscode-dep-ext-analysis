@@ -1,0 +1,171 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "discord.js-selfbot@12.0.2": {
+      "name": "discord.js-selfbot",
+      "version": "12.0.2",
+      "github": "https://github.com/discordjs/discord.js",
+      "languages": {
+        "TypeScript": 2427475,
+        "JavaScript": 1263744,
+        "CSS": 7289,
+        "Handlebars": 2732,
+        "Dockerfile": 743,
+        "Lua": 287,
+        "MDX": 59
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "tweetnacl",
+          "version": "1.0.3",
+          "github": "https://github.com/dchest/tweetnacl-js",
+          "languages": {
+            "JavaScript": 2964046,
+            "C": 45485,
+            "Go": 3796,
+            "HTML": 1898,
+            "Makefile": 716
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "npx@10.2.2": {
+      "name": "npx",
+      "version": "10.2.2",
+      "github": "https://github.com/npm/npx",
+      "languages": {
+        "JavaScript": 58611,
+        "Makefile": 665
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "npm",
+          "version": "5.1.0",
+          "github": "https://github.com/npm/npm",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-gyp",
+              "version": "3.6.2",
+              "github": "https://github.com/nodejs/node-gyp",
+              "languages": {
+                "Python": 1524276,
+                "JavaScript": 188336,
+                "Emacs Lisp": 14363,
+                "C#": 7931,
+                "C++": 1656,
+                "Shell": 1041,
+                "Batchfile": 201
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "request",
+              "version": "2.81.0",
+              "github": "https://github.com/request/request",
+              "languages": {
+                "JavaScript": 305377,
+                "Shell": 3006
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "http-signature",
+                  "version": "1.1.1",
+                  "github": "https://github.com/joyent/node-http-signature",
+                  "languages": {
+                    "JavaScript": 95746,
+                    "Makefile": 13276,
+                    "Emacs Lisp": 178
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "sshpk",
+                      "version": "1.13.1",
+                      "github": "https://github.com/arekinath/node-sshpk",
+                      "languages": {
+                        "JavaScript": 304051,
+                        "Makefile": 15447
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bcrypt-pbkdf",
+                          "version": "1.0.1",
+                          "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                          "languages": {
+                            "JavaScript": 23230
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "tweetnacl",
+                              "version": "0.14.5",
+                              "github": "https://github.com/dchest/tweetnacl-js",
+                              "languages": {
+                                "JavaScript": 2964046,
+                                "C": 45485,
+                                "Go": 3796,
+                                "HTML": 1898,
+                                "Makefile": 716
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "tweetnacl",
+                          "version": "0.14.5",
+                          "github": "https://github.com/dchest/tweetnacl-js",
+                          "languages": {
+                            "JavaScript": 2964046,
+                            "C": 45485,
+                            "Go": 3796,
+                            "HTML": 1898,
+                            "Makefile": 716
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode/test-web@0.0.8": {
+      "name": "@vscode/test-web",
+      "version": "0.0.8",
+      "github": "https://github.com/Microsoft/vscode-test-web",
+      "languages": {
+        "HTML": 160190,
+        "TypeScript": 50818,
+        "JavaScript": 26881
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "playwright",
+          "version": "1.15.0",
+          "github": "https://github.com/Microsoft/playwright",
+          "languages": {
+            "TypeScript": 9166610,
+            "HTML": 474517,
+            "CSS": 174959,
+            "C++": 118625,
+            "Objective-C": 66154,
+            "JavaScript": 62172,
+            "Shell": 39958,
+            "Java": 20119,
+            "C": 7890,
+            "PowerShell": 4653,
+            "Python": 3792,
+            "Svelte": 3738,
+            "C#": 3406,
+            "Vue": 3348,
+            "CMake": 2571,
+            "Makefile": 377,
+            "Batchfile": 169
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "ws",
+              "version": "7.5.5",
+              "github": "https://github.com/websockets/ws",
+              "languages": {
+                "JavaScript": 434710
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bufferutil",
+                  "version": "unknown",
+                  "github": "https://github.com/websockets/bufferutil",
+                  "languages": {
+                    "C": 3682,
+                    "JavaScript": 2450,
+                    "Python": 848
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "utf-8-validate",
+                  "version": "unknown",
+                  "github": "https://github.com/websockets/utf-8-validate",
+                  "languages": {
+                    "JavaScript": 3173,
+                    "Python": 912,
+                    "C++": 899
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "jsdom@21.1.2": {
+      "name": "jsdom",
+      "version": "21.1.2",
+      "github": "https://github.com/jsdom/jsdom",
+      "languages": {
+        "JavaScript": 2834567,
+        "HTML": 665280,
+        "Roff": 253386,
+        "WebIDL": 128392,
+        "CSS": 54517,
+        "Python": 1426
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "canvas",
+          "version": "unknown",
+          "github": "https://github.com/Automattic/node-canvas",
+          "languages": {
+            "JavaScript": 628226,
+            "C++": 298423,
+            "C": 15610,
+            "Python": 7459,
+            "TypeScript": 1575,
+            "CSS": 557,
+            "HTML": 472
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "ws",
+          "version": "8.17.1",
+          "github": "https://github.com/websockets/ws",
+          "languages": {
+            "JavaScript": 434710
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bufferutil",
+              "version": "unknown",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "unknown",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

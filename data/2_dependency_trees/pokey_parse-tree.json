@@ -1,0 +1,30 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "web-tree-sitter@0.24.6": {
+      "name": "web-tree-sitter",
+      "version": "0.24.6",
+      "github": "https://github.com/tree-sitter/tree-sitter",
+      "languages": {
+        "Rust": 1691672,
+        "C": 695561,
+        "TypeScript": 177544,
+        "JavaScript": 27283,
+        "C++": 21420,
+        "HTML": 10823,
+        "Zig": 10125,
+        "Makefile": 7810,
+        "CMake": 6685,
+        "Python": 4610,
+        "Swift": 2613,
+        "Go": 749,
+        "Dockerfile": 127,
+        "RenderScript": 1
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

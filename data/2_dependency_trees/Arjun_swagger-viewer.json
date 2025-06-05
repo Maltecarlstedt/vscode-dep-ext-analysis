@@ -1,0 +1,94 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "socket.io@4.8.1": {
+      "name": "socket.io",
+      "version": "4.8.1",
+      "github": "https://github.com/socketio/socket.io",
+      "languages": {
+        "TypeScript": 735272,
+        "JavaScript": 441182,
+        "Shell": 1229,
+        "HTML": 372,
+        "CSS": 183
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "engine.io",
+          "version": "6.6.4",
+          "github": "https://github.com/socketio/socket.io",
+          "languages": {
+            "TypeScript": 735272,
+            "JavaScript": 441182,
+            "Shell": 1229,
+            "HTML": 372,
+            "CSS": 183
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "ws",
+              "version": "8.17.1",
+              "github": "https://github.com/websockets/ws",
+              "languages": {
+                "JavaScript": 434710
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bufferutil",
+                  "version": "unknown",
+                  "github": "https://github.com/websockets/bufferutil",
+                  "languages": {
+                    "C": 3682,
+                    "JavaScript": 2450,
+                    "Python": 848
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "utf-8-validate",
+                  "version": "5.0.10",
+                  "github": "https://github.com/websockets/utf-8-validate",
+                  "languages": {
+                    "JavaScript": 3173,
+                    "Python": 912,
+                    "C++": 899
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "utf-8-validate@5.0.10": {
+      "name": "utf-8-validate",
+      "version": "5.0.10",
+      "github": "https://github.com/websockets/utf-8-validate",
+      "languages": {
+        "JavaScript": 3173,
+        "Python": 912,
+        "C++": 899
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

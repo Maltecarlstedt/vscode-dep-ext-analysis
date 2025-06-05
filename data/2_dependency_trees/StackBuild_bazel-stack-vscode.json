@@ -1,0 +1,246 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@grpc/proto-loader@0.6.4": {
+      "name": "@grpc/proto-loader",
+      "version": "0.6.4",
+      "github": "https://github.com/grpc/grpc-node",
+      "languages": {
+        "TypeScript": 1909092,
+        "JavaScript": 254032,
+        "C++": 31007,
+        "Shell": 20701,
+        "Dockerfile": 5360,
+        "CMake": 2907,
+        "Batchfile": 2711,
+        "PowerShell": 2270
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "request@2.88.2": {
+      "name": "request",
+      "version": "2.88.2",
+      "github": "https://github.com/request/request",
+      "languages": {
+        "JavaScript": 305377,
+        "Shell": 3006
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "http-signature",
+          "version": "1.2.0",
+          "github": "https://github.com/joyent/node-http-signature",
+          "languages": {
+            "JavaScript": 95746,
+            "Makefile": 13276,
+            "Emacs Lisp": 178
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "sshpk",
+              "version": "1.16.1",
+              "github": "https://github.com/joyent/node-sshpk",
+              "languages": {
+                "JavaScript": 302105,
+                "Makefile": 15447
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bcrypt-pbkdf",
+                  "version": "1.0.2",
+                  "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                  "languages": {
+                    "JavaScript": 23230
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "tweetnacl",
+                      "version": "0.14.5",
+                      "github": "https://github.com/dchest/tweetnacl-js",
+                      "languages": {
+                        "JavaScript": 2964046,
+                        "C": 45485,
+                        "Go": 3796,
+                        "HTML": 1898,
+                        "Makefile": 716
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "tweetnacl",
+                  "version": "0.14.5",
+                  "github": "https://github.com/dchest/tweetnacl-js",
+                  "languages": {
+                    "JavaScript": 2964046,
+                    "C": 45485,
+                    "Go": 3796,
+                    "HTML": 1898,
+                    "Makefile": 716
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "shiki-themes@0.2.7": {
+      "name": "shiki-themes",
+      "version": "0.2.7",
+      "github": "https://github.com/octref/shiki",
+      "languages": {
+        "TypeScript": 556594,
+        "CSS": 17749,
+        "JavaScript": 5187,
+        "HTML": 677
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "vscode-textmate",
+          "version": "5.5.0",
+          "github": "https://github.com/microsoft/vscode-textmate",
+          "languages": {
+            "TypeScript": 223821,
+            "JavaScript": 6234,
+            "SCSS": 6030,
+            "Groovy": 3928,
+            "CSS": 3257,
+            "HTML": 2518,
+            "Python": 2119,
+            "Perl": 1922,
+            "Ruby": 1703,
+            "PowerShell": 1432,
+            "Objective-C": 1387,
+            "Go": 1226,
+            "Clojure": 1206,
+            "Handlebars": 1064,
+            "Less": 1014,
+            "C++": 1000,
+            "Visual Basic .NET": 893,
+            "C": 818,
+            "PHP": 802,
+            "F#": 634,
+            "Shell": 634,
+            "CoffeeScript": 590,
+            "Java": 576,
+            "Makefile": 553,
+            "Rust": 532,
+            "Batchfile": 488,
+            "Dockerfile": 425,
+            "R": 362,
+            "ShaderLab": 330,
+            "Lua": 252,
+            "Swift": 220,
+            "Pug": 22
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "shiki@0.14.1": {
+      "name": "shiki",
+      "version": "0.14.1",
+      "github": "https://github.com/octref/shiki",
+      "languages": {
+        "TypeScript": 556594,
+        "CSS": 17749,
+        "JavaScript": 5187,
+        "HTML": 677
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "vscode-oniguruma",
+          "version": "1.7.0",
+          "github": "https://github.com/microsoft/vscode-oniguruma",
+          "languages": {
+            "TypeScript": 31649,
+            "JavaScript": 25031,
+            "C++": 11655,
+            "Dockerfile": 765,
+            "Shell": 754
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "vscode-textmate",
+          "version": "8.0.0",
+          "github": "https://github.com/microsoft/vscode-textmate",
+          "languages": {
+            "TypeScript": 223821,
+            "JavaScript": 6234,
+            "SCSS": 6030,
+            "Groovy": 3928,
+            "CSS": 3257,
+            "HTML": 2518,
+            "Python": 2119,
+            "Perl": 1922,
+            "Ruby": 1703,
+            "PowerShell": 1432,
+            "Objective-C": 1387,
+            "Go": 1226,
+            "Clojure": 1206,
+            "Handlebars": 1064,
+            "Less": 1014,
+            "C++": 1000,
+            "Visual Basic .NET": 893,
+            "C": 818,
+            "PHP": 802,
+            "F#": 634,
+            "Shell": 634,
+            "CoffeeScript": 590,
+            "Java": 576,
+            "Makefile": 553,
+            "Rust": 532,
+            "Batchfile": 488,
+            "Dockerfile": 425,
+            "R": 362,
+            "ShaderLab": 330,
+            "Lua": 252,
+            "Swift": 220,
+            "Pug": 22
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

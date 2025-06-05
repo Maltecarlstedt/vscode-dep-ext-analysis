@@ -1,0 +1,39 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "sharp@0.32.1": {
+      "name": "sharp",
+      "version": "0.32.1",
+      "github": "https://github.com/lovell/sharp",
+      "languages": {
+        "JavaScript": 747330,
+        "C++": 196982,
+        "TypeScript": 19721,
+        "Python": 11321,
+        "Shell": 1120,
+        "Dockerfile": 799,
+        "C": 736
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-addon-api",
+          "version": "6.1.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

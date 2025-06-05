@@ -1,0 +1,60 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "utils-pad-string@1.0.0": {
+      "name": "utils-pad-string",
+      "version": "1.0.0",
+      "github": "https://github.com/kgryte/utils-pad-string",
+      "languages": {
+        "JavaScript": 14304,
+        "Makefile": 2429
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "update-notifier",
+          "version": "0.6.3",
+          "github": "https://github.com/yeoman/update-notifier",
+          "languages": {
+            "JavaScript": 13638
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "configstore",
+              "version": "2.1.0",
+              "github": "https://github.com/yeoman/configstore",
+              "languages": {
+                "JavaScript": 6368
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "uuid",
+                  "version": "2.0.3",
+                  "github": "https://github.com/defunctzombie/node-uuid",
+                  "languages": {
+                    "JavaScript": 15883,
+                    "Gnuplot": 5822,
+                    "Shell": 1101,
+                    "C": 613
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

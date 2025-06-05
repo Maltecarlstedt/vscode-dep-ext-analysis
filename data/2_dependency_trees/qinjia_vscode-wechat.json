@@ -1,0 +1,86 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "wept@0.8.1": {
+      "name": "wept",
+      "version": "0.8.1",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "1.7.0",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "update-notifier",
+          "version": "1.0.3",
+          "github": "https://github.com/yeoman/update-notifier",
+          "languages": {
+            "JavaScript": 13638
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "configstore",
+              "version": "2.1.0",
+              "github": "https://github.com/yeoman/configstore",
+              "languages": {
+                "JavaScript": 6368
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "uuid",
+                  "version": "2.0.3",
+                  "github": "https://github.com/defunctzombie/node-uuid",
+                  "languages": {
+                    "JavaScript": 15883,
+                    "Gnuplot": 5822,
+                    "Shell": 1101,
+                    "C": 613
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

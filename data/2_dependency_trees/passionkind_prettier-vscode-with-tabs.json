@@ -1,0 +1,47 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "prettier-with-tabs@0.22.0": {
+      "name": "prettier-with-tabs",
+      "version": "0.22.0",
+      "github": "https://github.com/arijs/prettier-with-tabs",
+      "languages": {
+        "JavaScript": 3825350,
+        "TypeScript": 75991,
+        "CSS": 33275,
+        "HTML": 9020,
+        "Vue": 645,
+        "Shell": 560
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "flow-parser",
+          "version": "0.40.0",
+          "github": "https://github.com/facebook/flow",
+          "languages": {
+            "OCaml": 11146015,
+            "JavaScript": 4033641,
+            "Shell": 285345,
+            "C": 121326,
+            "TypeScript": 106672,
+            "CSS": 25739,
+            "Makefile": 9333,
+            "C++": 5831,
+            "Python": 3326,
+            "PowerShell": 1522,
+            "Vim Snippet": 248,
+            "Dune": 143,
+            "Ruby": 73
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@expo/prebuild-config@4.0.4": {
+      "name": "@expo/prebuild-config",
+      "version": "4.0.4",
+      "github": "https://github.com/expo/expo-cli",
+      "languages": {
+        "TypeScript": 1905489,
+        "HTML": 151244,
+        "JavaScript": 148960,
+        "Shell": 118
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@expo/config-plugins",
+          "version": "4.1.5",
+          "github": "https://github.com/expo/expo-cli",
+          "languages": {
+            "TypeScript": 1905489,
+            "HTML": 151244,
+            "JavaScript": 148960,
+            "Shell": 118
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@react-native/normalize-color",
+              "version": "2.1.0",
+              "github": "https://github.com/facebook/react-native",
+              "languages": {
+                "C++": 5253855,
+                "JavaScript": 2991796,
+                "Kotlin": 2978111,
+                "Objective-C++": 1976960,
+                "Java": 1337373,
+                "Objective-C": 1233975,
+                "Ruby": 446917,
+                "CMake": 132354,
+                "TypeScript": 78155,
+                "Shell": 59529,
+                "C": 50888,
+                "Swift": 33777,
+                "Assembly": 14920,
+                "HTML": 1473
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "expo-modules-autolinking",
+          "version": "0.8.1",
+          "github": "https://github.com/expo/expo",
+          "languages": {
+            "TypeScript": 13110522,
+            "JavaScript": 7811485,
+            "Kotlin": 4102375,
+            "Swift": 2783450,
+            "Objective-C": 1480363,
+            "Java": 862181,
+            "C++": 532799,
+            "Objective-C++": 304512,
+            "C": 254279,
+            "Ruby": 177823,
+            "Shell": 50582,
+            "HTML": 21584,
+            "CMake": 8939,
+            "CSS": 897,
+            "Groovy": 174
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

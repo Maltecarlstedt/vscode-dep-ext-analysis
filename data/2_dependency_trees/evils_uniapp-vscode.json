@@ -1,0 +1,212 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "bcrypt-pbkdf@1.0.2": {
+      "name": "bcrypt-pbkdf",
+      "version": "1.0.2",
+      "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+      "languages": {
+        "JavaScript": 23230
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "tweetnacl",
+          "version": "0.14.5",
+          "github": "https://github.com/dchest/tweetnacl-js",
+          "languages": {
+            "JavaScript": 2964046,
+            "C": 45485,
+            "Go": 3796,
+            "HTML": 1898,
+            "Makefile": 716
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "bser@unknown": {
+      "name": "bser",
+      "version": "unknown",
+      "github": "https://github.com/facebook/watchman",
+      "languages": {
+        "C++": 1400922,
+        "Python": 898662,
+        "Rust": 239936,
+        "Java": 152490,
+        "CMake": 121909,
+        "Thrift": 106460,
+        "C": 68154,
+        "JavaScript": 53008,
+        "Ruby": 16953,
+        "Shell": 8758,
+        "CSS": 5325,
+        "Dockerfile": 1604,
+        "Starlark": 1322,
+        "Batchfile": 366
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "chokidar@1.7.0": {
+      "name": "chokidar",
+      "version": "1.7.0",
+      "github": "https://github.com/paulmillr/chokidar",
+      "languages": {
+        "TypeScript": 134725,
+        "JavaScript": 352
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "fsevents",
+          "version": "unknown",
+          "github": "https://github.com/fsevents/fsevents",
+          "languages": {
+            "C": 12888,
+            "JavaScript": 11408,
+            "Python": 716,
+            "Shell": 438
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "fb-watchman@unknown": {
+      "name": "fb-watchman",
+      "version": "unknown",
+      "github": "https://github.com/facebook/watchman",
+      "languages": {
+        "C++": 1400922,
+        "Python": 898662,
+        "Rust": 239936,
+        "Java": 152490,
+        "CMake": 121909,
+        "Thrift": 106460,
+        "C": 68154,
+        "JavaScript": 53008,
+        "Ruby": 16953,
+        "Shell": 8758,
+        "CSS": 5325,
+        "Dockerfile": 1604,
+        "Starlark": 1322,
+        "Batchfile": 366
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "fsevents@unknown": {
+      "name": "fsevents",
+      "version": "unknown",
+      "github": "https://github.com/fsevents/fsevents",
+      "languages": {
+        "C": 12888,
+        "JavaScript": 11408,
+        "Python": 716,
+        "Shell": 438
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "nan@unknown": {
+      "name": "nan",
+      "version": "unknown",
+      "github": "https://github.com/nodejs/nan",
+      "languages": {
+        "C++": 364456,
+        "JavaScript": 71197,
+        "C": 6937,
+        "Python": 5058,
+        "CMake": 4239,
+        "Makefile": 3564
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "react-is@unknown": {
+      "name": "react-is",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100760,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "sshpk@1.16.1": {
+      "name": "sshpk",
+      "version": "1.16.1",
+      "github": "https://github.com/joyent/node-sshpk",
+      "languages": {
+        "JavaScript": 302105,
+        "Makefile": 15447
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "tweetnacl",
+          "version": "0.14.5",
+          "github": "https://github.com/dchest/tweetnacl-js",
+          "languages": {
+            "JavaScript": 2964046,
+            "C": 45485,
+            "Go": 3796,
+            "HTML": 1898,
+            "Makefile": 716
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "tweetnacl@0.14.5": {
+      "name": "tweetnacl",
+      "version": "0.14.5",
+      "github": "https://github.com/dchest/tweetnacl-js",
+      "languages": {
+        "JavaScript": 2964046,
+        "C": 45485,
+        "Go": 3796,
+        "HTML": 1898,
+        "Makefile": 716
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

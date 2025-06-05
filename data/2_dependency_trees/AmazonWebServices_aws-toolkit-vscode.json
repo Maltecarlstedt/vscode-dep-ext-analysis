@@ -1,0 +1,2246 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@webassemblyjs/ast@1.12.1": {
+      "name": "@webassemblyjs/ast",
+      "version": "1.12.1",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@webassemblyjs/helper-numbers",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-wasm-bytecode",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@webassemblyjs/floating-point-hex-parser@1.11.6": {
+      "name": "@webassemblyjs/floating-point-hex-parser",
+      "version": "1.11.6",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "@webassemblyjs/helper-api-error@1.11.6": {
+      "name": "@webassemblyjs/helper-api-error",
+      "version": "1.11.6",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "@webassemblyjs/helper-buffer@1.12.1": {
+      "name": "@webassemblyjs/helper-buffer",
+      "version": "1.12.1",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "@webassemblyjs/helper-numbers@1.11.6": {
+      "name": "@webassemblyjs/helper-numbers",
+      "version": "1.11.6",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@webassemblyjs/floating-point-hex-parser",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-api-error",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@webassemblyjs/helper-wasm-bytecode@1.11.6": {
+      "name": "@webassemblyjs/helper-wasm-bytecode",
+      "version": "1.11.6",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "@webassemblyjs/helper-wasm-section@1.12.1": {
+      "name": "@webassemblyjs/helper-wasm-section",
+      "version": "1.12.1",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@webassemblyjs/ast",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-buffer",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-wasm-bytecode",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/wasm-gen",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@webassemblyjs/ieee754@1.11.6": {
+      "name": "@webassemblyjs/ieee754",
+      "version": "1.11.6",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "@webassemblyjs/leb128@1.11.6": {
+      "name": "@webassemblyjs/leb128",
+      "version": "1.11.6",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "@webassemblyjs/utf8@1.11.6": {
+      "name": "@webassemblyjs/utf8",
+      "version": "1.11.6",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "@webassemblyjs/wasm-edit@1.12.1": {
+      "name": "@webassemblyjs/wasm-edit",
+      "version": "1.12.1",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@webassemblyjs/ast",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-buffer",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-wasm-bytecode",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-wasm-section",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/wasm-gen",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/wasm-opt",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/wasm-parser",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/wast-printer",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@webassemblyjs/wasm-gen@1.12.1": {
+      "name": "@webassemblyjs/wasm-gen",
+      "version": "1.12.1",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@webassemblyjs/ast",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-wasm-bytecode",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/ieee754",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/leb128",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/utf8",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@webassemblyjs/wasm-opt@1.12.1": {
+      "name": "@webassemblyjs/wasm-opt",
+      "version": "1.12.1",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@webassemblyjs/ast",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-buffer",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/wasm-gen",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/wasm-parser",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@webassemblyjs/wasm-parser@1.12.1": {
+      "name": "@webassemblyjs/wasm-parser",
+      "version": "1.12.1",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@webassemblyjs/ast",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-api-error",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/helper-wasm-bytecode",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/ieee754",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/leb128",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@webassemblyjs/utf8",
+          "version": "1.11.6",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@webassemblyjs/wast-printer@1.12.1": {
+      "name": "@webassemblyjs/wast-printer",
+      "version": "1.12.1",
+      "github": "https://github.com/xtuc/webassemblyjs",
+      "languages": {
+        "JavaScript": 1066359,
+        "Makefile": 2293,
+        "WebAssembly": 2198,
+        "Shell": 1681,
+        "C": 412,
+        "CSS": 117
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@webassemblyjs/ast",
+          "version": "1.12.1",
+          "github": "https://github.com/xtuc/webassemblyjs",
+          "languages": {
+            "JavaScript": 1066359,
+            "Makefile": 2293,
+            "WebAssembly": 2198,
+            "Shell": 1681,
+            "C": 412,
+            "CSS": 117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "aws-core-vscode@1.0.0": {
+      "name": "aws-core-vscode",
+      "version": "1.0.0",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@amzn/amazon-q-developer-streaming-client",
+          "version": "1.0.0",
+          "github": "",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.731.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@amzn/codewhisperer-streaming",
+          "version": "1.0.0",
+          "github": "",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.731.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-api-gateway",
+          "version": "3.693.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-apprunner",
+          "version": "3.693.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-cloudcontrol",
+          "version": "3.693.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-cloudformation",
+          "version": "3.682.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.682.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-cloudwatch-logs",
+          "version": "3.682.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.682.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-codecatalyst",
+          "version": "3.693.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/token-providers",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@aws-sdk/client-sso-oidc",
+                  "version": "3.758.0",
+                  "github": "https://github.com/aws/aws-sdk-js-v3",
+                  "languages": {
+                    "TypeScript": 254502107,
+                    "Java": 582632,
+                    "JavaScript": 260885,
+                    "Gherkin": 39106,
+                    "Smithy": 4879,
+                    "Objective-C": 4129,
+                    "Makefile": 3152,
+                    "Ruby": 2260,
+                    "Starlark": 602,
+                    "Handlebars": 393,
+                    "Shell": 181
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@aws-sdk/credential-provider-node",
+                      "version": "3.758.0",
+                      "github": "https://github.com/aws/aws-sdk-js-v3",
+                      "languages": {
+                        "TypeScript": 254454969,
+                        "Java": 582449,
+                        "JavaScript": 260885,
+                        "Gherkin": 39106,
+                        "Smithy": 4879,
+                        "Objective-C": 4129,
+                        "Makefile": 3152,
+                        "Ruby": 2260,
+                        "Starlark": 602,
+                        "Handlebars": 393,
+                        "Shell": 181
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "@aws-sdk/credential-provider-ini",
+                          "version": "3.758.0",
+                          "github": "https://github.com/aws/aws-sdk-js-v3",
+                          "languages": {
+                            "TypeScript": 254454969,
+                            "Java": 582449,
+                            "JavaScript": 260885,
+                            "Gherkin": 39106,
+                            "Smithy": 4879,
+                            "Objective-C": 4129,
+                            "Makefile": 3152,
+                            "Ruby": 2260,
+                            "Starlark": 602,
+                            "Handlebars": 393,
+                            "Shell": 181
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "@aws-sdk/credential-provider-sso",
+                              "version": "3.758.0",
+                              "github": "https://github.com/aws/aws-sdk-js-v3",
+                              "languages": {
+                                "TypeScript": 254454969,
+                                "Java": 582449,
+                                "JavaScript": 260885,
+                                "Gherkin": 39106,
+                                "Smithy": 4879,
+                                "Objective-C": 4129,
+                                "Makefile": 3152,
+                                "Ruby": 2260,
+                                "Starlark": 602,
+                                "Handlebars": 393,
+                                "Shell": 181
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": false,
+                              "depth": 6,
+                              "dependencies": [
+                                {
+                                  "name": "@aws-sdk/client-sso",
+                                  "version": "3.758.0",
+                                  "github": "https://github.com/aws/aws-sdk-js-v3",
+                                  "languages": {
+                                    "TypeScript": 254454969,
+                                    "Java": 582449,
+                                    "JavaScript": 260885,
+                                    "Gherkin": 39106,
+                                    "Smithy": 4879,
+                                    "Objective-C": 4129,
+                                    "Makefile": 3152,
+                                    "Ruby": 2260,
+                                    "Starlark": 602,
+                                    "Handlebars": 393,
+                                    "Shell": 181
+                                  },
+                                  "contains_compiled": true,
+                                  "has_cpp_directly": false,
+                                  "depth": 7,
+                                  "dependencies": [
+                                    {
+                                      "name": "@aws-sdk/util-user-agent-node",
+                                      "version": "3.758.0",
+                                      "github": "https://github.com/aws/aws-sdk-js-v3",
+                                      "languages": {
+                                        "TypeScript": 254454969,
+                                        "Java": 582449,
+                                        "JavaScript": 260885,
+                                        "Gherkin": 39106,
+                                        "Smithy": 4879,
+                                        "Objective-C": 4129,
+                                        "Makefile": 3152,
+                                        "Ruby": 2260,
+                                        "Starlark": 602,
+                                        "Handlebars": 393,
+                                        "Shell": 181
+                                      },
+                                      "contains_compiled": true,
+                                      "has_cpp_directly": false,
+                                      "depth": 8,
+                                      "dependencies": [
+                                        {
+                                          "name": "aws-crt",
+                                          "version": "unknown",
+                                          "github": "https://github.com/awslabs/aws-crt-nodejs",
+                                          "languages": {
+                                            "TypeScript": 1121074,
+                                            "C": 699141,
+                                            "Python": 91310,
+                                            "JavaScript": 27092,
+                                            "Shell": 5595,
+                                            "CMake": 3710,
+                                            "HTML": 524,
+                                            "Batchfile": 93
+                                          },
+                                          "contains_compiled": true,
+                                          "has_cpp_directly": true,
+                                          "depth": 9,
+                                          "dependencies": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "@aws-sdk/nested-clients",
+                              "version": "3.758.0",
+                              "github": "https://github.com/aws/aws-sdk-js-v3",
+                              "languages": {
+                                "TypeScript": 254454969,
+                                "Java": 582449,
+                                "JavaScript": 260885,
+                                "Gherkin": 39106,
+                                "Smithy": 4879,
+                                "Objective-C": 4129,
+                                "Makefile": 3152,
+                                "Ruby": 2260,
+                                "Starlark": 602,
+                                "Handlebars": 393,
+                                "Shell": 181
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": false,
+                              "depth": 6,
+                              "dependencies": [
+                                {
+                                  "name": "@aws-sdk/util-user-agent-node",
+                                  "version": "3.758.0",
+                                  "github": "https://github.com/aws/aws-sdk-js-v3",
+                                  "languages": {
+                                    "TypeScript": 254454969,
+                                    "Java": 582449,
+                                    "JavaScript": 260885,
+                                    "Gherkin": 39106,
+                                    "Smithy": 4879,
+                                    "Objective-C": 4129,
+                                    "Makefile": 3152,
+                                    "Ruby": 2260,
+                                    "Starlark": 602,
+                                    "Handlebars": 393,
+                                    "Shell": 181
+                                  },
+                                  "contains_compiled": true,
+                                  "has_cpp_directly": false,
+                                  "depth": 7,
+                                  "dependencies": [
+                                    {
+                                      "name": "aws-crt",
+                                      "version": "unknown",
+                                      "github": "https://github.com/awslabs/aws-crt-nodejs",
+                                      "languages": {
+                                        "TypeScript": 1121074,
+                                        "C": 699141,
+                                        "Python": 91310,
+                                        "JavaScript": 27092,
+                                        "Shell": 5595,
+                                        "CMake": 3710,
+                                        "HTML": 524,
+                                        "Batchfile": 93
+                                      },
+                                      "contains_compiled": true,
+                                      "has_cpp_directly": true,
+                                      "depth": 8,
+                                      "dependencies": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "@aws-sdk/credential-provider-sso",
+                          "version": "3.758.0",
+                          "github": "https://github.com/aws/aws-sdk-js-v3",
+                          "languages": {
+                            "TypeScript": 254454969,
+                            "Java": 582449,
+                            "JavaScript": 260885,
+                            "Gherkin": 39106,
+                            "Smithy": 4879,
+                            "Objective-C": 4129,
+                            "Makefile": 3152,
+                            "Ruby": 2260,
+                            "Starlark": 602,
+                            "Handlebars": 393,
+                            "Shell": 181
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "@aws-sdk/client-sso",
+                              "version": "3.758.0",
+                              "github": "https://github.com/aws/aws-sdk-js-v3",
+                              "languages": {
+                                "TypeScript": 254454969,
+                                "Java": 582449,
+                                "JavaScript": 260885,
+                                "Gherkin": 39106,
+                                "Smithy": 4879,
+                                "Objective-C": 4129,
+                                "Makefile": 3152,
+                                "Ruby": 2260,
+                                "Starlark": 602,
+                                "Handlebars": 393,
+                                "Shell": 181
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": false,
+                              "depth": 6,
+                              "dependencies": [
+                                {
+                                  "name": "@aws-sdk/util-user-agent-node",
+                                  "version": "3.758.0",
+                                  "github": "https://github.com/aws/aws-sdk-js-v3",
+                                  "languages": {
+                                    "TypeScript": 254454969,
+                                    "Java": 582449,
+                                    "JavaScript": 260885,
+                                    "Gherkin": 39106,
+                                    "Smithy": 4879,
+                                    "Objective-C": 4129,
+                                    "Makefile": 3152,
+                                    "Ruby": 2260,
+                                    "Starlark": 602,
+                                    "Handlebars": 393,
+                                    "Shell": 181
+                                  },
+                                  "contains_compiled": true,
+                                  "has_cpp_directly": false,
+                                  "depth": 7,
+                                  "dependencies": [
+                                    {
+                                      "name": "aws-crt",
+                                      "version": "unknown",
+                                      "github": "https://github.com/awslabs/aws-crt-nodejs",
+                                      "languages": {
+                                        "TypeScript": 1121074,
+                                        "C": 699141,
+                                        "Python": 91310,
+                                        "JavaScript": 27092,
+                                        "Shell": 5595,
+                                        "CMake": 3710,
+                                        "HTML": 524,
+                                        "Batchfile": 93
+                                      },
+                                      "contains_compiled": true,
+                                      "has_cpp_directly": true,
+                                      "depth": 8,
+                                      "dependencies": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "@aws-sdk/util-user-agent-node",
+                      "version": "3.758.0",
+                      "github": "https://github.com/aws/aws-sdk-js-v3",
+                      "languages": {
+                        "TypeScript": 254454969,
+                        "Java": 582449,
+                        "JavaScript": 260885,
+                        "Gherkin": 39106,
+                        "Smithy": 4879,
+                        "Objective-C": 4129,
+                        "Makefile": 3152,
+                        "Ruby": 2260,
+                        "Starlark": 602,
+                        "Handlebars": 393,
+                        "Shell": 181
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "aws-crt",
+                          "version": "unknown",
+                          "github": "https://github.com/awslabs/aws-crt-nodejs",
+                          "languages": {
+                            "TypeScript": 1121074,
+                            "C": 699141,
+                            "Python": 91310,
+                            "JavaScript": 27092,
+                            "Shell": 5595,
+                            "CMake": 3710,
+                            "HTML": 524,
+                            "Batchfile": 93
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-cognito-identity",
+          "version": "3.637.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.614.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254454969,
+                "Java": 582449,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-docdb-elastic",
+          "version": "3.693.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-ec2",
+          "version": "unknown",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-iam",
+          "version": "3.693.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-s3",
+          "version": "3.693.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@aws-sdk/client-ssm",
+          "version": "3.693.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.693.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "web-tree-sitter",
+          "version": "0.20.8",
+          "github": "https://github.com/tree-sitter/tree-sitter",
+          "languages": {
+            "Rust": 1691672,
+            "C": 695534,
+            "TypeScript": 177544,
+            "JavaScript": 27283,
+            "C++": 21420,
+            "HTML": 10823,
+            "Zig": 10125,
+            "Makefile": 7810,
+            "CMake": 6685,
+            "Python": 4610,
+            "Swift": 2613,
+            "Go": 749,
+            "Dockerfile": 127,
+            "RenderScript": 1
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "es-module-lexer@1.2.1": {
+      "name": "es-module-lexer",
+      "version": "1.2.1",
+      "github": "https://github.com/guybedford/es-module-lexer",
+      "languages": {
+        "JavaScript": 1022274,
+        "C": 36497,
+        "TypeScript": 8440
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "web-toolkit@unknown": {
+      "name": "web-toolkit",
+      "version": "unknown",
+      "github": "https://github.com/romgrk/web-toolkit",
+      "languages": {
+        "JavaScript": 352741,
+        "CSS": 203211,
+        "SCSS": 144231,
+        "HTML": 3639,
+        "Shell": 834,
+        "Meson": 711
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "crypto-browserify",
+          "version": "3.12.0",
+          "github": "https://github.com/crypto-browserify/crypto-browserify",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "browserify-cipher",
+              "version": "1.0.1",
+              "github": "https://github.com/crypto-browserify/browserify-cipher",
+              "languages": {
+                "JavaScript": 4217
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "browserify-aes",
+                  "version": "1.2.0",
+                  "github": "https://github.com/crypto-browserify/browserify-aes",
+                  "languages": {
+                    "JavaScript": 50689
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "evp_bytestokey",
+                      "version": "1.0.3",
+                      "github": "https://github.com/crypto-browserify/EVP_BytesToKey",
+                      "languages": {
+                        "JavaScript": 2818,
+                        "C++": 2346,
+                        "Python": 723
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "evp_bytestokey",
+                  "version": "1.0.3",
+                  "github": "https://github.com/crypto-browserify/EVP_BytesToKey",
+                  "languages": {
+                    "JavaScript": 2818,
+                    "C++": 2346,
+                    "Python": 723
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "browserify-sign",
+              "version": "4.2.2",
+              "github": "https://github.com/crypto-browserify/browserify-sign",
+              "languages": {
+                "JavaScript": 15908
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "parse-asn1",
+                  "version": "5.1.6",
+                  "github": "https://github.com/crypto-browserify/parse-asn1",
+                  "languages": {
+                    "JavaScript": 13586
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "evp_bytestokey",
+                      "version": "1.0.3",
+                      "github": "https://github.com/crypto-browserify/EVP_BytesToKey",
+                      "languages": {
+                        "JavaScript": 2818,
+                        "C++": 2346,
+                        "Python": 723
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

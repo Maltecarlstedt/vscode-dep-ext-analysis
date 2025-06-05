@@ -1,0 +1,175 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "ovsx@0.8.0": {
+      "name": "ovsx",
+      "version": "0.8.0",
+      "github": "https://github.com/eclipse/openvsx",
+      "languages": {
+        "Java": 1470725,
+        "TypeScript": 437809,
+        "Scala": 34040,
+        "JavaScript": 11013,
+        "Shell": 9230,
+        "PLpgSQL": 8180,
+        "Dockerfile": 5439,
+        "HTML": 352,
+        "CSS": 348
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@vscode/vsce",
+          "version": "2.18.0",
+          "github": "https://github.com/Microsoft/vsce",
+          "languages": {
+            "TypeScript": 386167,
+            "Dockerfile": 302,
+            "JavaScript": 57
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "keytar",
+              "version": "7.9.0",
+              "github": "https://github.com/atom/node-keytar",
+              "languages": {
+                "C++": 36552,
+                "JavaScript": 8322,
+                "Python": 2116,
+                "Dockerfile": 1923,
+                "PowerShell": 1480,
+                "Shell": 280
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "node-addon-api",
+                  "version": "4.3.0",
+                  "github": "https://github.com/nodejs/node-addon-api",
+                  "languages": {
+                    "C++": 651642,
+                    "JavaScript": 237907,
+                    "Python": 14949,
+                    "C": 1789
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "validate-color@2.1.1": {
+      "name": "validate-color",
+      "version": "2.1.1",
+      "github": "https://github.com/dreamyguy/validate-color",
+      "languages": {
+        "JavaScript": 44375,
+        "HTML": 3055,
+        "SCSS": 2850,
+        "Shell": 382
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react-dom",
+          "version": "17.0.2",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "17.0.2",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "scheduler",
+              "version": "0.20.2",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "17.0.2",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

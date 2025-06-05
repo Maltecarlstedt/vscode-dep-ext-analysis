@@ -1,0 +1,161 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "fsevents@unknown": {
+      "name": "fsevents",
+      "version": "unknown",
+      "github": "https://github.com/fsevents/fsevents",
+      "languages": {
+        "C": 12888,
+        "JavaScript": 11408,
+        "Python": 716,
+        "Shell": 438
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "rc-util@unknown": {
+      "name": "rc-util",
+      "version": "unknown",
+      "github": "https://github.com/react-component/util",
+      "languages": {
+        "TypeScript": 139230,
+        "JavaScript": 214,
+        "Shell": 69
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react-is",
+          "version": "unknown",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100760,
+            "TypeScript": 2011603,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react-dom@unknown": {
+      "name": "react-dom",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100771,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "react-is@unknown": {
+      "name": "react-is",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100760,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "react-refresh@unknown": {
+      "name": "react-refresh",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100728,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "react@unknown": {
+      "name": "react",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100771,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "scheduler@unknown": {
+      "name": "scheduler",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100760,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

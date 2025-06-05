@@ -1,0 +1,48 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode/test-cli@0.0.10": {
+      "name": "@vscode/test-cli",
+      "version": "0.0.10",
+      "github": "https://github.com/Microsoft/vscode-test-cli",
+      "languages": {
+        "TypeScript": 39467,
+        "JavaScript": 4542
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "3.5.3",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

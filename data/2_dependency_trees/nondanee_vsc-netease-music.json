@@ -1,0 +1,81 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "mpris-service@2.1.2": {
+      "name": "mpris-service",
+      "version": "2.1.2",
+      "github": "https://github.com/dbusjs/mpris-service",
+      "languages": {
+        "JavaScript": 52420,
+        "Dockerfile": 821,
+        "Makefile": 304
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "dbus-next",
+          "version": "0.9.2",
+          "github": "https://github.com/dbusjs/node-dbus-next",
+          "languages": {
+            "JavaScript": 214317,
+            "Handlebars": 12088,
+            "Dockerfile": 821,
+            "Makefile": 306
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@nornagon/put",
+              "version": "0.0.8",
+              "github": "https://github.com/nornagon/node-put",
+              "languages": {
+                "JavaScript": 5514,
+                "C": 278
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "abstract-socket",
+              "version": "2.1.1",
+              "github": "https://github.com/saghul/node-abstractsocket",
+              "languages": {
+                "JavaScript": 9030,
+                "C++": 4785,
+                "Python": 226
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.22.2",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

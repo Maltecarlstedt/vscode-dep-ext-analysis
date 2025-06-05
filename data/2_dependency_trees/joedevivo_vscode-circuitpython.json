@@ -1,0 +1,314 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@serialport/bindings-cpp@12.0.1": {
+      "name": "@serialport/bindings-cpp",
+      "version": "12.0.1",
+      "github": "https://github.com/serialport/bindings-cpp",
+      "languages": {
+        "C++": 85103,
+        "TypeScript": 61627,
+        "Python": 1891,
+        "JavaScript": 1224,
+        "C": 656
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@serialport/parser-readline",
+          "version": "11.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@serialport/parser-delimiter",
+              "version": "11.0.0",
+              "github": "https://github.com/serialport/node-serialport",
+              "languages": {
+                "TypeScript": 138207,
+                "JavaScript": 21662,
+                "HTML": 1269,
+                "C++": 307
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "node-addon-api",
+          "version": "7.0.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "drivelist@11.1.0": {
+      "name": "drivelist",
+      "version": "11.1.0",
+      "github": "https://github.com/balena-io-modules/drivelist",
+      "languages": {
+        "C++": 39041,
+        "TypeScript": 29141,
+        "Objective-C++": 7462,
+        "Objective-C": 3012,
+        "Python": 1834,
+        "Nix": 232
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-addon-api",
+          "version": "5.1.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "serialport@12.0.0": {
+      "name": "serialport",
+      "version": "12.0.0",
+      "github": "https://github.com/serialport/node-serialport",
+      "languages": {
+        "TypeScript": 138207,
+        "JavaScript": 21662,
+        "HTML": 1269,
+        "C++": 307
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@serialport/bindings-cpp",
+          "version": "12.0.1",
+          "github": "https://github.com/serialport/bindings-cpp",
+          "languages": {
+            "C++": 85103,
+            "TypeScript": 61627,
+            "Python": 1891,
+            "JavaScript": 1224,
+            "C": 656
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-byte-length",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-cctalk",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-delimiter",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-inter-byte-timeout",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-packet-length",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-readline",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@serialport/parser-delimiter",
+              "version": "12.0.0",
+              "github": "https://github.com/serialport/node-serialport",
+              "languages": {
+                "TypeScript": 138207,
+                "JavaScript": 21662,
+                "HTML": 1269,
+                "C++": 307
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@serialport/parser-ready",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-regex",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-slip-encoder",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-spacepacket",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/stream",
+          "version": "12.0.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

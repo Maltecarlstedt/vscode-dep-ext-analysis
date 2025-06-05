@@ -1,0 +1,38 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "better-sqlite3@unknown": {
+      "name": "better-sqlite3",
+      "version": "unknown",
+      "github": "https://github.com/WiseLibs/better-sqlite3",
+      "languages": {
+        "C++": 273952,
+        "JavaScript": 226365,
+        "Python": 942
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "sqlite3@unknown": {
+      "name": "sqlite3",
+      "version": "unknown",
+      "github": "https://github.com/TryGhost/node-sqlite3",
+      "languages": {
+        "PLpgSQL": 528281,
+        "JavaScript": 107836,
+        "C++": 103186,
+        "Python": 1725,
+        "Makefile": 1488,
+        "C": 1249,
+        "Dockerfile": 607,
+        "HTML": 251
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@gytx/cppreference-index@0.1.15": {
+      "name": "@gytx/cppreference-index",
+      "version": "0.1.15",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "proxy-agent",
+          "version": "6.4.0",
+          "github": "https://github.com/TooTallNate/proxy-agents",
+          "languages": {
+            "TypeScript": 218188,
+            "JavaScript": 15003
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "pac-proxy-agent",
+              "version": "7.0.2",
+              "github": "https://github.com/TooTallNate/proxy-agents",
+              "languages": {
+                "TypeScript": 218188,
+                "JavaScript": 15003
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@tootallnate/quickjs-emscripten",
+                  "version": "0.23.0",
+                  "github": "https://github.com/justjake/quickjs-emscripten",
+                  "languages": {
+                    "TypeScript": 677729,
+                    "Makefile": 143764,
+                    "C": 40130,
+                    "JavaScript": 7986,
+                    "Shell": 1186
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

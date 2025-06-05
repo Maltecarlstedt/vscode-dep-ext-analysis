@@ -1,0 +1,144 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "azure-arm-logic@6.0.0": {
+      "name": "azure-arm-logic",
+      "version": "6.0.0",
+      "github": "https://github.com/azure/azure-sdk-for-node",
+      "languages": {
+        "JavaScript": 123558116,
+        "TypeScript": 2558,
+        "Batchfile": 661,
+        "Shell": 437
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "ms-rest-azure",
+          "version": "2.6.2",
+          "github": "https://github.com/Azure/azure-sdk-for-node",
+          "languages": {
+            "JavaScript": 123558116,
+            "TypeScript": 2558,
+            "Batchfile": 661,
+            "Shell": 437
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "adal-node",
+              "version": "0.2.3",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "request@2.88.2": {
+      "name": "request",
+      "version": "2.88.2",
+      "github": "https://github.com/request/request",
+      "languages": {
+        "JavaScript": 305377,
+        "Shell": 3006
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "http-signature",
+          "version": "1.2.0",
+          "github": "https://github.com/joyent/node-http-signature",
+          "languages": {
+            "JavaScript": 95746,
+            "Makefile": 13276,
+            "Emacs Lisp": 178
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "sshpk",
+              "version": "1.16.1",
+              "github": "https://github.com/joyent/node-sshpk",
+              "languages": {
+                "JavaScript": 302105,
+                "Makefile": 15447
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bcrypt-pbkdf",
+                  "version": "1.0.2",
+                  "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                  "languages": {
+                    "JavaScript": 23230
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "tweetnacl",
+                      "version": "0.14.5",
+                      "github": "https://github.com/dchest/tweetnacl-js",
+                      "languages": {
+                        "JavaScript": 2964046,
+                        "C": 45485,
+                        "Go": 3796,
+                        "HTML": 1898,
+                        "Makefile": 716
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "tweetnacl",
+                  "version": "0.14.5",
+                  "github": "https://github.com/dchest/tweetnacl-js",
+                  "languages": {
+                    "JavaScript": 2964046,
+                    "C": 45485,
+                    "Go": 3796,
+                    "HTML": 1898,
+                    "Makefile": 716
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

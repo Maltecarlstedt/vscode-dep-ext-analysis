@@ -1,0 +1,206 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@apollo/client@3.12.3": {
+      "name": "@apollo/client",
+      "version": "3.12.3",
+      "github": "https://github.com/apollographql/apollo-client",
+      "languages": {
+        "TypeScript": 4417528,
+        "JavaScript": 50440,
+        "HTML": 8989,
+        "Shell": 1669
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "hoist-non-react-statics",
+          "version": "3.3.2",
+          "github": "https://github.com/mridgway/hoist-non-react-statics",
+          "languages": {
+            "JavaScript": 13237
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-is",
+              "version": "16.13.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "prop-types",
+          "version": "15.8.1",
+          "github": "https://github.com/facebook/prop-types",
+          "languages": {
+            "JavaScript": 180769
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-is",
+              "version": "16.13.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-dom",
+          "version": "unknown",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100771,
+            "TypeScript": 2011603,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react",
+          "version": "unknown",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100771,
+            "TypeScript": 2011603,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "rehackt",
+          "version": "0.1.0",
+          "github": "https://github.com/phryneas/rehackt",
+          "languages": {
+            "JavaScript": 5080
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "unknown",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100771,
+                "TypeScript": 2011603,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "ws@8.18.0": {
+      "name": "ws",
+      "version": "8.18.0",
+      "github": "https://github.com/websockets/ws",
+      "languages": {
+        "JavaScript": 434710
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bufferutil",
+          "version": "unknown",
+          "github": "https://github.com/websockets/bufferutil",
+          "languages": {
+            "C": 3682,
+            "JavaScript": 2450,
+            "Python": 848
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "utf-8-validate",
+          "version": "unknown",
+          "github": "https://github.com/websockets/utf-8-validate",
+          "languages": {
+            "JavaScript": 3173,
+            "Python": 912,
+            "C++": 899
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

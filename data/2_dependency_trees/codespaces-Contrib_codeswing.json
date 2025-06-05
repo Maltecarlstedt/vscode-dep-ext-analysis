@@ -1,0 +1,66 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "sass.js@0.11.1": {
+      "name": "sass.js",
+      "version": "0.11.1",
+      "github": "https://github.com/medialize/sass.js",
+      "languages": {
+        "JavaScript": 66151,
+        "CSS": 9263,
+        "C++": 7146,
+        "HTML": 5178,
+        "Shell": 1650
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "sass@1.32.7": {
+      "name": "sass",
+      "version": "1.32.7",
+      "github": "https://github.com/sass/dart-sass",
+      "languages": {
+        "Dart": 2499535,
+        "TypeScript": 911414,
+        "JavaScript": 3551,
+        "HTML": 462
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "3.5.1",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

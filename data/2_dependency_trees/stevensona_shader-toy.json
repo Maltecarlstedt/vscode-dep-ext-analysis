@@ -1,0 +1,59 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "glslify@7.1.1": {
+      "name": "glslify",
+      "version": "7.1.1",
+      "github": "https://github.com/stackgl/glslify",
+      "languages": {
+        "JavaScript": 34294,
+        "GLSL": 163,
+        "Shell": 146
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "glsl-resolve",
+          "version": "0.0.1",
+          "github": "https://github.com/hughsk/glsl-resolve",
+          "languages": {
+            "JavaScript": 2234,
+            "C": 595
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "glslify-deps",
+          "version": "1.3.1",
+          "github": "https://github.com/stackgl/glslify-deps",
+          "languages": {
+            "JavaScript": 38520
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "glsl-resolve",
+              "version": "0.0.1",
+              "github": "https://github.com/hughsk/glsl-resolve",
+              "languages": {
+                "JavaScript": 2234,
+                "C": 595
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

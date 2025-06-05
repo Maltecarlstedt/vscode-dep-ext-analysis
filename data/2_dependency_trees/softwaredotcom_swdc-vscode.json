@@ -1,0 +1,46 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "ws@8.18.0": {
+      "name": "ws",
+      "version": "8.18.0",
+      "github": "https://github.com/websockets/ws",
+      "languages": {
+        "JavaScript": 434710
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bufferutil",
+          "version": "unknown",
+          "github": "https://github.com/websockets/bufferutil",
+          "languages": {
+            "C": 3682,
+            "JavaScript": 2450,
+            "Python": 848
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "utf-8-validate",
+          "version": "unknown",
+          "github": "https://github.com/websockets/utf-8-validate",
+          "languages": {
+            "JavaScript": 3173,
+            "Python": 912,
+            "C++": 899
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

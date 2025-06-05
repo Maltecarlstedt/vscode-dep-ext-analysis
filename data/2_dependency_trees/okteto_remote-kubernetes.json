@@ -1,0 +1,84 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@sentry/node@9.12.0": {
+      "name": "@sentry/node",
+      "version": "9.12.0",
+      "github": "https://github.com/getsentry/sentry-javascript",
+      "languages": {
+        "TypeScript": 8562034,
+        "JavaScript": 568416,
+        "HTML": 60059,
+        "Astro": 16577,
+        "Vue": 15942,
+        "CSS": 15028,
+        "Svelte": 11404,
+        "Shell": 10628,
+        "Handlebars": 6865
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "import-in-the-middle",
+          "version": "1.13.1",
+          "github": "https://github.com/nodejs/import-in-the-middle",
+          "languages": {
+            "JavaScript": 71226,
+            "TypeScript": 462
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "cjs-module-lexer",
+              "version": "1.4.3",
+              "github": "https://github.com/nodejs/cjs-module-lexer",
+              "languages": {
+                "JavaScript": 786463,
+                "WebAssembly": 251477,
+                "C": 76440,
+                "Makefile": 1321,
+                "TypeScript": 27
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "bufferutil@4.0.9": {
+      "name": "bufferutil",
+      "version": "4.0.9",
+      "github": "https://github.com/websockets/bufferutil",
+      "languages": {
+        "C": 3682,
+        "JavaScript": 2450,
+        "Python": 848
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "utf-8-validate@6.0.5": {
+      "name": "utf-8-validate",
+      "version": "6.0.5",
+      "github": "https://github.com/websockets/utf-8-validate",
+      "languages": {
+        "JavaScript": 3173,
+        "Python": 912,
+        "C++": 899
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

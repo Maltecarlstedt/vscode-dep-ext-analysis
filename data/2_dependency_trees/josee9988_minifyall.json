@@ -1,0 +1,109 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "zip-a-folder@1.1.3": {
+      "name": "zip-a-folder",
+      "version": "1.1.3",
+      "github": "https://github.com/maugenst/zip-a-folder",
+      "languages": {
+        "TypeScript": 16745,
+        "Shell": 504
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "archiver",
+          "version": "5.3.0",
+          "github": "https://github.com/archiverjs/node-archiver",
+          "languages": {
+            "JavaScript": 67223,
+            "CSS": 1333
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "zip-stream",
+              "version": "4.1.0",
+              "github": "https://github.com/archiverjs/node-zip-stream",
+              "languages": {
+                "JavaScript": 20703
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "compress-commons",
+                  "version": "4.1.1",
+                  "github": "https://github.com/archiverjs/node-compress-commons",
+                  "languages": {
+                    "JavaScript": 45649
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "crc32-stream",
+                      "version": "4.0.2",
+                      "github": "https://github.com/archiverjs/node-crc32-stream",
+                      "languages": {
+                        "JavaScript": 6981
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "crc-32",
+                          "version": "1.2.1",
+                          "github": "https://github.com/SheetJS/js-crc32",
+                          "languages": {
+                            "Python": 57355169,
+                            "JavaScript": 37347503,
+                            "CSS": 4996,
+                            "HTML": 4238,
+                            "Makefile": 3667,
+                            "Shell": 3365,
+                            "TypeScript": 379
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "printj",
+                              "version": "1.3.1",
+                              "github": "https://github.com/SheetJS/printj",
+                              "languages": {
+                                "JavaScript": 5807930,
+                                "HTML": 6022,
+                                "Makefile": 5095,
+                                "CSS": 4996,
+                                "TypeScript": 2453,
+                                "Shell": 1968,
+                                "C": 1787
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "solidity-workspace@0.2.1": {
+      "name": "solidity-workspace",
+      "version": "0.2.1",
+      "github": "https://github.com/tintinweb/solidity-workspace",
+      "languages": {
+        "JavaScript": 72563
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "keccak",
+          "version": "3.0.4",
+          "github": "https://github.com/cryptocoinjs/keccak",
+          "languages": {
+            "C": 100616,
+            "JavaScript": 37029,
+            "C++": 25183,
+            "Makefile": 2233,
+            "Python": 1956
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-addon-api",
+              "version": "2.0.2",
+              "github": "https://github.com/nodejs/node-addon-api",
+              "languages": {
+                "C++": 651642,
+                "JavaScript": 237907,
+                "Python": 14949,
+                "C": 1789
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

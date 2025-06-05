@@ -1,0 +1,167 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "vsce@1.103.1": {
+      "name": "vsce",
+      "version": "1.103.1",
+      "github": "https://github.com/Microsoft/vsce",
+      "languages": {
+        "TypeScript": 386167,
+        "Dockerfile": 302,
+        "JavaScript": 57
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "keytar",
+          "version": "7.9.0",
+          "github": "https://github.com/atom/node-keytar",
+          "languages": {
+            "C++": 36552,
+            "JavaScript": 8322,
+            "Python": 2116,
+            "Dockerfile": 1923,
+            "PowerShell": 1480,
+            "Shell": 280
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-addon-api",
+              "version": "4.3.0",
+              "github": "https://github.com/nodejs/node-addon-api",
+              "languages": {
+                "C++": 651642,
+                "JavaScript": 237907,
+                "Python": 14949,
+                "C": 1789
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "yo@2.0.6": {
+      "name": "yo",
+      "version": "2.0.6",
+      "github": "https://github.com/yeoman/yo",
+      "languages": {
+        "JavaScript": 56305
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "insight",
+          "version": "0.10.1",
+          "github": "https://github.com/yeoman/insight",
+          "languages": {
+            "JavaScript": 16613
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "request",
+              "version": "2.88.2",
+              "github": "https://github.com/request/request",
+              "languages": {
+                "JavaScript": 305377,
+                "Shell": 3006
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "http-signature",
+                  "version": "1.2.0",
+                  "github": "https://github.com/joyent/node-http-signature",
+                  "languages": {
+                    "JavaScript": 95746,
+                    "Makefile": 13276,
+                    "Emacs Lisp": 178
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "sshpk",
+                      "version": "1.18.0",
+                      "github": "https://github.com/joyent/node-sshpk",
+                      "languages": {
+                        "JavaScript": 302105,
+                        "Makefile": 15447
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bcrypt-pbkdf",
+                          "version": "1.0.2",
+                          "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                          "languages": {
+                            "JavaScript": 23230
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "tweetnacl",
+                              "version": "0.14.5",
+                              "github": "https://github.com/dchest/tweetnacl-js",
+                              "languages": {
+                                "JavaScript": 2964046,
+                                "C": 45485,
+                                "Go": 3796,
+                                "HTML": 1898,
+                                "Makefile": 716
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "tweetnacl",
+                          "version": "0.14.5",
+                          "github": "https://github.com/dchest/tweetnacl-js",
+                          "languages": {
+                            "JavaScript": 2964046,
+                            "C": 45485,
+                            "Go": 3796,
+                            "HTML": 1898,
+                            "Makefile": 716
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

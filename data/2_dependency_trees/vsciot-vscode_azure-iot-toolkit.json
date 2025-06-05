@@ -1,0 +1,283 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@azure/ms-rest-nodeauth@3.1.1": {
+      "name": "@azure/ms-rest-nodeauth",
+      "version": "3.1.1",
+      "github": "https://github.com/Azure/ms-rest-nodeauth",
+      "languages": {
+        "TypeScript": 129231,
+        "JavaScript": 552
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "adal-node",
+          "version": "0.2.3",
+          "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+          "languages": {
+            "TypeScript": 4083103,
+            "JavaScript": 49315,
+            "C++": 3861,
+            "PowerShell": 2213,
+            "HTML": 1888,
+            "C": 199,
+            "Shell": 76,
+            "SCSS": 36
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "azure-iot-device-mqtt@1.16.0": {
+      "name": "azure-iot-device-mqtt",
+      "version": "1.16.0",
+      "github": "https://github.com/Azure/azure-iot-sdk-node",
+      "languages": {
+        "JavaScript": 1683346,
+        "TypeScript": 1066866,
+        "Shell": 13239,
+        "Bicep": 7997,
+        "HTML": 2254,
+        "Dockerfile": 840
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "azure-iot-mqtt-base",
+          "version": "1.13.0",
+          "github": "https://github.com/Azure/azure-iot-sdk-node",
+          "languages": {
+            "JavaScript": 1683346,
+            "TypeScript": 1066866,
+            "Shell": 13239,
+            "Bicep": 7997,
+            "HTML": 2254,
+            "Dockerfile": 840
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "mqtt",
+              "version": "4.3.7",
+              "github": "https://github.com/mqttjs/MQTT.js",
+              "languages": {
+                "TypeScript": 360008,
+                "JavaScript": 21297,
+                "HTML": 405,
+                "CSS": 166
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "ws",
+                  "version": "7.5.7",
+                  "github": "https://github.com/websockets/ws",
+                  "languages": {
+                    "JavaScript": 434710
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "bufferutil",
+                      "version": "unknown",
+                      "github": "https://github.com/websockets/bufferutil",
+                      "languages": {
+                        "C": 3682,
+                        "JavaScript": 2450,
+                        "Python": 848
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "utf-8-validate",
+                      "version": "unknown",
+                      "github": "https://github.com/websockets/utf-8-validate",
+                      "languages": {
+                        "JavaScript": 3173,
+                        "Python": 912,
+                        "C++": 899
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "azure-iothub@1.15.0": {
+      "name": "azure-iothub",
+      "version": "1.15.0",
+      "github": "https://github.com/Azure/azure-iot-sdk-node",
+      "languages": {
+        "JavaScript": 1683346,
+        "TypeScript": 1066866,
+        "Shell": 13239,
+        "Bicep": 7997,
+        "HTML": 2254,
+        "Dockerfile": 840
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@azure/identity",
+          "version": "1.2.5",
+          "github": "https://github.com/Azure/azure-sdk-for-js",
+          "languages": {
+            "TypeScript": 198815724,
+            "JavaScript": 29423847,
+            "PowerShell": 759015,
+            "Bicep": 112441,
+            "Mustache": 15584,
+            "HTML": 12891,
+            "Vue": 8018,
+            "CSS": 6571,
+            "Handlebars": 5345,
+            "SCSS": 4598,
+            "Shell": 2255,
+            "Dockerfile": 1713,
+            "Batchfile": 1224,
+            "Q#": 482
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/msal-node",
+              "version": "1.0.0-beta.6",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@azure/msal-common",
+                  "version": "4.5.1",
+                  "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                  "languages": {
+                    "TypeScript": 4083103,
+                    "JavaScript": 49315,
+                    "C++": 3861,
+                    "PowerShell": 2213,
+                    "HTML": 1888,
+                    "C": 199,
+                    "Shell": 76,
+                    "SCSS": 36
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "keytar",
+              "version": "7.9.0",
+              "github": "https://github.com/atom/node-keytar",
+              "languages": {
+                "C++": 36552,
+                "JavaScript": 8322,
+                "Python": 2116,
+                "Dockerfile": 1923,
+                "PowerShell": 1480,
+                "Shell": 280
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "msal",
+              "version": "1.4.16",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "keytar@7.9.0": {
+      "name": "keytar",
+      "version": "7.9.0",
+      "github": "https://github.com/atom/node-keytar",
+      "languages": {
+        "C++": 36552,
+        "JavaScript": 8322,
+        "Python": 2116,
+        "Dockerfile": 1923,
+        "PowerShell": 1480,
+        "Shell": 280
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-addon-api",
+          "version": "4.3.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

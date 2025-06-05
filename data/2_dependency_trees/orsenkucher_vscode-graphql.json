@@ -1,0 +1,158 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@graphql-tools/url-loader@7.8.0": {
+      "name": "@graphql-tools/url-loader",
+      "version": "7.8.0",
+      "github": "https://github.com/ardatan/graphql-tools",
+      "languages": {
+        "TypeScript": 1611262,
+        "MDX": 143752,
+        "JavaScript": 14127,
+        "Shell": 293
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "subscriptions-transport-ws",
+          "version": "0.11.0",
+          "github": "https://github.com/apollostack/subscriptions-transport-ws",
+          "languages": {
+            "TypeScript": 122394,
+            "JavaScript": 244
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "ws",
+              "version": "7.5.6",
+              "github": "https://github.com/websockets/ws",
+              "languages": {
+                "JavaScript": 434710
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bufferutil",
+                  "version": "4.0.2",
+                  "github": "https://github.com/websockets/bufferutil",
+                  "languages": {
+                    "C": 3682,
+                    "JavaScript": 2450,
+                    "Python": 848
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "utf-8-validate",
+                  "version": "5.0.3",
+                  "github": "https://github.com/websockets/utf-8-validate",
+                  "languages": {
+                    "JavaScript": 3173,
+                    "Python": 912,
+                    "C++": 899
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ws",
+          "version": "8.5.0",
+          "github": "https://github.com/websockets/ws",
+          "languages": {
+            "JavaScript": 434710
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bufferutil",
+              "version": "4.0.2",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "5.0.3",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "ws@8.2.3": {
+      "name": "ws",
+      "version": "8.2.3",
+      "github": "https://github.com/websockets/ws",
+      "languages": {
+        "JavaScript": 434710
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bufferutil",
+          "version": "4.0.2",
+          "github": "https://github.com/websockets/bufferutil",
+          "languages": {
+            "C": 3682,
+            "JavaScript": 2450,
+            "Python": 848
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "utf-8-validate",
+          "version": "5.0.3",
+          "github": "https://github.com/websockets/utf-8-validate",
+          "languages": {
+            "JavaScript": 3173,
+            "Python": 912,
+            "C++": 899
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

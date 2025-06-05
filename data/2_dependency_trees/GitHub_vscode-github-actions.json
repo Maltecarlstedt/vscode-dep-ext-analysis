@@ -1,0 +1,158 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode/vsce@2.19.0": {
+      "name": "@vscode/vsce",
+      "version": "2.19.0",
+      "github": "https://github.com/Microsoft/vsce",
+      "languages": {
+        "TypeScript": 386167,
+        "Dockerfile": 302,
+        "JavaScript": 57
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "keytar",
+          "version": "7.9.0",
+          "github": "https://github.com/atom/node-keytar",
+          "languages": {
+            "C++": 36552,
+            "JavaScript": 8322,
+            "Python": 2116,
+            "Dockerfile": 1923,
+            "PowerShell": 1480,
+            "Shell": 280
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-addon-api",
+              "version": "4.3.0",
+              "github": "https://github.com/nodejs/node-addon-api",
+              "languages": {
+                "C++": 651642,
+                "JavaScript": 237907,
+                "Python": 14949,
+                "C": 1789
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "crypto-browserify@3.12.0": {
+      "name": "crypto-browserify",
+      "version": "3.12.0",
+      "github": "https://github.com/crypto-browserify/crypto-browserify",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "browserify-cipher",
+          "version": "1.0.1",
+          "github": "https://github.com/crypto-browserify/browserify-cipher",
+          "languages": {
+            "JavaScript": 4217
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "browserify-aes",
+              "version": "1.2.0",
+              "github": "https://github.com/crypto-browserify/browserify-aes",
+              "languages": {
+                "JavaScript": 50689
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "evp_bytestokey",
+                  "version": "1.0.3",
+                  "github": "https://github.com/crypto-browserify/EVP_BytesToKey",
+                  "languages": {
+                    "JavaScript": 2818,
+                    "C++": 2346,
+                    "Python": 723
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "evp_bytestokey",
+              "version": "1.0.3",
+              "github": "https://github.com/crypto-browserify/EVP_BytesToKey",
+              "languages": {
+                "JavaScript": 2818,
+                "C++": 2346,
+                "Python": 723
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "browserify-sign",
+          "version": "4.2.3",
+          "github": "https://github.com/crypto-browserify/browserify-sign",
+          "languages": {
+            "JavaScript": 15908
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "parse-asn1",
+              "version": "5.1.7",
+              "github": "https://github.com/crypto-browserify/parse-asn1",
+              "languages": {
+                "JavaScript": 13586
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "evp_bytestokey",
+                  "version": "1.0.3",
+                  "github": "https://github.com/crypto-browserify/EVP_BytesToKey",
+                  "languages": {
+                    "JavaScript": 2818,
+                    "C++": 2346,
+                    "Python": 723
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

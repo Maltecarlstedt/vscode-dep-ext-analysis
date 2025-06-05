@@ -1,0 +1,39 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "cdt-gdb-adapter@0.0.19": {
+      "name": "cdt-gdb-adapter",
+      "version": "0.0.19",
+      "github": "https://github.com/eclipse-cdt-cloud/cdt-gdb-adapter",
+      "languages": {
+        "TypeScript": 447833,
+        "C": 12745,
+        "C++": 9422,
+        "JavaScript": 8483,
+        "Makefile": 2068,
+        "Python": 1364,
+        "Dockerfile": 509
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-addon-api",
+          "version": "4.3.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

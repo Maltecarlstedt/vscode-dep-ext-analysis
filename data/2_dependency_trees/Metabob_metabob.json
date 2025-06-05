@@ -1,0 +1,930 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@emotion/react@11.11.3": {
+      "name": "@emotion/react",
+      "version": "11.11.3",
+      "github": "https://github.com/emotion-js/emotion.git#main",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@emotion/use-insertion-effect-with-fallbacks",
+          "version": "1.0.1",
+          "github": "https://github.com/emotion-js/emotion.git#main",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "hoist-non-react-statics",
+          "version": "3.3.2",
+          "github": "https://github.com/mridgway/hoist-non-react-statics",
+          "languages": {
+            "JavaScript": 13237
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-is",
+              "version": "16.13.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@emotion/styled@11.11.0": {
+      "name": "@emotion/styled",
+      "version": "11.11.0",
+      "github": "https://github.com/emotion-js/emotion.git#main",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@mui/material@5.15.6": {
+      "name": "@mui/material",
+      "version": "5.15.6",
+      "github": "https://github.com/mui/material-ui",
+      "languages": {
+        "TypeScript": 4679425,
+        "JavaScript": 4529604,
+        "CSS": 25010,
+        "HTML": 1631
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@mui/base",
+          "version": "5.0.0-beta.33",
+          "github": "https://github.com/mui/material-ui",
+          "languages": {
+            "TypeScript": 4679425,
+            "JavaScript": 4529604,
+            "CSS": 25010,
+            "HTML": 1631
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@floating-ui/react-dom",
+              "version": "2.0.8",
+              "github": "https://github.com/floating-ui/floating-ui",
+              "languages": {
+                "TypeScript": 1103847,
+                "MDX": 307013,
+                "JavaScript": 210521,
+                "CSS": 13205,
+                "HTML": 1538,
+                "Vue": 765
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.2.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.2.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react-dom",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@mui/system",
+          "version": "5.15.6",
+          "github": "https://github.com/mui/material-ui",
+          "languages": {
+            "TypeScript": 4679425,
+            "JavaScript": 4529604,
+            "CSS": 25010,
+            "HTML": 1631
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@mui/private-theming",
+              "version": "5.15.6",
+              "github": "https://github.com/mui/material-ui",
+              "languages": {
+                "TypeScript": 4679425,
+                "JavaScript": 4529604,
+                "CSS": 25010,
+                "HTML": 1631
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.2.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@mui/styled-engine",
+              "version": "5.15.6",
+              "github": "https://github.com/mui/material-ui",
+              "languages": {
+                "TypeScript": 4679425,
+                "JavaScript": 4529604,
+                "CSS": 25010,
+                "HTML": 1631
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.2.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@mui/utils",
+          "version": "5.15.6",
+          "github": "https://github.com/mui/material-ui",
+          "languages": {
+            "TypeScript": 4679425,
+            "JavaScript": 4529604,
+            "CSS": 25010,
+            "HTML": 1631
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-is",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "prop-types",
+          "version": "15.8.1",
+          "github": "https://github.com/facebook/prop-types",
+          "languages": {
+            "JavaScript": 180769
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-is",
+              "version": "16.13.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-dom",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react-is",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react-transition-group",
+          "version": "4.4.5",
+          "github": "https://github.com/reactjs/react-transition-group",
+          "languages": {
+            "JavaScript": 138230,
+            "SCSS": 3797
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "onchange@7.1.0": {
+      "name": "onchange",
+      "version": "7.1.0",
+      "github": "https://github.com/Qard/onchange",
+      "languages": {
+        "TypeScript": 7842,
+        "JavaScript": 6109
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "3.5.1",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "react-dom@18.2.0": {
+      "name": "react-dom",
+      "version": "18.2.0",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100320,
+        "TypeScript": 2011063,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "scheduler",
+          "version": "0.23.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react-markdown@6.0.2": {
+      "name": "react-markdown",
+      "version": "6.0.2",
+      "github": "https://github.com/remarkjs/react-markdown",
+      "languages": {
+        "JavaScript": 50844
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react-is",
+          "version": "17.0.2",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react-syntax-highlighter@15.5.0": {
+      "name": "react-syntax-highlighter",
+      "version": "15.5.0",
+      "github": "https://github.com/react-syntax-highlighter/react-syntax-highlighter",
+      "languages": {
+        "JavaScript": 598779
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "prismjs",
+          "version": "1.29.0",
+          "github": "https://github.com/PrismJS/prism",
+          "languages": {
+            "TypeScript": 1117483,
+            "CSS": 42623,
+            "JavaScript": 15731,
+            "C": 543,
+            "Lua": 422,
+            "C++": 306,
+            "Shell": 244,
+            "Awk": 106
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "refractor",
+          "version": "3.6.0",
+          "github": "https://github.com/wooorm/refractor",
+          "languages": {
+            "JavaScript": 878714
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "prismjs",
+              "version": "1.27.0",
+              "github": "https://github.com/PrismJS/prism",
+              "languages": {
+                "TypeScript": 1117483,
+                "CSS": 42623,
+                "JavaScript": 15731,
+                "C": 543,
+                "Lua": 422,
+                "C++": 306,
+                "Shell": 244,
+                "Awk": 106
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "react-use-pagination@2.0.1": {
+      "name": "react-use-pagination",
+      "version": "2.0.1",
+      "github": "https://github.com/erictooth/react-use-pagination",
+      "languages": {
+        "TypeScript": 15719
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react@18.2.0": {
+      "name": "react",
+      "version": "18.2.0",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100320,
+        "TypeScript": 2011063,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "recoil@0.7.7": {
+      "name": "recoil",
+      "version": "0.7.7",
+      "github": "https://github.com/facebookexperimental/Recoil",
+      "languages": {
+        "JavaScript": 1353622,
+        "TypeScript": 44300,
+        "HTML": 3054,
+        "CSS": 893
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

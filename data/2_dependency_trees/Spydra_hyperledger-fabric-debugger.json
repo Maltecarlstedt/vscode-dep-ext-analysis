@@ -1,0 +1,145 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "fabric-network@2.2.20": {
+      "name": "fabric-network",
+      "version": "2.2.20",
+      "github": "https://github.com/hyperledger/fabric-sdk-node",
+      "languages": {
+        "JavaScript": 4473002,
+        "TypeScript": 456811,
+        "Gherkin": 58699,
+        "Go": 17419,
+        "Shell": 14747,
+        "Java": 5961,
+        "Emacs Lisp": 103
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "fabric-common",
+          "version": "2.2.20",
+          "github": "https://github.com/hyperledger/fabric-sdk-node",
+          "languages": {
+            "JavaScript": 4473002,
+            "TypeScript": 456811,
+            "Gherkin": 58699,
+            "Go": 17419,
+            "Shell": 14747,
+            "Java": 5961,
+            "Emacs Lisp": 103
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "pkcs11js",
+              "version": "1.3.1",
+              "github": "https://github.com/PeculiarVentures/pkcs11js",
+              "languages": {
+                "C++": 194425,
+                "C": 99888,
+                "JavaScript": 69950,
+                "TypeScript": 1118,
+                "Python": 497
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fabric-protos",
+          "version": "2.2.20",
+          "github": "https://github.com/hyperledger/fabric-sdk-node",
+          "languages": {
+            "JavaScript": 4473002,
+            "TypeScript": 456811,
+            "Gherkin": 58699,
+            "Go": 17419,
+            "Shell": 14747,
+            "Java": 5961,
+            "Emacs Lisp": 103
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@grpc/grpc-js",
+              "version": "1.9.12",
+              "github": "https://github.com/grpc/grpc-node.git#master",
+              "languages": {},
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@grpc/proto-loader",
+                  "version": "0.7.10",
+                  "github": "https://github.com/grpc/grpc-node",
+                  "languages": {
+                    "TypeScript": 1909092,
+                    "JavaScript": 254032,
+                    "C++": 31007,
+                    "Shell": 20701,
+                    "Dockerfile": 5360,
+                    "CMake": 2907,
+                    "Batchfile": 2711,
+                    "PowerShell": 2270
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@grpc/proto-loader",
+              "version": "0.7.10",
+              "github": "https://github.com/grpc/grpc-node",
+              "languages": {
+                "TypeScript": 1909092,
+                "JavaScript": 254032,
+                "C++": 31007,
+                "Shell": 20701,
+                "Dockerfile": 5360,
+                "CMake": 2907,
+                "Batchfile": 2711,
+                "PowerShell": 2270
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

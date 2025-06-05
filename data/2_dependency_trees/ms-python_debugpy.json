@@ -1,0 +1,121 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode/extension-telemetry@0.8.5": {
+      "name": "@vscode/extension-telemetry",
+      "version": "0.8.5",
+      "github": "https://github.com/Microsoft/vscode-extension-telemetry",
+      "languages": {
+        "TypeScript": 35280,
+        "JavaScript": 1110
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "applicationinsights",
+          "version": "2.9.5",
+          "github": "https://github.com/microsoft/ApplicationInsights-node.js",
+          "languages": {
+            "TypeScript": 383382,
+            "JavaScript": 64808,
+            "Shell": 222
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/opentelemetry-instrumentation-azure-sdk",
+              "version": "1.0.0-beta.5",
+              "github": "https://github.com/Azure/azure-sdk-for-js",
+              "languages": {
+                "TypeScript": 198815724,
+                "JavaScript": 29423847,
+                "PowerShell": 759015,
+                "Bicep": 112441,
+                "Mustache": 15584,
+                "HTML": 12891,
+                "Vue": 8018,
+                "CSS": 6571,
+                "Handlebars": 5345,
+                "SCSS": 4598,
+                "Shell": 2255,
+                "Dockerfile": 1713,
+                "Batchfile": 1224,
+                "Q#": 482
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@opentelemetry/instrumentation",
+                  "version": "0.41.2",
+                  "github": "https://github.com/open-telemetry/opentelemetry-js",
+                  "languages": {
+                    "TypeScript": 4208757,
+                    "JavaScript": 127996,
+                    "Jinja": 8323,
+                    "Shell": 3655
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "import-in-the-middle",
+                      "version": "1.4.2",
+                      "github": "https://github.com/DataDog/import-in-the-middle",
+                      "languages": {
+                        "JavaScript": 71226,
+                        "TypeScript": 462
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "cjs-module-lexer",
+                          "version": "1.2.3",
+                          "github": "https://github.com/nodejs/cjs-module-lexer",
+                          "languages": {
+                            "JavaScript": 786463,
+                            "WebAssembly": 251477,
+                            "C": 76440,
+                            "Makefile": 1321,
+                            "TypeScript": 27
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "applicationinsights-native-metrics",
+              "version": "unknown",
+              "github": "https://github.com/Microsoft/ApplicationInsights-node.js-native-metrics",
+              "languages": {
+                "C++": 12884,
+                "TypeScript": 3345,
+                "JavaScript": 1437,
+                "Python": 1256
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

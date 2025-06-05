@@ -1,0 +1,49 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "conventional-changelog-cli@2.0.1": {
+      "name": "conventional-changelog-cli",
+      "version": "2.0.1",
+      "github": "https://github.com/conventional-changelog/conventional-changelog",
+      "languages": {
+        "TypeScript": 446877,
+        "JavaScript": 107467,
+        "Handlebars": 13233
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "tempfile",
+          "version": "1.1.1",
+          "github": "https://github.com/sindresorhus/tempfile",
+          "languages": {
+            "JavaScript": 789,
+            "TypeScript": 150
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "uuid",
+              "version": "2.0.3",
+              "github": "https://github.com/defunctzombie/node-uuid",
+              "languages": {
+                "JavaScript": 15883,
+                "Gnuplot": 5822,
+                "Shell": 1101,
+                "C": 613
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

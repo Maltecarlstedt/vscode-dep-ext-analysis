@@ -1,0 +1,226 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "applicationinsights@2.9.6": {
+      "name": "applicationinsights",
+      "version": "2.9.6",
+      "github": "https://github.com/microsoft/ApplicationInsights-node.js",
+      "languages": {
+        "TypeScript": 383382,
+        "JavaScript": 64808,
+        "Shell": 222
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@azure/opentelemetry-instrumentation-azure-sdk",
+          "version": "1.0.0-beta.5",
+          "github": "https://github.com/Azure/azure-sdk-for-js",
+          "languages": {
+            "TypeScript": 198815724,
+            "JavaScript": 29423847,
+            "PowerShell": 759015,
+            "Bicep": 112441,
+            "Mustache": 15584,
+            "HTML": 12891,
+            "Vue": 8018,
+            "CSS": 6571,
+            "Handlebars": 5345,
+            "SCSS": 4598,
+            "Shell": 2255,
+            "Dockerfile": 1713,
+            "Batchfile": 1224,
+            "Q#": 482
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@opentelemetry/instrumentation",
+              "version": "0.41.2",
+              "github": "https://github.com/open-telemetry/opentelemetry-js",
+              "languages": {
+                "TypeScript": 4208757,
+                "JavaScript": 127996,
+                "Jinja": 8323,
+                "Shell": 3655
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "import-in-the-middle",
+                  "version": "1.4.2",
+                  "github": "https://github.com/DataDog/import-in-the-middle",
+                  "languages": {
+                    "JavaScript": 71226,
+                    "TypeScript": 462
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "cjs-module-lexer",
+                      "version": "1.2.3",
+                      "github": "https://github.com/nodejs/cjs-module-lexer",
+                      "languages": {
+                        "JavaScript": 786463,
+                        "WebAssembly": 251477,
+                        "C": 76440,
+                        "Makefile": 1321,
+                        "TypeScript": 27
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "applicationinsights-native-metrics",
+          "version": "unknown",
+          "github": "https://github.com/Microsoft/ApplicationInsights-node.js-native-metrics",
+          "languages": {
+            "C++": 12884,
+            "TypeScript": 3345,
+            "JavaScript": 1437,
+            "Python": 1256
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "tedious@16.7.0": {
+      "name": "tedious",
+      "version": "16.7.0",
+      "github": "https://github.com/tediousjs/tedious",
+      "languages": {
+        "TypeScript": 534479,
+        "JavaScript": 494093,
+        "Dockerfile": 272
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@azure/identity",
+          "version": "3.4.2",
+          "github": "https://github.com/Azure/azure-sdk-for-js",
+          "languages": {
+            "TypeScript": 198815724,
+            "JavaScript": 29423847,
+            "PowerShell": 759015,
+            "Bicep": 112441,
+            "Mustache": 15584,
+            "HTML": 12891,
+            "Vue": 8018,
+            "CSS": 6571,
+            "Handlebars": 5345,
+            "SCSS": 4598,
+            "Shell": 2255,
+            "Dockerfile": 1713,
+            "Batchfile": 1224,
+            "Q#": 482
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/msal-browser",
+              "version": "3.9.0",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@azure/msal-common",
+                  "version": "14.7.0",
+                  "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                  "languages": {
+                    "TypeScript": 4083103,
+                    "JavaScript": 49315,
+                    "C++": 3861,
+                    "PowerShell": 2213,
+                    "HTML": 1888,
+                    "C": 199,
+                    "Shell": 76,
+                    "SCSS": 36
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@azure/msal-node",
+              "version": "2.6.3",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@azure/msal-common",
+                  "version": "14.7.0",
+                  "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                  "languages": {
+                    "TypeScript": 4083103,
+                    "JavaScript": 49315,
+                    "C++": 3861,
+                    "PowerShell": 2213,
+                    "HTML": 1888,
+                    "C": 199,
+                    "Shell": 76,
+                    "SCSS": 36
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

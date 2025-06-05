@@ -1,0 +1,230 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@jupyterlab/services@7.2.4": {
+      "name": "@jupyterlab/services",
+      "version": "7.2.4",
+      "github": "https://github.com/jupyterlab/jupyterlab",
+      "languages": {
+        "TypeScript": 7663232,
+        "Python": 436700,
+        "CSS": 401310,
+        "JavaScript": 187409,
+        "Jupyter Notebook": 105512,
+        "Shell": 25897,
+        "HTML": 17939,
+        "PowerShell": 2937,
+        "Dockerfile": 2255,
+        "Makefile": 1628
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@jupyterlab/settingregistry",
+          "version": "4.2.4",
+          "github": "https://github.com/jupyterlab/jupyterlab",
+          "languages": {
+            "TypeScript": 7663232,
+            "Python": 436700,
+            "CSS": 401310,
+            "JavaScript": 187409,
+            "Jupyter Notebook": 105512,
+            "Shell": 25897,
+            "HTML": 17939,
+            "PowerShell": 2937,
+            "Dockerfile": 2255,
+            "Makefile": 1628
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@rjsf/utils",
+              "version": "5.19.4",
+              "github": "https://github.com/rjsf-team/react-jsonschema-form",
+              "languages": {
+                "TypeScript": 2124618,
+                "JavaScript": 647846,
+                "CSS": 19237,
+                "MDX": 5532,
+                "HTML": 689,
+                "Shell": 47
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-is",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "ws",
+          "version": "8.17.1",
+          "github": "https://github.com/websockets/ws",
+          "languages": {
+            "JavaScript": 434710
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bufferutil",
+              "version": "unknown",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "unknown",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "@vscode/extension-telemetry@0.7.7": {
+      "name": "@vscode/extension-telemetry",
+      "version": "0.7.7",
+      "github": "https://github.com/Microsoft/vscode-extension-telemetry",
+      "languages": {
+        "TypeScript": 35280,
+        "JavaScript": 1110
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "applicationinsights",
+          "version": "2.5.0",
+          "github": "https://github.com/microsoft/ApplicationInsights-node.js",
+          "languages": {
+            "TypeScript": 383382,
+            "JavaScript": 64808,
+            "Shell": 222
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "applicationinsights-native-metrics",
+              "version": "unknown",
+              "github": "https://github.com/Microsoft/ApplicationInsights-node.js-native-metrics",
+              "languages": {
+                "C++": 12884,
+                "TypeScript": 3345,
+                "JavaScript": 1437,
+                "Python": 1256
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "fsevents@unknown": {
+      "name": "fsevents",
+      "version": "unknown",
+      "github": "https://github.com/fsevents/fsevents",
+      "languages": {
+        "C": 12888,
+        "JavaScript": 11408,
+        "Python": 716,
+        "Shell": 438
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

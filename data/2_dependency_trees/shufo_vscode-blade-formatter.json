@@ -1,0 +1,20 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "fsevents@unknown": {
+      "name": "fsevents",
+      "version": "unknown",
+      "github": "https://github.com/fsevents/fsevents",
+      "languages": {
+        "C": 12888,
+        "JavaScript": 11408,
+        "Python": 716,
+        "Shell": 438
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "miniprogram-ci@2.0.10": {
+      "name": "miniprogram-ci",
+      "version": "2.0.10",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "3.6.0",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "request",
+          "version": "2.88.2",
+          "github": "https://github.com/request/request",
+          "languages": {
+            "JavaScript": 305377,
+            "Shell": 3006
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "http-signature",
+              "version": "1.2.0",
+              "github": "https://github.com/joyent/node-http-signature",
+              "languages": {
+                "JavaScript": 95746,
+                "Makefile": 13276,
+                "Emacs Lisp": 178
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "sshpk",
+                  "version": "1.18.0",
+                  "github": "https://github.com/joyent/node-sshpk",
+                  "languages": {
+                    "JavaScript": 302105,
+                    "Makefile": 15447
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "bcrypt-pbkdf",
+                      "version": "1.0.2",
+                      "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                      "languages": {
+                        "JavaScript": 23230
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "tweetnacl",
+                          "version": "0.14.5",
+                          "github": "https://github.com/dchest/tweetnacl-js",
+                          "languages": {
+                            "JavaScript": 2964046,
+                            "C": 45485,
+                            "Go": 3796,
+                            "HTML": 1898,
+                            "Makefile": 716
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tweetnacl",
+                      "version": "0.14.5",
+                      "github": "https://github.com/dchest/tweetnacl-js",
+                      "languages": {
+                        "JavaScript": 2964046,
+                        "C": 45485,
+                        "Go": 3796,
+                        "HTML": 1898,
+                        "Makefile": 716
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sass",
+          "version": "1.89.0",
+          "github": "https://github.com/sass/dart-sass",
+          "languages": {
+            "Dart": 2499535,
+            "TypeScript": 911414,
+            "JavaScript": 3551,
+            "HTML": 462
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@parcel/watcher",
+              "version": "2.5.1",
+              "github": "https://github.com/parcel-bundler/watcher",
+              "languages": {
+                "C++": 107933,
+                "JavaScript": 65491,
+                "C": 3569,
+                "Python": 2686,
+                "Makefile": 1339
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@parcel/watcher-android-arm64",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-darwin-arm64",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-darwin-x64",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-freebsd-x64",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-linux-arm-glibc",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-linux-arm-musl",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-linux-arm64-glibc",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-linux-arm64-musl",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-linux-x64-glibc",
+                  "version": "2.5.1",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-linux-x64-musl",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-win32-arm64",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-win32-ia32",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@parcel/watcher-win32-x64",
+                  "version": "unknown",
+                  "github": "https://github.com/parcel-bundler/watcher",
+                  "languages": {
+                    "C++": 107933,
+                    "JavaScript": 65491,
+                    "C": 3569,
+                    "Python": 2686,
+                    "Makefile": 1339
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "node-addon-api",
+                  "version": "7.1.1",
+                  "github": "https://github.com/nodejs/node-addon-api",
+                  "languages": {
+                    "C++": 651642,
+                    "JavaScript": 237907,
+                    "Python": 14949,
+                    "C": 1789
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

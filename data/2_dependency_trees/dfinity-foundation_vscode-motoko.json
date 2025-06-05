@@ -1,0 +1,158 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "ic-mops@0.45.3": {
+      "name": "ic-mops",
+      "version": "0.45.3",
+      "github": "https://github.com/ZenVoich/mops",
+      "languages": {
+        "TypeScript": 222425,
+        "Motoko": 191350,
+        "Svelte": 106769,
+        "JavaScript": 50205,
+        "Shell": 3345,
+        "CSS": 2448,
+        "HTML": 1875,
+        "Dockerfile": 968,
+        "Modelica": 64
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@dfinity/identity-secp256k1",
+          "version": "2.0.0",
+          "github": "",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "hdkey",
+              "version": "2.1.0",
+              "github": "https://github.com/cryptocoinjs/hdkey",
+              "languages": {
+                "JavaScript": 21646
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "secp256k1",
+                  "version": "4.0.4",
+                  "github": "https://github.com/cryptocoinjs/secp256k1-node",
+                  "languages": {
+                    "JavaScript": 91449,
+                    "C++": 18211,
+                    "Python": 2704,
+                    "Makefile": 2387
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "node-addon-api",
+                      "version": "5.1.0",
+                      "github": "https://github.com/nodejs/node-addon-api",
+                      "languages": {
+                        "C++": 651642,
+                        "JavaScript": 237907,
+                        "Python": 14949,
+                        "C": 1789
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "chokidar",
+          "version": "3.6.0",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "pic-ic",
+          "version": "0.3.3",
+          "github": "https://github.com/hadronous/pic-js",
+          "languages": {
+            "TypeScript": 119957,
+            "JavaScript": 855,
+            "Shell": 699
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@dfinity/identity",
+              "version": "0.15.6",
+              "github": "https://github.com/dfinity/agent-js",
+              "languages": {
+                "TypeScript": 827766,
+                "JavaScript": 5694,
+                "SCSS": 1455,
+                "Motoko": 1140,
+                "HTML": 330
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "tweetnacl",
+                  "version": "1.0.3",
+                  "github": "https://github.com/dchest/tweetnacl-js",
+                  "languages": {
+                    "JavaScript": 2964046,
+                    "C": 45485,
+                    "Go": 3796,
+                    "HTML": 1898,
+                    "Makefile": 716
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

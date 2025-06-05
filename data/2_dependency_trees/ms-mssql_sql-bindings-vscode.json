@@ -1,0 +1,20 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "windows-foreground-love@unknown": {
+      "name": "windows-foreground-love",
+      "version": "unknown",
+      "github": "https://github.com/the-ress/node-windows-foreground-love",
+      "languages": {
+        "C": 5201,
+        "C++": 1573,
+        "JavaScript": 1357,
+        "Python": 546
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

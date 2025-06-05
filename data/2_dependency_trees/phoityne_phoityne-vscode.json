@@ -1,0 +1,189 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode/vsce@3.2.2": {
+      "name": "@vscode/vsce",
+      "version": "3.2.2",
+      "github": "https://github.com/Microsoft/vsce",
+      "languages": {
+        "TypeScript": 386167,
+        "Dockerfile": 302,
+        "JavaScript": 57
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@azure/identity",
+          "version": "4.7.0",
+          "github": "https://github.com/Azure/azure-sdk-for-js",
+          "languages": {
+            "TypeScript": 198815767,
+            "JavaScript": 29423847,
+            "PowerShell": 759015,
+            "Bicep": 112441,
+            "Mustache": 15584,
+            "HTML": 12891,
+            "Vue": 8018,
+            "CSS": 6571,
+            "Handlebars": 5345,
+            "SCSS": 4598,
+            "Shell": 2255,
+            "Dockerfile": 1713,
+            "Batchfile": 1224,
+            "Q#": 482
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/msal-browser",
+              "version": "4.5.1",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@azure/msal-common",
+                  "version": "15.2.0",
+                  "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                  "languages": {
+                    "TypeScript": 4083103,
+                    "JavaScript": 49315,
+                    "C++": 3861,
+                    "PowerShell": 2213,
+                    "HTML": 1888,
+                    "C": 199,
+                    "Shell": 76,
+                    "SCSS": 36
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@azure/msal-node",
+              "version": "3.2.3",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@azure/msal-common",
+                  "version": "15.2.0",
+                  "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                  "languages": {
+                    "TypeScript": 4083103,
+                    "JavaScript": 49315,
+                    "C++": 3861,
+                    "PowerShell": 2213,
+                    "HTML": 1888,
+                    "C": 199,
+                    "Shell": 76,
+                    "SCSS": 36
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "keytar",
+          "version": "7.9.0",
+          "github": "https://github.com/atom/node-keytar",
+          "languages": {
+            "C++": 36552,
+            "JavaScript": 8322,
+            "Python": 2116,
+            "Dockerfile": 1923,
+            "PowerShell": 1480,
+            "Shell": 280
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-addon-api",
+              "version": "4.3.0",
+              "github": "https://github.com/nodejs/node-addon-api",
+              "languages": {
+                "C++": 651642,
+                "JavaScript": 237907,
+                "Python": 14949,
+                "C": 1789
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "vsce@2.15.0": {
+      "name": "vsce",
+      "version": "2.15.0",
+      "github": "https://github.com/Microsoft/vsce",
+      "languages": {
+        "TypeScript": 386167,
+        "Dockerfile": 302,
+        "JavaScript": 57
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "keytar",
+          "version": "7.9.0",
+          "github": "https://github.com/atom/node-keytar",
+          "languages": {
+            "C++": 36552,
+            "JavaScript": 8322,
+            "Python": 2116,
+            "Dockerfile": 1923,
+            "PowerShell": 1480,
+            "Shell": 280
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

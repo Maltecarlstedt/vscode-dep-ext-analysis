@@ -1,0 +1,1452 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@jupyterlab/services@7.0.3": {
+      "name": "@jupyterlab/services",
+      "version": "7.0.3",
+      "github": "https://github.com/jupyterlab/jupyterlab",
+      "languages": {
+        "TypeScript": 7663232,
+        "Python": 436700,
+        "CSS": 401310,
+        "JavaScript": 187409,
+        "Jupyter Notebook": 105512,
+        "Shell": 25897,
+        "HTML": 17939,
+        "PowerShell": 2937,
+        "Dockerfile": 2255,
+        "Makefile": 1628
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@jupyterlab/settingregistry",
+          "version": "4.0.3",
+          "github": "https://github.com/jupyterlab/jupyterlab",
+          "languages": {
+            "TypeScript": 7663232,
+            "Python": 436700,
+            "CSS": 401310,
+            "JavaScript": 187409,
+            "Jupyter Notebook": 105512,
+            "Shell": 25897,
+            "HTML": 17939,
+            "PowerShell": 2937,
+            "Dockerfile": 2255,
+            "Makefile": 1628
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@rjsf/utils",
+              "version": "5.10.0",
+              "github": "https://github.com/rjsf-team/react-jsonschema-form",
+              "languages": {
+                "TypeScript": 2124618,
+                "JavaScript": 647846,
+                "CSS": 19237,
+                "MDX": 5532,
+                "HTML": 689,
+                "Shell": 47
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-is",
+                  "version": "18.2.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "16.14.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react",
+              "version": "16.14.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "ws",
+          "version": "8.17.1",
+          "github": "https://github.com/websockets/ws",
+          "languages": {
+            "JavaScript": 434710
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bufferutil",
+              "version": "unknown",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "unknown",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "@loadable/component@5.15.2": {
+      "name": "@loadable/component",
+      "version": "5.15.2",
+      "github": "https://github.com/gregberge/loadable-components",
+      "languages": {
+        "JavaScript": 113431,
+        "MDX": 46028,
+        "Shell": 823
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "hoist-non-react-statics",
+          "version": "3.3.2",
+          "github": "https://github.com/mridgway/hoist-non-react-statics",
+          "languages": {
+            "JavaScript": 13237
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-is",
+              "version": "16.13.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-is",
+          "version": "16.13.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react",
+          "version": "16.14.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@nteract/transforms@5.0.4-alpha.0": {
+      "name": "@nteract/transforms",
+      "version": "5.0.4-alpha.0",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@nteract/markdown",
+          "version": "3.0.5-alpha.0",
+          "github": "https://github.com/nteract/markdown",
+          "languages": {
+            "TypeScript": 29995,
+            "JavaScript": 255
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-markdown",
+              "version": "4.3.1",
+              "github": "https://github.com/rexxars/react-markdown",
+              "languages": {
+                "JavaScript": 50844
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "html-to-react",
+                  "version": "1.6.0",
+                  "github": "https://github.com/aknuds1/html-to-react",
+                  "languages": {
+                    "TypeScript": 21976,
+                    "JavaScript": 13790,
+                    "Shell": 305
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react",
+                      "version": "16.14.0",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "react-is",
+                  "version": "16.13.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "16.14.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@nteract/transform-vdom",
+          "version": "3.0.4-alpha.0",
+          "github": "https://github.com/nteract/nteract/tree/master/packages/transform-vdom",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "16.14.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "ansi-to-react",
+          "version": "4.0.4",
+          "github": "https://github.com/nteract/nteract/tree/master/packages/ansi-to-react",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "16.14.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "16.14.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-json-tree",
+          "version": "0.11.2",
+          "github": "https://github.com/reduxjs/redux-devtools",
+          "languages": {
+            "TypeScript": 1089477,
+            "JavaScript": 374263,
+            "HTML": 9462,
+            "Pug": 3832,
+            "CSS": 2159
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "16.14.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "16.14.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "16.14.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "styled-components",
+          "version": "4.4.1",
+          "github": "https://github.com/styled-components/styled-components",
+          "languages": {
+            "TypeScript": 372751,
+            "JavaScript": 61276,
+            "CSS": 647,
+            "HTML": 386
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "16.14.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react-is",
+              "version": "16.13.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "16.14.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "react-dom@16.14.0": {
+      "name": "react-dom",
+      "version": "16.14.0",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100320,
+        "TypeScript": 2011063,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "prop-types",
+          "version": "15.8.1",
+          "github": "https://github.com/facebook/prop-types",
+          "languages": {
+            "JavaScript": 180769
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-is",
+              "version": "16.13.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "16.14.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "scheduler",
+          "version": "0.19.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react-redux@7.2.8": {
+      "name": "react-redux",
+      "version": "7.2.8",
+      "github": "https://github.com/reduxjs/react-redux",
+      "languages": {
+        "TypeScript": 342308,
+        "JavaScript": 12125,
+        "CSS": 8281
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react-is",
+          "version": "17.0.2",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react",
+          "version": "16.14.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react@16.14.0": {
+      "name": "react",
+      "version": "16.14.0",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100320,
+        "TypeScript": 2011063,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "style-loader@3.3.1": {
+      "name": "style-loader",
+      "version": "3.3.1",
+      "github": "https://github.com/webpack-contrib/style-loader",
+      "languages": {
+        "JavaScript": 119258,
+        "CSS": 2995,
+        "HTML": 2753,
+        "SCSS": 470
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "webpack",
+          "version": "5.98.0",
+          "github": "https://github.com/webpack/webpack",
+          "languages": {
+            "JavaScript": 6227652,
+            "CSS": 126638,
+            "TypeScript": 11001,
+            "WebAssembly": 8142,
+            "Less": 820,
+            "CoffeeScript": 325,
+            "HTML": 255,
+            "Pug": 130,
+            "SCSS": 32
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@webassemblyjs/ast",
+              "version": "1.14.1",
+              "github": "https://github.com/xtuc/webassemblyjs",
+              "languages": {
+                "JavaScript": 1066359,
+                "Makefile": 2293,
+                "WebAssembly": 2198,
+                "Shell": 1681,
+                "C": 412,
+                "CSS": 117
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@webassemblyjs/helper-numbers",
+                  "version": "1.13.2",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@webassemblyjs/floating-point-hex-parser",
+                      "version": "1.13.2",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/helper-api-error",
+                      "version": "1.13.2",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "@webassemblyjs/helper-wasm-bytecode",
+                  "version": "1.13.2",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@webassemblyjs/wasm-edit",
+              "version": "1.14.1",
+              "github": "https://github.com/xtuc/webassemblyjs",
+              "languages": {
+                "JavaScript": 1066359,
+                "Makefile": 2293,
+                "WebAssembly": 2198,
+                "Shell": 1681,
+                "C": 412,
+                "CSS": 117
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@webassemblyjs/ast",
+                  "version": "1.14.1",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@webassemblyjs/helper-buffer",
+                  "version": "1.14.1",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@webassemblyjs/helper-wasm-bytecode",
+                  "version": "1.13.2",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@webassemblyjs/helper-wasm-section",
+                  "version": "1.14.1",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@webassemblyjs/ast",
+                      "version": "1.14.1",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/helper-buffer",
+                      "version": "1.14.1",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/helper-wasm-bytecode",
+                      "version": "1.13.2",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/wasm-gen",
+                      "version": "1.14.1",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "@webassemblyjs/wasm-gen",
+                  "version": "1.14.1",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@webassemblyjs/ast",
+                      "version": "1.14.1",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/helper-wasm-bytecode",
+                      "version": "1.13.2",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/ieee754",
+                      "version": "1.13.2",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/leb128",
+                      "version": "1.13.2",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/utf8",
+                      "version": "1.13.2",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "@webassemblyjs/wasm-opt",
+                  "version": "1.14.1",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@webassemblyjs/ast",
+                      "version": "1.14.1",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/helper-buffer",
+                      "version": "1.14.1",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/wasm-gen",
+                      "version": "1.14.1",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "@webassemblyjs/wasm-parser",
+                      "version": "1.14.1",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "@webassemblyjs/wasm-parser",
+                  "version": "1.14.1",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@webassemblyjs/wast-printer",
+                  "version": "1.14.1",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@webassemblyjs/ast",
+                      "version": "1.14.1",
+                      "github": "https://github.com/xtuc/webassemblyjs",
+                      "languages": {
+                        "JavaScript": 1066359,
+                        "Makefile": 2293,
+                        "WebAssembly": 2198,
+                        "Shell": 1681,
+                        "C": 412,
+                        "CSS": 117
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "@webassemblyjs/wasm-parser",
+              "version": "1.14.1",
+              "github": "https://github.com/xtuc/webassemblyjs",
+              "languages": {
+                "JavaScript": 1066359,
+                "Makefile": 2293,
+                "WebAssembly": 2198,
+                "Shell": 1681,
+                "C": 412,
+                "CSS": 117
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@webassemblyjs/ast",
+                  "version": "1.14.1",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@webassemblyjs/helper-api-error",
+                  "version": "1.13.2",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@webassemblyjs/helper-wasm-bytecode",
+                  "version": "1.13.2",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@webassemblyjs/ieee754",
+                  "version": "1.13.2",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@webassemblyjs/leb128",
+                  "version": "1.13.2",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@webassemblyjs/utf8",
+                  "version": "1.13.2",
+                  "github": "https://github.com/xtuc/webassemblyjs",
+                  "languages": {
+                    "JavaScript": 1066359,
+                    "Makefile": 2293,
+                    "WebAssembly": 2198,
+                    "Shell": 1681,
+                    "C": 412,
+                    "CSS": 117
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "es-module-lexer",
+              "version": "1.6.0",
+              "github": "https://github.com/guybedford/es-module-lexer",
+              "languages": {
+                "JavaScript": 1022274,
+                "C": 36497,
+                "TypeScript": 8440
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@viz-js/viz@3.11.0": {
+      "name": "@viz-js/viz",
+      "version": "3.11.0",
+      "github": "https://github.com/mdaines/viz-js",
+      "languages": {
+        "JavaScript": 74726,
+        "HTML": 28804,
+        "TypeScript": 6357,
+        "C": 4384,
+        "CSS": 4263,
+        "Dockerfile": 1865,
+        "Makefile": 898
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "bufferutil@4.0.8": {
+      "name": "bufferutil",
+      "version": "4.0.8",
+      "github": "https://github.com/websockets/bufferutil",
+      "languages": {
+        "C": 3682,
+        "JavaScript": 2450,
+        "Python": 848
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "mssql@11.0.1": {
+      "name": "mssql",
+      "version": "11.0.1",
+      "github": "https://github.com/tediousjs/node-mssql",
+      "languages": {
+        "JavaScript": 289559,
+        "TSQL": 7386
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "tedious",
+          "version": "18.3.0",
+          "github": "https://github.com/tediousjs/tedious",
+          "languages": {
+            "TypeScript": 534479,
+            "JavaScript": 494093,
+            "Dockerfile": 272
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/identity",
+              "version": "4.4.1",
+              "github": "https://github.com/Azure/azure-sdk-for-js",
+              "languages": {
+                "TypeScript": 198815724,
+                "JavaScript": 29423847,
+                "PowerShell": 759015,
+                "Bicep": 112441,
+                "Mustache": 15584,
+                "HTML": 12891,
+                "Vue": 8018,
+                "CSS": 6571,
+                "Handlebars": 5345,
+                "SCSS": 4598,
+                "Shell": 2255,
+                "Dockerfile": 1713,
+                "Batchfile": 1224,
+                "Q#": 482
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@azure/msal-browser",
+                  "version": "3.20.0",
+                  "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                  "languages": {
+                    "TypeScript": 4083103,
+                    "JavaScript": 49315,
+                    "C++": 3861,
+                    "PowerShell": 2213,
+                    "HTML": 1888,
+                    "C": 199,
+                    "Shell": 76,
+                    "SCSS": 36
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@azure/msal-common",
+                      "version": "14.14.0",
+                      "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                      "languages": {
+                        "TypeScript": 4083103,
+                        "JavaScript": 49315,
+                        "C++": 3861,
+                        "PowerShell": 2213,
+                        "HTML": 1888,
+                        "C": 199,
+                        "Shell": 76,
+                        "SCSS": 36
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "@azure/msal-node",
+                  "version": "2.12.0",
+                  "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                  "languages": {
+                    "TypeScript": 4083103,
+                    "JavaScript": 49315,
+                    "C++": 3861,
+                    "PowerShell": 2213,
+                    "HTML": 1888,
+                    "C": 199,
+                    "Shell": 76,
+                    "SCSS": 36
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@azure/msal-common",
+                      "version": "14.14.0",
+                      "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                      "languages": {
+                        "TypeScript": 4083103,
+                        "JavaScript": 49315,
+                        "C++": 3861,
+                        "PowerShell": 2213,
+                        "HTML": 1888,
+                        "C": 199,
+                        "Shell": 76,
+                        "SCSS": 36
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "utf-8-validate@6.0.5": {
+      "name": "utf-8-validate",
+      "version": "6.0.5",
+      "github": "https://github.com/websockets/utf-8-validate",
+      "languages": {
+        "JavaScript": 3173,
+        "Python": 912,
+        "C++": 899
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "ws@8.18.0": {
+      "name": "ws",
+      "version": "8.18.0",
+      "github": "https://github.com/websockets/ws",
+      "languages": {
+        "JavaScript": 434710
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bufferutil",
+          "version": "4.0.8",
+          "github": "https://github.com/websockets/bufferutil",
+          "languages": {
+            "C": 3682,
+            "JavaScript": 2450,
+            "Python": 848
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "utf-8-validate",
+          "version": "6.0.5",
+          "github": "https://github.com/websockets/utf-8-validate",
+          "languages": {
+            "JavaScript": 3173,
+            "Python": 912,
+            "C++": 899
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

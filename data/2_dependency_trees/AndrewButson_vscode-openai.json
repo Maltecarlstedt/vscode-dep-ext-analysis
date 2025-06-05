@@ -1,0 +1,5224 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode-openai/conversations@1.0.0": {
+      "name": "@vscode-openai/conversations",
+      "version": "1.0.0",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@fluentui/react-components",
+          "version": "9.63.0",
+          "github": "https://github.com/microsoft/fluentui",
+          "languages": {
+            "TypeScript": 31778337,
+            "JavaScript": 588296,
+            "MDX": 549369,
+            "SCSS": 161239,
+            "HTML": 62333,
+            "CSS": 47222,
+            "EJS": 3677,
+            "Shell": 1720,
+            "Handlebars": 844,
+            "Dockerfile": 429
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@fluentui/react-accordion",
+              "version": "9.6.8",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-context-selector",
+                  "version": "9.1.76",
+                  "github": "https://github.com/microsoft/fluentui",
+                  "languages": {
+                    "TypeScript": 31778337,
+                    "JavaScript": 588296,
+                    "MDX": 549369,
+                    "SCSS": 161239,
+                    "HTML": 62333,
+                    "CSS": 47222,
+                    "EJS": 3677,
+                    "Shell": 1720,
+                    "Handlebars": 844,
+                    "Dockerfile": 429
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react-dom",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "react",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "scheduler",
+                      "version": "0.23.0",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@fluentui/react-jsx-runtime",
+                  "version": "9.0.54",
+                  "github": "https://github.com/microsoft/fluentui",
+                  "languages": {
+                    "TypeScript": 31778337,
+                    "JavaScript": 588296,
+                    "MDX": 549369,
+                    "SCSS": 161239,
+                    "HTML": 62333,
+                    "CSS": 47222,
+                    "EJS": 3677,
+                    "Shell": 1720,
+                    "Handlebars": 844,
+                    "Dockerfile": 429
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react-is",
+                      "version": "17.0.2",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "react",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "@fluentui/react-motion-components-preview",
+                  "version": "0.4.9",
+                  "github": "https://github.com/microsoft/fluentui",
+                  "languages": {
+                    "TypeScript": 31778337,
+                    "JavaScript": 588296,
+                    "MDX": 549369,
+                    "SCSS": 161239,
+                    "HTML": 62333,
+                    "CSS": 47222,
+                    "EJS": 3677,
+                    "Shell": 1720,
+                    "Handlebars": 844,
+                    "Dockerfile": 429
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react-dom",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "react",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-alert",
+              "version": "9.0.0-beta.124",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31775664,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-aria",
+              "version": "9.14.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-avatar",
+              "version": "9.7.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-badge",
+              "version": "9.2.54",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-breadcrumb",
+              "version": "9.1.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-button",
+              "version": "9.4.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-card",
+              "version": "9.2.5",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-carousel",
+              "version": "9.6.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-checkbox",
+              "version": "9.3.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-color-picker",
+              "version": "9.0.4",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-combobox",
+              "version": "9.14.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-dialog",
+              "version": "9.12.8",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-divider",
+              "version": "9.2.86",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-drawer",
+              "version": "9.7.8",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-field",
+              "version": "9.2.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-image",
+              "version": "9.1.84",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-infobutton",
+              "version": "9.0.0-beta.102",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31775664,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-infolabel",
+              "version": "9.2.0",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-input",
+              "version": "9.5.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-label",
+              "version": "9.1.87",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-link",
+              "version": "9.4.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-list",
+              "version": "9.1.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-menu",
+              "version": "9.16.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-message-bar",
+              "version": "9.4.7",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-transition-group",
+                  "version": "4.4.5",
+                  "github": "https://github.com/reactjs/react-transition-group",
+                  "languages": {
+                    "JavaScript": 138230,
+                    "SCSS": 3797
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "prop-types",
+                      "version": "15.8.1",
+                      "github": "https://github.com/facebook/prop-types",
+                      "languages": {
+                        "JavaScript": 180769
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "react-is",
+                          "version": "16.13.1",
+                          "github": "https://github.com/facebook/react",
+                          "languages": {
+                            "JavaScript": 5100320,
+                            "TypeScript": 2011063,
+                            "HTML": 111349,
+                            "CSS": 73350,
+                            "C++": 44290,
+                            "CoffeeScript": 18760,
+                            "C": 5227,
+                            "Shell": 4395,
+                            "Python": 259,
+                            "Makefile": 189
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "react-dom",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "react",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-motion",
+              "version": "9.7.2",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-overflow",
+              "version": "9.3.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-persona",
+              "version": "9.3.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-popover",
+              "version": "9.10.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-portal",
+              "version": "9.5.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "use-disposable",
+                  "version": "1.0.4",
+                  "github": "https://github.com/microsoft/use-disposable",
+                  "languages": {
+                    "TypeScript": 12217,
+                    "JavaScript": 992
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react-dom",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "react",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-positioning",
+              "version": "9.16.7",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-progress",
+              "version": "9.2.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-provider",
+              "version": "9.20.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-radio",
+              "version": "9.3.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-rating",
+              "version": "9.1.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-search",
+              "version": "9.1.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-select",
+              "version": "9.2.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-shared-contexts",
+              "version": "9.23.1",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-skeleton",
+              "version": "9.2.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-slider",
+              "version": "9.3.7",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-spinbutton",
+              "version": "9.3.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-spinner",
+              "version": "9.5.11",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-swatch-picker",
+              "version": "9.2.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-switch",
+              "version": "9.2.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-table",
+              "version": "9.16.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-tabs",
+              "version": "9.7.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-tabster",
+              "version": "9.24.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-tag-picker",
+              "version": "9.5.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-tags",
+              "version": "9.5.4",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-teaching-popover",
+              "version": "9.4.5",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "use-sync-external-store",
+                  "version": "1.5.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100760,
+                    "TypeScript": 2011603,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-text",
+              "version": "9.4.36",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-textarea",
+              "version": "9.4.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-toast",
+              "version": "9.4.8",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-toolbar",
+              "version": "9.4.5",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-tooltip",
+              "version": "9.6.6",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-tree",
+              "version": "9.10.9",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@fluentui/react-icons",
+                  "version": "2.0.298",
+                  "github": "https://github.com/microsoft/fluentui-system-icons",
+                  "languages": {
+                    "HTML": 6287502,
+                    "Dart": 5124501,
+                    "Swift": 3207556,
+                    "CSS": 1748926,
+                    "Python": 29414,
+                    "JavaScript": 24024,
+                    "TypeScript": 22057,
+                    "Shell": 12457,
+                    "Kotlin": 11574,
+                    "Batchfile": 3869,
+                    "Ruby": 2007,
+                    "Java": 1257,
+                    "Objective-C": 38,
+                    "C": 28,
+                    "Limbo": 26
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-utilities",
+              "version": "9.19.0",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@fluentui/react-virtualizer",
+              "version": "9.0.0-alpha.96",
+              "github": "https://github.com/microsoft/fluentui",
+              "languages": {
+                "TypeScript": 31778337,
+                "JavaScript": 588296,
+                "MDX": 549369,
+                "SCSS": 161239,
+                "HTML": 62333,
+                "CSS": 47222,
+                "EJS": 3677,
+                "Shell": 1720,
+                "Handlebars": 844,
+                "Dockerfile": 429
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@griffel/react",
+              "version": "1.5.29",
+              "github": "https://github.com/microsoft/griffel",
+              "languages": {
+                "TypeScript": 873275,
+                "JavaScript": 31236,
+                "CSS": 14575,
+                "HTML": 1384,
+                "MDX": 1009,
+                "Dockerfile": 99
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react-dom",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-dom",
+          "version": "18.3.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "scheduler",
+              "version": "0.23.2",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "18.3.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@vscode-openai/message@1.0.0": {
+      "name": "@vscode-openai/message",
+      "version": "1.0.0",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@fluentui/react-icons",
+          "version": "2.0.298",
+          "github": "https://github.com/microsoft/fluentui-system-icons",
+          "languages": {
+            "HTML": 6287502,
+            "Dart": 5124501,
+            "Swift": 3207556,
+            "CSS": 1748926,
+            "Python": 29414,
+            "JavaScript": 24024,
+            "TypeScript": 22057,
+            "Shell": 12457,
+            "Kotlin": 11574,
+            "Batchfile": 3869,
+            "Ruby": 2007,
+            "Java": 1257,
+            "Objective-C": 38,
+            "C": 28,
+            "Limbo": 26
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-dom",
+          "version": "18.3.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react-markdown",
+          "version": "10.1.0",
+          "github": "https://github.com/remarkjs/react-markdown",
+          "languages": {
+            "JavaScript": 50844
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-syntax-highlighter",
+          "version": "15.6.1",
+          "github": "https://github.com/react-syntax-highlighter/react-syntax-highlighter",
+          "languages": {
+            "JavaScript": 598779
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "prismjs",
+              "version": "1.30.0",
+              "github": "https://github.com/PrismJS/prism",
+              "languages": {
+                "TypeScript": 1117483,
+                "CSS": 42623,
+                "JavaScript": 15731,
+                "C": 543,
+                "Lua": 422,
+                "C++": 306,
+                "Shell": 244,
+                "Awk": 106
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "refractor",
+              "version": "3.6.0",
+              "github": "https://github.com/wooorm/refractor",
+              "languages": {
+                "JavaScript": 878714
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "prismjs",
+                  "version": "1.27.0",
+                  "github": "https://github.com/PrismJS/prism",
+                  "languages": {
+                    "TypeScript": 1117483,
+                    "CSS": 42623,
+                    "JavaScript": 15731,
+                    "C": 543,
+                    "Lua": 422,
+                    "C++": 306,
+                    "Shell": 244,
+                    "Awk": 106
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "18.3.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "vscode@1.1.35": {
+      "name": "vscode",
+      "version": "1.1.35",
+      "github": "https://github.com/Microsoft/vscode",
+      "languages": {
+        "TypeScript": 69993463,
+        "CSS": 1035535,
+        "JavaScript": 823862,
+        "Rust": 500641,
+        "HTML": 354223,
+        "Inno Setup": 309534,
+        "Scilab": 202892,
+        "Shell": 102960,
+        "Batchfile": 18993,
+        "PowerShell": 16431,
+        "Tree-sitter Query": 12094,
+        "SCSS": 6732,
+        "Groovy": 3928,
+        "Cuda": 3634,
+        "C++": 2745,
+        "Makefile": 2307,
+        "Python": 2171,
+        "Scheme": 2166,
+        "Perl": 1922,
+        "Ruby": 1703,
+        "TeX": 1602,
+        "Objective-C": 1387,
+        "Objective-C++": 1387,
+        "Clojure": 1206,
+        "Handlebars": 1064,
+        "Less": 1029,
+        "PHP": 998,
+        "Dockerfile": 960,
+        "Julia": 940,
+        "Jupyter Notebook": 929,
+        "Visual Basic .NET": 893,
+        "C#": 864,
+        "C": 818,
+        "Raku": 761,
+        "Pug": 654,
+        "Go": 652,
+        "F#": 634,
+        "Java": 599,
+        "CoffeeScript": 590,
+        "R": 362,
+        "Roff": 351,
+        "ShaderLab": 330,
+        "Dart": 324,
+        "Swift": 284,
+        "Lua": 252,
+        "HLSL": 184,
+        "Hack": 16
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "request",
+          "version": "2.88.0",
+          "github": "https://github.com/request/request",
+          "languages": {
+            "JavaScript": 305377,
+            "Shell": 3006
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "http-signature",
+              "version": "1.2.0",
+              "github": "https://github.com/joyent/node-http-signature",
+              "languages": {
+                "JavaScript": 95746,
+                "Makefile": 13276,
+                "Emacs Lisp": 178
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "sshpk",
+                  "version": "1.16.1",
+                  "github": "https://github.com/joyent/node-sshpk",
+                  "languages": {
+                    "JavaScript": 302105,
+                    "Makefile": 15447
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "bcrypt-pbkdf",
+                      "version": "1.0.2",
+                      "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                      "languages": {
+                        "JavaScript": 23230
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "tweetnacl",
+                          "version": "0.14.5",
+                          "github": "https://github.com/dchest/tweetnacl-js",
+                          "languages": {
+                            "JavaScript": 2964046,
+                            "C": 45485,
+                            "Go": 3796,
+                            "HTML": 1898,
+                            "Makefile": 716
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tweetnacl",
+                      "version": "0.14.5",
+                      "github": "https://github.com/dchest/tweetnacl-js",
+                      "languages": {
+                        "JavaScript": 2964046,
+                        "C": 45485,
+                        "Go": 3796,
+                        "HTML": 1898,
+                        "Makefile": 716
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

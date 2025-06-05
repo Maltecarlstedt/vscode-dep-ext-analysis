@@ -1,0 +1,458 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "node-http@1.0.0": {
+      "name": "node-http",
+      "version": "1.0.0",
+      "github": "https://github.com/shallker/node-http",
+      "languages": {
+        "JavaScript": 4354
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "better-sqlite3",
+          "version": "8.2.0",
+          "github": "https://github.com/WiseLibs/better-sqlite3",
+          "languages": {
+            "C++": 273952,
+            "JavaScript": 226365,
+            "Python": 942
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "msgpackr",
+          "version": "1.8.1",
+          "github": "https://github.com/kriszyp/msgpackr",
+          "languages": {
+            "JavaScript": 181363,
+            "TypeScript": 612,
+            "HTML": 461,
+            "Shell": 84
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "msgpackr-extract",
+              "version": "2.2.0",
+              "github": "https://github.com/kriszyp/msgpackr-extract",
+              "languages": {
+                "C++": 9031,
+                "Python": 1526,
+                "JavaScript": 854
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@msgpackr-extract/msgpackr-extract-darwin-arm64",
+                  "version": "unknown",
+                  "github": "https://github.com/kriszyp/msgpackr-extract",
+                  "languages": {
+                    "C++": 9031,
+                    "Python": 1526,
+                    "JavaScript": 854
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@msgpackr-extract/msgpackr-extract-darwin-x64",
+                  "version": "unknown",
+                  "github": "https://github.com/kriszyp/msgpackr-extract",
+                  "languages": {
+                    "C++": 9031,
+                    "Python": 1526,
+                    "JavaScript": 854
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@msgpackr-extract/msgpackr-extract-linux-arm",
+                  "version": "unknown",
+                  "github": "https://github.com/kriszyp/msgpackr-extract",
+                  "languages": {
+                    "C++": 9031,
+                    "Python": 1526,
+                    "JavaScript": 854
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@msgpackr-extract/msgpackr-extract-linux-arm64",
+                  "version": "unknown",
+                  "github": "https://github.com/kriszyp/msgpackr-extract",
+                  "languages": {
+                    "C++": 9031,
+                    "Python": 1526,
+                    "JavaScript": 854
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@msgpackr-extract/msgpackr-extract-linux-x64",
+                  "version": "2.2.0",
+                  "github": "https://github.com/kriszyp/msgpackr-extract",
+                  "languages": {
+                    "C++": 9031,
+                    "Python": 1526,
+                    "JavaScript": 854
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "@msgpackr-extract/msgpackr-extract-win32-x64",
+                  "version": "unknown",
+                  "github": "https://github.com/kriszyp/msgpackr-extract",
+                  "languages": {
+                    "C++": 9031,
+                    "Python": 1526,
+                    "JavaScript": 854
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ui@1.0.0": {
+      "name": "ui",
+      "version": "1.0.0",
+      "github": "https://github.com/marcuswestin/ui.js",
+      "languages": {
+        "JavaScript": 27628
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@tippyjs/react",
+          "version": "4.2.6",
+          "github": "https://github.com/atomiks/tippyjs-react",
+          "languages": {
+            "JavaScript": 38428
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.2.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "scheduler",
+                  "version": "0.23.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "prismjs",
+          "version": "1.29.0",
+          "github": "https://github.com/PrismJS/prism",
+          "languages": {
+            "TypeScript": 1117483,
+            "CSS": 42623,
+            "JavaScript": 15731,
+            "C": 543,
+            "Lua": 422,
+            "C++": 306,
+            "Shell": 244,
+            "Awk": 106
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "rollup-plugin-license",
+          "version": "3.0.1",
+          "github": "https://github.com/mjeanroy/rollup-plugin-license",
+          "languages": {
+            "JavaScript": 183491
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "rollup",
+              "version": "3.20.2",
+              "github": "https://github.com/rollup/rollup",
+              "languages": {
+                "JavaScript": 8290359,
+                "TypeScript": 1114944,
+                "Rust": 204198,
+                "HTML": 5020,
+                "CSS": 37
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "fsevents",
+                  "version": "unknown",
+                  "github": "https://github.com/fsevents/fsevents",
+                  "languages": {
+                    "C": 12888,
+                    "JavaScript": 11408,
+                    "Python": 716,
+                    "Shell": 438
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "usehooks-ts",
+          "version": "2.9.1",
+          "github": "https://github.com/juliencrn/usehooks-ts",
+          "languages": {
+            "TypeScript": 272097,
+            "JavaScript": 25193,
+            "CSS": 4964,
+            "Handlebars": 1525
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "zustand",
+          "version": "4.3.7",
+          "github": "https://github.com/pmndrs/zustand",
+          "languages": {
+            "TypeScript": 237482,
+            "JavaScript": 5420
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "use-sync-external-store",
+              "version": "1.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100771,
+                "TypeScript": 2011603,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.2.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "tree-sitter-go@0.23.1": {
+      "name": "tree-sitter-go",
+      "version": "0.23.1",
+      "github": "https://github.com/tree-sitter/tree-sitter-go",
+      "languages": {
+        "JavaScript": 23657,
+        "Scheme": 2518
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-addon-api",
+          "version": "8.1.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "tree-sitter",
+          "version": "0.21.1",
+          "github": "https://github.com/tree-sitter/node-tree-sitter",
+          "languages": {
+            "JavaScript": 150003,
+            "C++": 98414,
+            "Python": 1925
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "tree-sitter-java@0.21.0": {
+      "name": "tree-sitter-java",
+      "version": "0.21.0",
+      "github": "https://github.com/tree-sitter/tree-sitter-java",
+      "languages": {
+        "JavaScript": 32127,
+        "Scheme": 2563,
+        "Java": 623
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-addon-api",
+          "version": "8.1.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "tree-sitter",
+          "version": "0.21.1",
+          "github": "https://github.com/tree-sitter/node-tree-sitter",
+          "languages": {
+            "JavaScript": 150003,
+            "C++": 98414,
+            "Python": 1925
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "tree-sitter-javascript@0.21.4": {
+      "name": "tree-sitter-javascript",
+      "version": "0.21.4",
+      "github": "https://github.com/tree-sitter/tree-sitter-javascript",
+      "languages": {
+        "JavaScript": 34307,
+        "C": 10576,
+        "Scheme": 6912
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-addon-api",
+          "version": "8.1.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "tree-sitter",
+          "version": "0.21.1",
+          "github": "https://github.com/tree-sitter/node-tree-sitter",
+          "languages": {
+            "JavaScript": 150003,
+            "C++": 98414,
+            "Python": 1925
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "tree-sitter-python@0.21.0": {
+      "name": "tree-sitter-python",
+      "version": "0.21.0",
+      "github": "https://github.com/tree-sitter/tree-sitter-python",
+      "languages": {
+        "JavaScript": 26758,
+        "C": 15323,
+        "Scheme": 2307,
+        "Python": 1999
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-addon-api",
+          "version": "7.1.1",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "tree-sitter",
+          "version": "0.21.1",
+          "github": "https://github.com/tree-sitter/node-tree-sitter",
+          "languages": {
+            "JavaScript": 150003,
+            "C++": 98414,
+            "Python": 1925
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "tree-sitter@0.21.1": {
+      "name": "tree-sitter",
+      "version": "0.21.1",
+      "github": "https://github.com/tree-sitter/node-tree-sitter",
+      "languages": {
+        "JavaScript": 150003,
+        "C++": 98414,
+        "Python": 1925
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-addon-api",
+          "version": "8.1.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

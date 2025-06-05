@@ -1,0 +1,39 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "node-ps-data@1.4.1": {
+      "name": "node-ps-data",
+      "version": "1.4.1",
+      "github": "https://github.com/2kai2kai2/node-ps-data",
+      "languages": {
+        "C++": 18514,
+        "TypeScript": 9598,
+        "Python": 1773,
+        "C": 1051
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-gyp",
+          "version": "10.0.1",
+          "github": "https://github.com/nodejs/node-gyp",
+          "languages": {
+            "Python": 1524276,
+            "JavaScript": 188336,
+            "Emacs Lisp": 14363,
+            "C#": 7931,
+            "C++": 1656,
+            "Shell": 1041,
+            "Batchfile": 201
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

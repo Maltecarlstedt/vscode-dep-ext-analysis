@@ -1,0 +1,51 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "scp2@0.5.0": {
+      "name": "scp2",
+      "version": "0.5.0",
+      "github": "https://github.com/lepture/node-scp2",
+      "languages": {
+        "JavaScript": 21152,
+        "Makefile": 615
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "ssh2",
+          "version": "0.4.15",
+          "github": "https://github.com/mscdex/ssh2",
+          "languages": {
+            "JavaScript": 758698,
+            "C++": 64172,
+            "C": 2096,
+            "Python": 449,
+            "Batchfile": 41
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "ssh2@0.6.1": {
+      "name": "ssh2",
+      "version": "0.6.1",
+      "github": "https://github.com/mscdex/ssh2",
+      "languages": {
+        "JavaScript": 758698,
+        "C++": 64172,
+        "C": 2096,
+        "Python": 449,
+        "Batchfile": 41
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

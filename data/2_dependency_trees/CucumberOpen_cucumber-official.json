@@ -1,0 +1,552 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@cucumber/language-server@1.6.0": {
+      "name": "@cucumber/language-server",
+      "version": "1.6.0",
+      "github": "https://github.com/cucumber/language-server",
+      "languages": {
+        "TypeScript": 36626,
+        "JavaScript": 777
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@cucumber/gherkin-utils",
+          "version": "9.0.0",
+          "github": "https://github.com/cucumber/gherkin-utils",
+          "languages": {
+            "TypeScript": 70204,
+            "Java": 47847,
+            "JavaScript": 2353,
+            "Shell": 266
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@cucumber/gherkin",
+              "version": "28.0.0",
+              "github": "https://github.com/cucumber/gherkin",
+              "languages": {
+                "C": 512531,
+                "Objective-C": 340338,
+                "C++": 326117,
+                "C#": 286222,
+                "Dart": 281454,
+                "PHP": 261756,
+                "Java": 261170,
+                "Perl": 217628,
+                "Python": 212667,
+                "Elixir": 208733,
+                "TypeScript": 181947,
+                "Go": 169660,
+                "Ruby": 167790,
+                "CMake": 96790,
+                "HTML": 94506,
+                "Makefile": 47678,
+                "Shell": 7977,
+                "jq": 5362,
+                "Gherkin": 2207,
+                "FreeMarker": 1471,
+                "JavaScript": 1009,
+                "Dockerfile": 660
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@cucumber/messages",
+                  "version": "24.1.0",
+                  "github": "https://github.com/cucumber/messages",
+                  "languages": {
+                    "C#": 216381,
+                    "PHP": 206028,
+                    "Java": 177646,
+                    "Ruby": 131698,
+                    "C++": 128149,
+                    "CMake": 89181,
+                    "Perl": 80644,
+                    "Python": 45212,
+                    "HTML": 33927,
+                    "TypeScript": 21530,
+                    "Go": 21455,
+                    "Makefile": 18633,
+                    "Elixir": 8042,
+                    "Dockerfile": 797,
+                    "JavaScript": 330
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@cucumber/messages",
+              "version": "24.1.0",
+              "github": "https://github.com/cucumber/messages",
+              "languages": {
+                "C#": 216381,
+                "PHP": 206028,
+                "Java": 177646,
+                "Ruby": 131698,
+                "C++": 128149,
+                "CMake": 89181,
+                "Perl": 80644,
+                "Python": 45212,
+                "HTML": 33927,
+                "TypeScript": 21530,
+                "Go": 21455,
+                "Makefile": 18633,
+                "Elixir": 8042,
+                "Dockerfile": 797,
+                "JavaScript": 330
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@cucumber/language-service",
+          "version": "1.5.1",
+          "github": "https://github.com/cucumber/language-service",
+          "languages": {
+            "TypeScript": 159518,
+            "JavaScript": 2985
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@cucumber/gherkin",
+              "version": "28.0.0",
+              "github": "https://github.com/cucumber/gherkin",
+              "languages": {
+                "C": 512531,
+                "Objective-C": 340338,
+                "C++": 326117,
+                "C#": 286222,
+                "Dart": 281454,
+                "PHP": 261756,
+                "Java": 261170,
+                "Perl": 217628,
+                "Python": 212667,
+                "Elixir": 208733,
+                "TypeScript": 181947,
+                "Go": 169660,
+                "Ruby": 167790,
+                "CMake": 96790,
+                "HTML": 94506,
+                "Makefile": 47678,
+                "Shell": 7977,
+                "jq": 5362,
+                "Gherkin": 2207,
+                "FreeMarker": 1471,
+                "JavaScript": 1009,
+                "Dockerfile": 660
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "@cucumber/messages",
+              "version": "24.1.0",
+              "github": "https://github.com/cucumber/messages",
+              "languages": {
+                "C#": 216381,
+                "PHP": 206028,
+                "Java": 177646,
+                "Ruby": 131698,
+                "C++": 128149,
+                "CMake": 89181,
+                "Perl": 80644,
+                "Python": 45212,
+                "HTML": 33927,
+                "TypeScript": 21530,
+                "Go": 21455,
+                "Makefile": 18633,
+                "Elixir": 8042,
+                "Dockerfile": 797,
+                "JavaScript": 330
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "tree-sitter-c-sharp",
+              "version": "0.20.0",
+              "github": "https://github.com/tree-sitter/tree-sitter-c-sharp",
+              "languages": {
+                "JavaScript": 51851,
+                "C#": 48156,
+                "C": 14206,
+                "Scheme": 3624,
+                "Shell": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "tree-sitter-cli",
+              "version": "0.20.8",
+              "github": "https://github.com/tree-sitter/tree-sitter",
+              "languages": {
+                "Rust": 1691672,
+                "C": 695534,
+                "TypeScript": 177544,
+                "JavaScript": 27283,
+                "C++": 21420,
+                "HTML": 10823,
+                "Zig": 10125,
+                "Makefile": 7810,
+                "CMake": 6685,
+                "Python": 4610,
+                "Swift": 2613,
+                "Go": 749,
+                "Dockerfile": 127,
+                "RenderScript": 1
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "tree-sitter-go",
+              "version": "0.20.0",
+              "github": "https://github.com/tree-sitter/tree-sitter-go",
+              "languages": {
+                "JavaScript": 23657,
+                "Scheme": 2518
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "tree-sitter-java",
+              "version": "0.20.2",
+              "github": "https://github.com/tree-sitter/tree-sitter-java",
+              "languages": {
+                "JavaScript": 32127,
+                "Scheme": 2563,
+                "Java": 623
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "tree-sitter-php",
+              "version": "0.20.0",
+              "github": "https://github.com/tree-sitter/tree-sitter-php",
+              "languages": {
+                "JavaScript": 45113,
+                "C": 19206,
+                "PHP": 8248,
+                "Tree-sitter Query": 4489,
+                "Makefile": 3127
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "tree-sitter-python",
+              "version": "0.20.4",
+              "github": "https://github.com/tree-sitter/tree-sitter-python",
+              "languages": {
+                "JavaScript": 26758,
+                "C": 15323,
+                "Scheme": 2307,
+                "Python": 1999
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "tree-sitter-ruby",
+              "version": "0.19.0",
+              "github": "https://github.com/tree-sitter/tree-sitter-ruby",
+              "languages": {
+                "C": 37230,
+                "JavaScript": 35462,
+                "Scheme": 4359,
+                "Ruby": 3043
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "tree-sitter-rust",
+              "version": "0.20.1",
+              "github": "https://github.com/tree-sitter/tree-sitter-rust",
+              "languages": {
+                "JavaScript": 38819,
+                "C": 12209,
+                "Tree-sitter Query": 4968
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "tree-sitter-typescript",
+              "version": "0.20.5",
+              "github": "https://github.com/tree-sitter/tree-sitter-typescript",
+              "languages": {
+                "JavaScript": 33827,
+                "C": 11208,
+                "Makefile": 3147,
+                "Scheme": 1192
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "tree-sitter",
+                  "version": "0.20.6",
+                  "github": "https://github.com/tree-sitter/node-tree-sitter",
+                  "languages": {
+                    "JavaScript": 150003,
+                    "C++": 98414,
+                    "Python": 1925
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "tree-sitter",
+              "version": "0.20.6",
+              "github": "https://github.com/tree-sitter/node-tree-sitter",
+              "languages": {
+                "JavaScript": 150003,
+                "C++": 98414,
+                "Python": 1925
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "web-tree-sitter",
+              "version": "0.20.8",
+              "github": "https://github.com/tree-sitter/tree-sitter",
+              "languages": {
+                "Rust": 1691672,
+                "C": 695534,
+                "TypeScript": 177544,
+                "JavaScript": 27283,
+                "C++": 21420,
+                "HTML": 10823,
+                "Zig": 10125,
+                "Makefile": 7810,
+                "CMake": 6685,
+                "Python": 4610,
+                "Swift": 2613,
+                "Go": 749,
+                "Dockerfile": 127,
+                "RenderScript": 1
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

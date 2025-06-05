@@ -1,0 +1,23 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "viz.js@2.1.2": {
+      "name": "viz.js",
+      "version": "2.1.2",
+      "github": "https://github.com/mdaines/viz.js",
+      "languages": {
+        "JavaScript": 74726,
+        "HTML": 28804,
+        "TypeScript": 6357,
+        "C": 4384,
+        "CSS": 4263,
+        "Dockerfile": 1865,
+        "Makefile": 898
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

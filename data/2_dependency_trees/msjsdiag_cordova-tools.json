@@ -1,0 +1,121 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "gulp-mocha@10.0.1": {
+      "name": "gulp-mocha",
+      "version": "10.0.1",
+      "github": "https://github.com/sindresorhus/gulp-mocha",
+      "languages": {
+        "JavaScript": 3597
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "mocha",
+          "version": "10.8.2",
+          "github": "https://github.com/mochajs/mocha",
+          "languages": {
+            "JavaScript": 1137112,
+            "MDX": 98788,
+            "Astro": 30223,
+            "CSS": 11874,
+            "TypeScript": 5152,
+            "HTML": 1033,
+            "CoffeeScript": 328
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "chokidar",
+              "version": "3.5.3",
+              "github": "https://github.com/paulmillr/chokidar",
+              "languages": {
+                "TypeScript": 134725,
+                "JavaScript": 352
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "fsevents",
+                  "version": "unknown",
+                  "github": "https://github.com/fsevents/fsevents",
+                  "languages": {
+                    "C": 12888,
+                    "JavaScript": 11408,
+                    "Python": 716,
+                    "Shell": 438
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "vscode-cdp-proxy@0.2.0": {
+      "name": "vscode-cdp-proxy",
+      "version": "0.2.0",
+      "github": "https://github.com/microsoft/vscode-cdp-proxy",
+      "languages": {
+        "TypeScript": 11928,
+        "JavaScript": 1692
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "ws",
+          "version": "7.5.10",
+          "github": "https://github.com/websockets/ws",
+          "languages": {
+            "JavaScript": 434710
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bufferutil",
+              "version": "unknown",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "unknown",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

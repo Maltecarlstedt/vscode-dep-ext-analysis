@@ -1,0 +1,282 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode/vsce@3.3.2": {
+      "name": "@vscode/vsce",
+      "version": "3.3.2",
+      "github": "https://github.com/Microsoft/vsce",
+      "languages": {
+        "TypeScript": 386167,
+        "Dockerfile": 302,
+        "JavaScript": 57
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@azure/identity",
+          "version": "4.9.1",
+          "github": "https://github.com/Azure/azure-sdk-for-js",
+          "languages": {
+            "TypeScript": 198815724,
+            "JavaScript": 29423847,
+            "PowerShell": 759015,
+            "Bicep": 112441,
+            "Mustache": 15584,
+            "HTML": 12891,
+            "Vue": 8018,
+            "CSS": 6571,
+            "Handlebars": 5345,
+            "SCSS": 4598,
+            "Shell": 2255,
+            "Dockerfile": 1713,
+            "Batchfile": 1224,
+            "Q#": 482
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/msal-browser",
+              "version": "4.11.1",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@azure/msal-common",
+                  "version": "15.5.2",
+                  "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                  "languages": {
+                    "TypeScript": 4083103,
+                    "JavaScript": 49315,
+                    "C++": 3861,
+                    "PowerShell": 2213,
+                    "HTML": 1888,
+                    "C": 199,
+                    "Shell": 76,
+                    "SCSS": 36
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@azure/msal-node",
+              "version": "3.5.2",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@azure/msal-common",
+                  "version": "15.5.2",
+                  "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+                  "languages": {
+                    "TypeScript": 4083103,
+                    "JavaScript": 49315,
+                    "C++": 3861,
+                    "PowerShell": 2213,
+                    "HTML": 1888,
+                    "C": 199,
+                    "Shell": 76,
+                    "SCSS": 36
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "keytar",
+          "version": "7.9.0",
+          "github": "https://github.com/atom/node-keytar",
+          "languages": {
+            "C++": 36552,
+            "JavaScript": 8322,
+            "Python": 2116,
+            "Dockerfile": 1923,
+            "PowerShell": 1480,
+            "Shell": 280
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-addon-api",
+              "version": "4.3.0",
+              "github": "https://github.com/nodejs/node-addon-api",
+              "languages": {
+                "C++": 651642,
+                "JavaScript": 237907,
+                "Python": 14949,
+                "C": 1789
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "vite-node@3.1.2": {
+      "name": "vite-node",
+      "version": "3.1.2",
+      "github": "https://github.com/vitest-dev/vitest",
+      "languages": {
+        "TypeScript": 3212069,
+        "Vue": 80508,
+        "JavaScript": 79002,
+        "CSS": 5315,
+        "HTML": 4023,
+        "Imba": 252,
+        "Less": 39,
+        "SCSS": 23,
+        "Sass": 19
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "es-module-lexer",
+          "version": "1.7.0",
+          "github": "https://github.com/guybedford/es-module-lexer",
+          "languages": {
+            "JavaScript": 1022274,
+            "C": 36497,
+            "TypeScript": 8440
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "vite",
+          "version": "6.3.4",
+          "github": "https://github.com/vitejs/vite",
+          "languages": {
+            "TypeScript": 2064967,
+            "JavaScript": 243243,
+            "HTML": 125743,
+            "CSS": 30519,
+            "Vue": 3535,
+            "AppleScript": 2691,
+            "Svelte": 2510,
+            "SCSS": 2243,
+            "Less": 1176,
+            "Stylus": 531,
+            "SugarSS": 274,
+            "Shell": 244,
+            "Pug": 165,
+            "Sass": 140,
+            "Astro": 114
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "lightningcss",
+              "version": "unknown",
+              "github": "https://github.com/parcel-bundler/lightningcss",
+              "languages": {
+                "Rust": 3089719,
+                "JavaScript": 147697,
+                "HTML": 49309,
+                "CSS": 8691,
+                "C": 7351
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "rollup",
+              "version": "4.40.0",
+              "github": "https://github.com/rollup/rollup",
+              "languages": {
+                "JavaScript": 8290359,
+                "TypeScript": 1114944,
+                "Rust": 204198,
+                "HTML": 5020,
+                "CSS": 37
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "fsevents",
+                  "version": "unknown",
+                  "github": "https://github.com/fsevents/fsevents",
+                  "languages": {
+                    "C": 12888,
+                    "JavaScript": 11408,
+                    "Python": 716,
+                    "Shell": 438
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

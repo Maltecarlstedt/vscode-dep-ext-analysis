@@ -1,0 +1,1095 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@truffle/codec@0.14.9": {
+      "name": "@truffle/codec",
+      "version": "0.14.9",
+      "github": "https://github.com/trufflesuite/truffle",
+      "languages": {
+        "TypeScript": 2858655,
+        "JavaScript": 1753410,
+        "Solidity": 333920,
+        "Shell": 9752,
+        "SCSS": 2217,
+        "HTML": 976,
+        "Vyper": 748,
+        "Yul": 222,
+        "Python": 96
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "web3-utils",
+          "version": "1.7.4",
+          "github": "https://github.com/ethereum/web3.js.git#1.x",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "ethereumjs-util",
+              "version": "7.1.5",
+              "github": "https://github.com/ethereumjs/ethereumjs-monorepo",
+              "languages": {
+                "TypeScript": 6285746,
+                "JavaScript": 67915,
+                "Shell": 25831,
+                "HTML": 13746,
+                "Python": 3782,
+                "Dockerfile": 2598,
+                "Solidity": 366
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "ethereum-cryptography",
+                  "version": "0.1.3",
+                  "github": "https://github.com/ethereum/js-ethereum-cryptography",
+                  "languages": {
+                    "TypeScript": 209219,
+                    "JavaScript": 7280,
+                    "Shell": 739
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "keccak",
+                      "version": "3.0.2",
+                      "github": "https://github.com/cryptocoinjs/keccak",
+                      "languages": {
+                        "C": 100616,
+                        "JavaScript": 37029,
+                        "C++": 25183,
+                        "Makefile": 2233,
+                        "Python": 1956
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "node-addon-api",
+                          "version": "2.0.2",
+                          "github": "https://github.com/nodejs/node-addon-api",
+                          "languages": {
+                            "C++": 651642,
+                            "JavaScript": 237907,
+                            "Python": 14949,
+                            "C": 1789
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "secp256k1",
+                      "version": "4.0.3",
+                      "github": "https://github.com/cryptocoinjs/secp256k1-node",
+                      "languages": {
+                        "JavaScript": 91449,
+                        "C++": 18211,
+                        "Python": 2704,
+                        "Makefile": 2387
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "node-addon-api",
+                          "version": "2.0.2",
+                          "github": "https://github.com/nodejs/node-addon-api",
+                          "languages": {
+                            "C++": 651642,
+                            "JavaScript": 237907,
+                            "Python": 14949,
+                            "C": 1789
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "@truffle/config@1.3.38": {
+      "name": "@truffle/config",
+      "version": "1.3.38",
+      "github": "https://github.com/trufflesuite/truffle",
+      "languages": {
+        "TypeScript": 2858655,
+        "JavaScript": 1753410,
+        "Solidity": 333920,
+        "Shell": 9752,
+        "SCSS": 2217,
+        "HTML": 976,
+        "Vyper": 748,
+        "Yul": 222,
+        "Python": 96
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@truffle/events",
+          "version": "0.1.18",
+          "github": "https://github.com/trufflesuite/truffle",
+          "languages": {
+            "TypeScript": 2858655,
+            "JavaScript": 1753410,
+            "Solidity": 333920,
+            "Shell": 9752,
+            "SCSS": 2217,
+            "HTML": 976,
+            "Vyper": 748,
+            "Yul": 222,
+            "Python": 96
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@truffle/dashboard-message-bus-client",
+              "version": "0.1.8",
+              "github": "https://github.com/trufflesuite/truffle",
+              "languages": {
+                "TypeScript": 2858655,
+                "JavaScript": 1753410,
+                "Solidity": 333920,
+                "Shell": 9752,
+                "SCSS": 2217,
+                "HTML": 976,
+                "Vyper": 748,
+                "Yul": 222,
+                "Python": 96
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "ws",
+                  "version": "7.5.9",
+                  "github": "https://github.com/websockets/ws",
+                  "languages": {
+                    "JavaScript": 434710
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "bufferutil",
+                      "version": "4.0.6",
+                      "github": "https://github.com/websockets/bufferutil",
+                      "languages": {
+                        "C": 3682,
+                        "JavaScript": 2450,
+                        "Python": 848
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "utf-8-validate",
+                      "version": "5.0.9",
+                      "github": "https://github.com/websockets/utf-8-validate",
+                      "languages": {
+                        "JavaScript": 3173,
+                        "Python": 912,
+                        "C++": 899
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "@truffle/environment@0.2.130": {
+      "name": "@truffle/environment",
+      "version": "0.2.130",
+      "github": "https://github.com/trufflesuite/truffle",
+      "languages": {
+        "TypeScript": 2858655,
+        "JavaScript": 1753410,
+        "Solidity": 333920,
+        "Shell": 9752,
+        "SCSS": 2217,
+        "HTML": 976,
+        "Vyper": 748,
+        "Yul": 222,
+        "Python": 96
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@truffle/interface-adapter",
+          "version": "0.5.24",
+          "github": "https://github.com/trufflesuite/truffle",
+          "languages": {
+            "TypeScript": 2858655,
+            "JavaScript": 1753410,
+            "Solidity": 333920,
+            "Shell": 9752,
+            "SCSS": 2217,
+            "HTML": 976,
+            "Vyper": 748,
+            "Yul": 222,
+            "Python": 96
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "ethers",
+              "version": "4.0.49",
+              "github": "https://github.com/ethers-io/ethers.js",
+              "languages": {
+                "TypeScript": 1416650,
+                "JavaScript": 691183,
+                "HTML": 1084,
+                "CSS": 80
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "uuid",
+                  "version": "2.0.1",
+                  "github": "https://github.com/shtylman/node-uuid",
+                  "languages": {
+                    "JavaScript": 15883,
+                    "Gnuplot": 5822,
+                    "Shell": 1101,
+                    "C": 613
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ganache",
+          "version": "7.5.0",
+          "github": "https://github.com/trufflesuite/ganache",
+          "languages": {
+            "TypeScript": 1634922,
+            "Solidity": 138770,
+            "JavaScript": 7096,
+            "Dockerfile": 1059
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@trufflesuite/bigint-buffer",
+              "version": "1.1.10",
+              "github": "https://github.com/trufflesuite/bigint-buffer",
+              "languages": {
+                "TypeScript": 18539,
+                "C": 6281,
+                "JavaScript": 1901,
+                "Python": 111
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "bufferutil",
+              "version": "4.0.5",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "keccak",
+              "version": "3.0.2",
+              "github": "https://github.com/cryptocoinjs/keccak",
+              "languages": {
+                "C": 100616,
+                "JavaScript": 37029,
+                "C++": 25183,
+                "Makefile": 2233,
+                "Python": 1956
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "node-addon-api",
+                  "version": "2.0.2",
+                  "github": "https://github.com/nodejs/node-addon-api",
+                  "languages": {
+                    "C++": 651642,
+                    "JavaScript": 237907,
+                    "Python": 14949,
+                    "C": 1789
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "leveldown",
+              "version": "6.1.0",
+              "github": "https://github.com/Level/leveldown",
+              "languages": {
+                "C++": 54011,
+                "JavaScript": 51581,
+                "Python": 1749
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "napi-macros",
+                  "version": "2.0.0",
+                  "github": "https://github.com/mafintosh/napi-macros",
+                  "languages": {
+                    "C": 8515,
+                    "Python": 166,
+                    "JavaScript": 143
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "secp256k1",
+              "version": "4.0.3",
+              "github": "https://github.com/cryptocoinjs/secp256k1-node",
+              "languages": {
+                "JavaScript": 91449,
+                "C++": 18211,
+                "Python": 2704,
+                "Makefile": 2387
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "node-addon-api",
+                  "version": "2.0.2",
+                  "github": "https://github.com/nodejs/node-addon-api",
+                  "languages": {
+                    "C++": 651642,
+                    "JavaScript": 237907,
+                    "Python": 14949,
+                    "C": 1789
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "5.0.7",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "@truffle/resolver@9.0.23": {
+      "name": "@truffle/resolver",
+      "version": "9.0.23",
+      "github": "https://github.com/trufflesuite/truffle",
+      "languages": {
+        "TypeScript": 2858655,
+        "JavaScript": 1753410,
+        "Solidity": 333920,
+        "Shell": 9752,
+        "SCSS": 2217,
+        "HTML": 976,
+        "Vyper": 748,
+        "Yul": 222,
+        "Python": 96
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@truffle/contract",
+          "version": "4.6.7",
+          "github": "https://github.com/trufflesuite/truffle",
+          "languages": {
+            "TypeScript": 2858655,
+            "JavaScript": 1753410,
+            "Solidity": 333920,
+            "Shell": 9752,
+            "SCSS": 2217,
+            "HTML": 976,
+            "Vyper": 748,
+            "Yul": 222,
+            "Python": 96
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@ensdomains/ensjs",
+              "version": "2.1.0",
+              "github": "https://github.com/ensdomains/ensjs",
+              "languages": {
+                "TypeScript": 709782,
+                "JavaScript": 65291
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "ethers",
+                  "version": "5.7.1",
+                  "github": "https://github.com/ethers-io/ethers.js",
+                  "languages": {
+                    "TypeScript": 1416650,
+                    "JavaScript": 691183,
+                    "HTML": 1084,
+                    "CSS": 80
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@ethersproject/providers",
+                      "version": "5.7.1",
+                      "github": "https://github.com/ethers-io/ethers.js",
+                      "languages": {
+                        "TypeScript": 1416650,
+                        "JavaScript": 691183,
+                        "HTML": 1084,
+                        "CSS": 80
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "ws",
+                          "version": "7.4.6",
+                          "github": "https://github.com/websockets/ws",
+                          "languages": {
+                            "JavaScript": 434710
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "bufferutil",
+                              "version": "4.0.6",
+                              "github": "https://github.com/websockets/bufferutil",
+                              "languages": {
+                                "C": 3682,
+                                "JavaScript": 2450,
+                                "Python": 848
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            },
+                            {
+                              "name": "utf-8-validate",
+                              "version": "5.0.9",
+                              "github": "https://github.com/websockets/utf-8-validate",
+                              "languages": {
+                                "JavaScript": 3173,
+                                "Python": 912,
+                                "C++": 899
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "@truffle/workflow-compile@4.0.36": {
+      "name": "@truffle/workflow-compile",
+      "version": "4.0.36",
+      "github": "https://github.com/trufflesuite/truffle",
+      "languages": {
+        "TypeScript": 2858655,
+        "JavaScript": 1753410,
+        "Solidity": 333920,
+        "Shell": 9752,
+        "SCSS": 2217,
+        "HTML": 976,
+        "Vyper": 748,
+        "Yul": 222,
+        "Python": 96
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@truffle/db-loader",
+          "version": "0.2.1",
+          "github": "https://github.com/trufflesuite/truffle",
+          "languages": {
+            "TypeScript": 2858655,
+            "JavaScript": 1753410,
+            "Solidity": 333920,
+            "Shell": 9752,
+            "SCSS": 2217,
+            "HTML": 976,
+            "Vyper": 748,
+            "Yul": 222,
+            "Python": 96
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@truffle/db",
+              "version": "2.0.1",
+              "github": "https://github.com/trufflesuite/truffle",
+              "languages": {
+                "TypeScript": 2858655,
+                "JavaScript": 1753410,
+                "Solidity": 333920,
+                "Shell": 9752,
+                "SCSS": 2217,
+                "HTML": 976,
+                "Vyper": 748,
+                "Yul": 222,
+                "Python": 96
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "pouchdb",
+                  "version": "7.3.0",
+                  "github": "https://github.com/pouchdb/pouchdb",
+                  "languages": {
+                    "JavaScript": 2383220,
+                    "Shell": 16523,
+                    "HTML": 12314
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "level",
+                      "version": "6.0.1",
+                      "github": "https://github.com/Level/level",
+                      "languages": {
+                        "JavaScript": 513
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "leveldown",
+                          "version": "5.6.0",
+                          "github": "https://github.com/Level/leveldown",
+                          "languages": {
+                            "C++": 54011,
+                            "JavaScript": 51581,
+                            "Python": 1749
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "leveldown",
+                      "version": "5.6.0",
+                      "github": "https://github.com/Level/leveldown",
+                      "languages": {
+                        "C++": 54011,
+                        "JavaScript": 51581,
+                        "Python": 1749
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "napi-macros",
+                          "version": "2.0.0",
+                          "github": "https://github.com/mafintosh/napi-macros",
+                          "languages": {
+                            "C": 8515,
+                            "Python": 166,
+                            "JavaScript": 143
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "hdkey@1.1.2": {
+      "name": "hdkey",
+      "version": "1.1.2",
+      "github": "https://github.com/cryptocoinjs/hdkey",
+      "languages": {
+        "JavaScript": 21646
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "secp256k1",
+          "version": "3.8.0",
+          "github": "https://github.com/cryptocoinjs/secp256k1-node",
+          "languages": {
+            "JavaScript": 91449,
+            "C++": 18211,
+            "Python": 2704,
+            "Makefile": 2387
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "drbg.js",
+              "version": "1.0.1",
+              "github": "https://github.com/cryptocoinjs/drbg.js",
+              "languages": {
+                "JavaScript": 18743
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "browserify-aes",
+                  "version": "1.2.0",
+                  "github": "https://github.com/crypto-browserify/browserify-aes",
+                  "languages": {
+                    "JavaScript": 50689
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "evp_bytestokey",
+                      "version": "1.0.3",
+                      "github": "https://github.com/crypto-browserify/EVP_BytesToKey",
+                      "languages": {
+                        "JavaScript": 2818,
+                        "C++": 2346,
+                        "Python": 723
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "nan",
+              "version": "2.15.0",
+              "github": "https://github.com/nodejs/nan",
+              "languages": {
+                "C++": 364456,
+                "JavaScript": 71197,
+                "C": 6937,
+                "Python": 5058,
+                "CMake": 4239,
+                "Makefile": 3564
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "request@2.88.2": {
+      "name": "request",
+      "version": "2.88.2",
+      "github": "https://github.com/request/request",
+      "languages": {
+        "JavaScript": 305377,
+        "Shell": 3006
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "http-signature",
+          "version": "1.2.0",
+          "github": "https://github.com/joyent/node-http-signature",
+          "languages": {
+            "JavaScript": 95746,
+            "Makefile": 13276,
+            "Emacs Lisp": 178
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "sshpk",
+              "version": "1.17.0",
+              "github": "https://github.com/joyent/node-sshpk",
+              "languages": {
+                "JavaScript": 302105,
+                "Makefile": 15447
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bcrypt-pbkdf",
+                  "version": "1.0.2",
+                  "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                  "languages": {
+                    "JavaScript": 23230
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "tweetnacl",
+                      "version": "0.14.5",
+                      "github": "https://github.com/dchest/tweetnacl-js",
+                      "languages": {
+                        "JavaScript": 2964046,
+                        "C": 45485,
+                        "Go": 3796,
+                        "HTML": 1898,
+                        "Makefile": 716
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "tweetnacl",
+                  "version": "0.14.5",
+                  "github": "https://github.com/dchest/tweetnacl-js",
+                  "languages": {
+                    "JavaScript": 2964046,
+                    "C": 45485,
+                    "Go": 3796,
+                    "HTML": 1898,
+                    "Makefile": 716
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "web3@1.7.4": {
+      "name": "web3",
+      "version": "1.7.4",
+      "github": "https://github.com/ethereum/web3.js",
+      "languages": {
+        "TypeScript": 3939635,
+        "JavaScript": 133707,
+        "Shell": 15732,
+        "Solidity": 6761,
+        "HTML": 3046
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "web3-core",
+          "version": "1.7.4",
+          "github": "https://github.com/ethereum/web3.js.git#1.x",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "web3-core-requestmanager",
+              "version": "1.7.4",
+              "github": "https://github.com/ethereum/web3.js.git#1.x",
+              "languages": {},
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "web3-providers-ws",
+                  "version": "1.7.4",
+                  "github": "https://github.com/ethereum/web3.js.git#1.x",
+                  "languages": {},
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "websocket",
+                      "version": "1.0.34",
+                      "github": "https://github.com/theturtle32/WebSocket-Node",
+                      "languages": {
+                        "JavaScript": 159059,
+                        "HTML": 9023,
+                        "EJS": 1936,
+                        "CSS": 896,
+                        "Shell": 297,
+                        "Makefile": 148
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bufferutil",
+                          "version": "4.0.6",
+                          "github": "https://github.com/websockets/bufferutil",
+                          "languages": {
+                            "C": 3682,
+                            "JavaScript": 2450,
+                            "Python": 848
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        },
+                        {
+                          "name": "utf-8-validate",
+                          "version": "5.0.9",
+                          "github": "https://github.com/websockets/utf-8-validate",
+                          "languages": {
+                            "JavaScript": 3173,
+                            "Python": 912,
+                            "C++": 899
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "web3-eth",
+          "version": "1.7.4",
+          "github": "https://github.com/ethereum/web3.js.git#1.x",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "web3-eth-accounts",
+              "version": "1.7.4",
+              "github": "https://github.com/ethereum/web3.js.git#1.x",
+              "languages": {},
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "crypto-browserify",
+                  "version": "3.12.0",
+                  "github": "https://github.com/crypto-browserify/crypto-browserify",
+                  "languages": {},
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "browserify-cipher",
+                      "version": "1.0.1",
+                      "github": "https://github.com/crypto-browserify/browserify-cipher",
+                      "languages": {
+                        "JavaScript": 4217
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "evp_bytestokey",
+                          "version": "1.0.3",
+                          "github": "https://github.com/crypto-browserify/EVP_BytesToKey",
+                          "languages": {
+                            "JavaScript": 2818,
+                            "C++": 2346,
+                            "Python": 723
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "browserify-sign",
+                      "version": "4.2.1",
+                      "github": "https://github.com/crypto-browserify/browserify-sign",
+                      "languages": {
+                        "JavaScript": 15908
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "parse-asn1",
+                          "version": "5.1.6",
+                          "github": "https://github.com/crypto-browserify/parse-asn1",
+                          "languages": {
+                            "JavaScript": 13586
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "evp_bytestokey",
+                              "version": "1.0.3",
+                              "github": "https://github.com/crypto-browserify/EVP_BytesToKey",
+                              "languages": {
+                                "JavaScript": 2818,
+                                "C++": 2346,
+                                "Python": 723
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

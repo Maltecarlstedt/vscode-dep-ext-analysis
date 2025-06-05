@@ -1,0 +1,108 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "md-to-pdf@5.0.0": {
+      "name": "md-to-pdf",
+      "version": "5.0.0",
+      "github": "https://github.com/simonhaenisch/md-to-pdf",
+      "languages": {
+        "TypeScript": 30107,
+        "JavaScript": 6268,
+        "CSS": 1619
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "3.5.2",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "puppeteer",
+          "version": "13.5.1",
+          "github": "https://github.com/puppeteer/puppeteer",
+          "languages": {
+            "TypeScript": 2397943,
+            "JavaScript": 137983,
+            "HTML": 29750,
+            "CSS": 6052,
+            "Dockerfile": 1734,
+            "Shell": 520
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "ws",
+              "version": "8.5.0",
+              "github": "https://github.com/websockets/ws",
+              "languages": {
+                "JavaScript": 434710
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bufferutil",
+                  "version": "unknown",
+                  "github": "https://github.com/websockets/bufferutil",
+                  "languages": {
+                    "C": 3682,
+                    "JavaScript": 2450,
+                    "Python": 848
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "utf-8-validate",
+                  "version": "unknown",
+                  "github": "https://github.com/websockets/utf-8-validate",
+                  "languages": {
+                    "JavaScript": 3173,
+                    "Python": 912,
+                    "C++": 899
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

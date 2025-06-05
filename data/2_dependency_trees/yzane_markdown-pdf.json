@@ -1,0 +1,128 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "cheerio@0.20.0": {
+      "name": "cheerio",
+      "version": "0.20.0",
+      "github": "https://github.com/cheeriojs/cheerio",
+      "languages": {
+        "TypeScript": 425230,
+        "HTML": 135114,
+        "JavaScript": 7072,
+        "CSS": 2449,
+        "MDX": 523
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "jsdom",
+          "version": "7.2.2",
+          "github": "https://github.com/tmpvar/jsdom",
+          "languages": {
+            "JavaScript": 2834567,
+            "HTML": 665280,
+            "Roff": 253386,
+            "WebIDL": 128392,
+            "CSS": 54517,
+            "Python": 1426
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "request",
+              "version": "2.88.2",
+              "github": "https://github.com/request/request",
+              "languages": {
+                "JavaScript": 305377,
+                "Shell": 3006
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "http-signature",
+                  "version": "1.2.0",
+                  "github": "https://github.com/joyent/node-http-signature",
+                  "languages": {
+                    "JavaScript": 95746,
+                    "Makefile": 13276,
+                    "Emacs Lisp": 178
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "sshpk",
+                      "version": "1.16.1",
+                      "github": "https://github.com/joyent/node-sshpk",
+                      "languages": {
+                        "JavaScript": 302105,
+                        "Makefile": 15447
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bcrypt-pbkdf",
+                          "version": "1.0.2",
+                          "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                          "languages": {
+                            "JavaScript": 23230
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "tweetnacl",
+                              "version": "0.14.5",
+                              "github": "https://github.com/dchest/tweetnacl-js",
+                              "languages": {
+                                "JavaScript": 2964046,
+                                "C": 45485,
+                                "Go": 3796,
+                                "HTML": 1898,
+                                "Makefile": 716
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "tweetnacl",
+                          "version": "0.14.5",
+                          "github": "https://github.com/dchest/tweetnacl-js",
+                          "languages": {
+                            "JavaScript": 2964046,
+                            "C": 45485,
+                            "Go": 3796,
+                            "HTML": 1898,
+                            "Makefile": 716
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

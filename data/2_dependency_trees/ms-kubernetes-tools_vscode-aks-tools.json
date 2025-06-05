@@ -1,0 +1,109 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@azure/identity@4.6.0": {
+      "name": "@azure/identity",
+      "version": "4.6.0",
+      "github": "https://github.com/Azure/azure-sdk-for-js",
+      "languages": {
+        "TypeScript": 198815724,
+        "JavaScript": 29423847,
+        "PowerShell": 759015,
+        "Bicep": 112441,
+        "Mustache": 15584,
+        "HTML": 12891,
+        "Vue": 8018,
+        "CSS": 6571,
+        "Handlebars": 5345,
+        "SCSS": 4598,
+        "Shell": 2255,
+        "Dockerfile": 1713,
+        "Batchfile": 1224,
+        "Q#": 482
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@azure/msal-browser",
+          "version": "4.2.1",
+          "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+          "languages": {
+            "TypeScript": 4083103,
+            "JavaScript": 49315,
+            "C++": 3861,
+            "PowerShell": 2213,
+            "HTML": 1888,
+            "C": 199,
+            "Shell": 76,
+            "SCSS": 36
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/msal-common",
+              "version": "15.1.1",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@azure/msal-node",
+          "version": "2.16.2",
+          "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+          "languages": {
+            "TypeScript": 4083103,
+            "JavaScript": 49315,
+            "C++": 3861,
+            "PowerShell": 2213,
+            "HTML": 1888,
+            "C": 199,
+            "Shell": 76,
+            "SCSS": 36
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/msal-common",
+              "version": "14.16.0",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

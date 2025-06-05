@@ -1,0 +1,150 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "cesium@1.120.0": {
+      "name": "cesium",
+      "version": "1.120.0",
+      "github": "https://github.com/CesiumGS/cesium",
+      "languages": {
+        "JavaScript": 22372151,
+        "HTML": 1947378,
+        "GLSL": 531446,
+        "CSS": 55659,
+        "TypeScript": 11079,
+        "Python": 4899
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@cesium/engine",
+          "version": "10.1.0",
+          "github": "https://github.com/CesiumGS/cesium",
+          "languages": {
+            "JavaScript": 22372151,
+            "HTML": 1947378,
+            "GLSL": 531446,
+            "CSS": 55659,
+            "TypeScript": 11079,
+            "Python": 4899
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "draco3d",
+              "version": "1.5.7",
+              "github": "https://github.com/google/draco",
+              "languages": {
+                "C++": 2859286,
+                "CMake": 149807,
+                "JavaScript": 40712,
+                "Python": 19809,
+                "C#": 17835,
+                "HTML": 16405,
+                "Shell": 1162,
+                "C": 1142
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "lerc",
+              "version": "2.0.0",
+              "github": "https://github.com/Esri/lerc",
+              "languages": {
+                "C++": 368677,
+                "C#": 44863,
+                "Python": 43106,
+                "C": 28469,
+                "TypeScript": 17862,
+                "HTML": 14253,
+                "JavaScript": 5982,
+                "CMake": 1940
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "meshoptimizer",
+              "version": "0.21.0",
+              "github": "https://github.com/zeux/meshoptimizer",
+              "languages": {
+                "C++": 734885,
+                "JavaScript": 204439,
+                "Makefile": 9383,
+                "CMake": 5907,
+                "Python": 4290
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "draco3dgltf@1.5.7": {
+      "name": "draco3dgltf",
+      "version": "1.5.7",
+      "github": "https://github.com/google/draco",
+      "languages": {
+        "C++": 2859286,
+        "CMake": 149807,
+        "JavaScript": 40712,
+        "Python": 19809,
+        "C#": 17835,
+        "HTML": 16405,
+        "Shell": 1162,
+        "C": 1142
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "filament@1.53.1": {
+      "name": "filament",
+      "version": "1.53.1",
+      "github": "https://github.com/google/filament",
+      "languages": {
+        "C++": 11183682,
+        "Assembly": 2835574,
+        "C": 2002470,
+        "Java": 857930,
+        "Kotlin": 439097,
+        "HTML": 428418,
+        "Objective-C++": 384289,
+        "GLSL": 276589,
+        "CMake": 237321,
+        "JavaScript": 132860,
+        "Python": 132680,
+        "Shell": 93368,
+        "Go": 61174,
+        "Objective-C": 54323,
+        "CSS": 30394,
+        "Handlebars": 14509,
+        "Groovy": 12422,
+        "Ruby": 4436,
+        "Batchfile": 4120,
+        "TypeScript": 3293,
+        "Emacs Lisp": 2984,
+        "Tcl": 2447,
+        "RenderScript": 1769,
+        "C#": 1099,
+        "Dockerfile": 820
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

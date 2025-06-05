@@ -1,0 +1,54 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "bunyan@1.8.15": {
+      "name": "bunyan",
+      "version": "1.8.15",
+      "github": "https://github.com/trentm/node-bunyan",
+      "languages": {
+        "JavaScript": 194127,
+        "Perl": 24945,
+        "Python": 22095,
+        "Makefile": 3981
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "dtrace-provider",
+          "version": "0.8.8",
+          "github": "https://github.com/chrisa/node-dtrace-provider",
+          "languages": {
+            "JavaScript": 29171,
+            "C++": 14245,
+            "Python": 2584,
+            "Shell": 2335
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "nan",
+              "version": "2.22.2",
+              "github": "https://github.com/nodejs/nan",
+              "languages": {
+                "C++": 364456,
+                "JavaScript": 71197,
+                "C": 6937,
+                "Python": 5058,
+                "CMake": 4239,
+                "Makefile": 3564
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

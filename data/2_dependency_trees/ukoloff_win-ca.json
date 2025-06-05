@@ -1,0 +1,22 @@
+{
+  "ext_native": true,
+  "dependencies": {
+    "node-forge@1.3.1": {
+      "name": "node-forge",
+      "version": "1.3.1",
+      "github": "https://github.com/digitalbazaar/forge",
+      "languages": {
+        "JavaScript": 1642997,
+        "HTML": 73308,
+        "ActionScript": 25864,
+        "C": 13441,
+        "Python": 3547,
+        "CSS": 1244
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

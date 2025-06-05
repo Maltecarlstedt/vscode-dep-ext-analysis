@@ -1,0 +1,107 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "node-forge@1.3.1": {
+      "name": "node-forge",
+      "version": "1.3.1",
+      "github": "https://github.com/digitalbazaar/forge",
+      "languages": {
+        "JavaScript": 1642997,
+        "HTML": 73308,
+        "ActionScript": 25864,
+        "C": 13441,
+        "Python": 3547,
+        "CSS": 1244
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "proxy-agent@6.4.0": {
+      "name": "proxy-agent",
+      "version": "6.4.0",
+      "github": "https://github.com/TooTallNate/proxy-agents",
+      "languages": {
+        "TypeScript": 218188,
+        "JavaScript": 15003
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "pac-proxy-agent",
+          "version": "7.0.1",
+          "github": "https://github.com/TooTallNate/proxy-agents",
+          "languages": {
+            "TypeScript": 218188,
+            "JavaScript": 15003
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@tootallnate/quickjs-emscripten",
+              "version": "0.23.0",
+              "github": "https://github.com/justjake/quickjs-emscripten",
+              "languages": {
+                "TypeScript": 677729,
+                "Makefile": 143764,
+                "C": 40130,
+                "JavaScript": 7986,
+                "Shell": 1186
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "ws@8.18.1": {
+      "name": "ws",
+      "version": "8.18.1",
+      "github": "https://github.com/websockets/ws",
+      "languages": {
+        "JavaScript": 434710
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bufferutil",
+          "version": "4.0.9",
+          "github": "https://github.com/websockets/bufferutil",
+          "languages": {
+            "C": 3682,
+            "JavaScript": 2450,
+            "Python": 848
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "utf-8-validate",
+          "version": "6.0.5",
+          "github": "https://github.com/websockets/utf-8-validate",
+          "languages": {
+            "JavaScript": 3173,
+            "Python": 912,
+            "C++": 899
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

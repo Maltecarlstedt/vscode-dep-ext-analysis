@@ -1,0 +1,59 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@types/jest@29.5.12": {
+      "name": "@types/jest",
+      "version": "29.5.12",
+      "github": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "languages": {
+        "TypeScript": 36729962,
+        "JavaScript": 57420,
+        "Shell": 2523
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "pretty-format",
+          "version": "29.7.0",
+          "github": "https://github.com/jestjs/jest",
+          "languages": {
+            "TypeScript": 3539240,
+            "JavaScript": 911724,
+            "CSS": 25056,
+            "Prolog": 3500,
+            "Shell": 404,
+            "Handlebars": 260
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-is",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

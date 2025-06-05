@@ -1,0 +1,166 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "fsevents@unknown": {
+      "name": "fsevents",
+      "version": "unknown",
+      "github": "https://github.com/fsevents/fsevents",
+      "languages": {
+        "C": 12888,
+        "JavaScript": 11408,
+        "Python": 716,
+        "Shell": 438
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "language-server-ruby@0.28.1": {
+      "name": "language-server-ruby",
+      "version": "0.28.1",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "web-tree-sitter",
+          "version": "0.20.2",
+          "github": "https://github.com/tree-sitter/tree-sitter",
+          "languages": {
+            "Rust": 1691672,
+            "C": 695534,
+            "TypeScript": 177544,
+            "JavaScript": 27283,
+            "C++": 21420,
+            "HTML": 10823,
+            "Zig": 10125,
+            "Makefile": 7810,
+            "CMake": 6685,
+            "Python": 4610,
+            "Swift": 2613,
+            "Go": 749,
+            "Dockerfile": 127,
+            "RenderScript": 1
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "nan@unknown": {
+      "name": "nan",
+      "version": "unknown",
+      "github": "https://github.com/nodejs/nan",
+      "languages": {
+        "C++": 364456,
+        "JavaScript": 71197,
+        "C": 6937,
+        "Python": 5058,
+        "CMake": 4239,
+        "Makefile": 3564
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "node-gyp@unknown": {
+      "name": "node-gyp",
+      "version": "unknown",
+      "github": "https://github.com/nodejs/node-gyp",
+      "languages": {
+        "Python": 1524276,
+        "JavaScript": 188336,
+        "Emacs Lisp": 14363,
+        "C#": 7931,
+        "C++": 1656,
+        "Shell": 1041,
+        "Batchfile": 201
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "tweetnacl@unknown": {
+      "name": "tweetnacl",
+      "version": "unknown",
+      "github": "https://github.com/dchest/tweetnacl-js",
+      "languages": {
+        "JavaScript": 2964046,
+        "C": 45485,
+        "Go": 3796,
+        "HTML": 1898,
+        "Makefile": 716
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "vscode-oniguruma@unknown": {
+      "name": "vscode-oniguruma",
+      "version": "unknown",
+      "github": "https://github.com/microsoft/vscode-oniguruma",
+      "languages": {
+        "TypeScript": 31649,
+        "JavaScript": 25031,
+        "C++": 11655,
+        "Dockerfile": 765,
+        "Shell": 754
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "vscode-textmate@unknown": {
+      "name": "vscode-textmate",
+      "version": "unknown",
+      "github": "https://github.com/microsoft/vscode-textmate",
+      "languages": {
+        "TypeScript": 223821,
+        "JavaScript": 6234,
+        "SCSS": 6030,
+        "Groovy": 3928,
+        "CSS": 3257,
+        "HTML": 2518,
+        "Python": 2119,
+        "Perl": 1922,
+        "Ruby": 1703,
+        "PowerShell": 1432,
+        "Objective-C": 1387,
+        "Go": 1226,
+        "Clojure": 1206,
+        "Handlebars": 1064,
+        "Less": 1014,
+        "C++": 1000,
+        "Visual Basic .NET": 893,
+        "C": 818,
+        "PHP": 802,
+        "F#": 634,
+        "Shell": 634,
+        "CoffeeScript": 590,
+        "Java": 576,
+        "Makefile": 553,
+        "Rust": 532,
+        "Batchfile": 488,
+        "Dockerfile": 425,
+        "R": 362,
+        "ShaderLab": 330,
+        "Lua": 252,
+        "Swift": 220,
+        "Pug": 22
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

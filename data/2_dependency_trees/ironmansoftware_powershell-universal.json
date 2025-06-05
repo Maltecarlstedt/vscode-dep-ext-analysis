@@ -1,0 +1,77 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@microsoft/signalr@8.0.7": {
+      "name": "@microsoft/signalr",
+      "version": "8.0.7",
+      "github": "https://github.com/dotnet/aspnetcore",
+      "languages": {
+        "C#": 59730790,
+        "HTML": 1620671,
+        "C++": 1244944,
+        "TypeScript": 1158367,
+        "Java": 562991,
+        "PowerShell": 317919,
+        "Shell": 180602,
+        "JavaScript": 161998,
+        "C": 124045,
+        "CSS": 98112,
+        "Batchfile": 25739,
+        "CMake": 14853,
+        "Python": 13176,
+        "F#": 6234,
+        "Lua": 4904,
+        "Dockerfile": 423,
+        "ASP.NET": 109,
+        "Less": 12,
+        "SCSS": 12
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "ws",
+          "version": "7.5.6",
+          "github": "https://github.com/websockets/ws",
+          "languages": {
+            "JavaScript": 434710
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bufferutil",
+              "version": "unknown",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "unknown",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@aws-sdk/client-s3@3.306.0": {
+      "name": "@aws-sdk/client-s3",
+      "version": "3.306.0",
+      "github": "https://github.com/aws/aws-sdk-js-v3",
+      "languages": {
+        "TypeScript": 254502107,
+        "Java": 582632,
+        "JavaScript": 260885,
+        "Gherkin": 39106,
+        "Smithy": 4879,
+        "Objective-C": 4129,
+        "Makefile": 3152,
+        "Ruby": 2260,
+        "Starlark": 602,
+        "Handlebars": 393,
+        "Shell": 181
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@aws-sdk/util-user-agent-node",
+          "version": "3.306.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "aws-crt",
+              "version": "unknown",
+              "github": "https://github.com/awslabs/aws-crt-nodejs",
+              "languages": {
+                "TypeScript": 1121074,
+                "C": 699141,
+                "Python": 91310,
+                "JavaScript": 27092,
+                "Shell": 5595,
+                "CMake": 3710,
+                "HTML": 524,
+                "Batchfile": 93
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "@azure/identity@4.0.1": {
+      "name": "@azure/identity",
+      "version": "4.0.1",
+      "github": "https://github.com/Azure/azure-sdk-for-js",
+      "languages": {
+        "TypeScript": 198815767,
+        "JavaScript": 29423847,
+        "PowerShell": 759015,
+        "Bicep": 112441,
+        "Mustache": 15584,
+        "HTML": 12891,
+        "Vue": 8018,
+        "CSS": 6571,
+        "Handlebars": 5345,
+        "SCSS": 4598,
+        "Shell": 2255,
+        "Dockerfile": 1713,
+        "Batchfile": 1224,
+        "Q#": 482
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@azure/msal-browser",
+          "version": "3.10.0",
+          "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+          "languages": {
+            "TypeScript": 4083103,
+            "JavaScript": 49315,
+            "C++": 3861,
+            "PowerShell": 2213,
+            "HTML": 1888,
+            "C": 199,
+            "Shell": 76,
+            "SCSS": 36
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/msal-common",
+              "version": "14.7.1",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@azure/msal-node",
+          "version": "2.6.4",
+          "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+          "languages": {
+            "TypeScript": 4083103,
+            "JavaScript": 49315,
+            "C++": 3861,
+            "PowerShell": 2213,
+            "HTML": 1888,
+            "C": 199,
+            "Shell": 76,
+            "SCSS": 36
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@azure/msal-common",
+              "version": "14.7.1",
+              "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+              "languages": {
+                "TypeScript": 4083103,
+                "JavaScript": 49315,
+                "C++": 3861,
+                "PowerShell": 2213,
+                "HTML": 1888,
+                "C": 199,
+                "Shell": 76,
+                "SCSS": 36
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "ssh2-sftp-client@9.0.4": {
+      "name": "ssh2-sftp-client",
+      "version": "9.0.4",
+      "github": "https://github.com/theophilusx/ssh2-sftp-client",
+      "languages": {
+        "JavaScript": 223895
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "ssh2",
+          "version": "1.11.0",
+          "github": "https://github.com/mscdex/ssh2",
+          "languages": {
+            "JavaScript": 758698,
+            "C++": 64172,
+            "C": 2096,
+            "Python": 449,
+            "Batchfile": 41
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bcrypt-pbkdf",
+              "version": "1.0.2",
+              "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+              "languages": {
+                "JavaScript": 23230
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "tweetnacl",
+                  "version": "0.14.5",
+                  "github": "https://github.com/dchest/tweetnacl-js",
+                  "languages": {
+                    "JavaScript": 2964046,
+                    "C": 45485,
+                    "Go": 3796,
+                    "HTML": 1898,
+                    "Makefile": 716
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "cpu-features",
+              "version": "0.0.5",
+              "github": "https://github.com/mscdex/cpu-features",
+              "languages": {
+                "C++": 5201,
+                "JavaScript": 1265,
+                "Python": 320
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.17.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "nan",
+              "version": "2.17.0",
+              "github": "https://github.com/nodejs/nan",
+              "languages": {
+                "C++": 364456,
+                "JavaScript": 71197,
+                "C": 6937,
+                "Python": 5058,
+                "CMake": 4239,
+                "Makefile": 3564
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "dom-to-image-more@2.12.0": {
+      "name": "dom-to-image-more",
+      "version": "2.12.0",
+      "github": "https://github.com/1904labs/dom-to-image-more",
+      "languages": {
+        "JavaScript": 1265356,
+        "C++": 358694,
+        "HTML": 32046,
+        "CSS": 14684,
+        "C": 5860,
+        "Makefile": 5532,
+        "Shell": 5308,
+        "Roff": 2897
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

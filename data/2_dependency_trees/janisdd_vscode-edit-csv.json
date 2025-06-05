@@ -1,0 +1,78 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode/webview-ui-toolkit@1.0.0": {
+      "name": "@vscode/webview-ui-toolkit",
+      "version": "1.0.0",
+      "github": "https://github.com/microsoft/vscode-webview-ui-toolkit",
+      "languages": {
+        "TypeScript": 81721,
+        "JavaScript": 13921
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@microsoft/fast-react-wrapper",
+          "version": "0.1.48",
+          "github": "https://github.com/Microsoft/fast",
+          "languages": {
+            "TypeScript": 1419078,
+            "MDX": 365569,
+            "JavaScript": 66184,
+            "HTML": 47349,
+            "CSS": 11482
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

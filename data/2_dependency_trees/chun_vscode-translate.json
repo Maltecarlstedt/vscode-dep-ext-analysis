@@ -1,0 +1,44 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "google-translate-api-cn@1.0.1": {
+      "name": "google-translate-api-cn",
+      "version": "1.0.1",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "configstore",
+          "version": "2.1.0",
+          "github": "https://github.com/yeoman/configstore",
+          "languages": {
+            "JavaScript": 6368
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "uuid",
+              "version": "2.0.3",
+              "github": "https://github.com/defunctzombie/node-uuid",
+              "languages": {
+                "JavaScript": 15883,
+                "Gnuplot": 5822,
+                "Shell": 1101,
+                "C": 613
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

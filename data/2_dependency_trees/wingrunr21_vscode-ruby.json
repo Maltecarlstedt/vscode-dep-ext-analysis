@@ -1,0 +1,41 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "language-server-ruby@0.28.1": {
+      "name": "language-server-ruby",
+      "version": "0.28.1",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "web-tree-sitter",
+          "version": "0.20.2",
+          "github": "https://github.com/tree-sitter/tree-sitter",
+          "languages": {
+            "Rust": 1691672,
+            "C": 695534,
+            "TypeScript": 177544,
+            "JavaScript": 27283,
+            "C++": 21420,
+            "HTML": 10823,
+            "Zig": 10125,
+            "Makefile": 7810,
+            "CMake": 6685,
+            "Python": 4610,
+            "Swift": 2613,
+            "Go": 749,
+            "Dockerfile": 127,
+            "RenderScript": 1
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "flatgeobuf@3.24.1": {
+      "name": "flatgeobuf",
+      "version": "3.24.1",
+      "github": "https://github.com/flatgeobuf/flatgeobuf",
+      "languages": {
+        "Rust": 334781,
+        "TypeScript": 164038,
+        "C#": 147748,
+        "C++": 97654,
+        "Java": 95148,
+        "Go": 51052,
+        "Shell": 2655,
+        "JavaScript": 2411,
+        "HTML": 1652,
+        "Makefile": 949,
+        "CSS": 87
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "flatbuffers",
+          "version": "22.10.26",
+          "github": "https://github.com/google/flatbuffers",
+          "languages": {
+            "C++": 3978614,
+            "Rust": 1305380,
+            "Python": 719777,
+            "Swift": 685648,
+            "Java": 622914,
+            "C#": 595501,
+            "JavaScript": 563679,
+            "Kotlin": 450038,
+            "Dart": 407525,
+            "TypeScript": 363551,
+            "PHP": 189050,
+            "Go": 148114,
+            "Nim": 98057,
+            "Lua": 97503,
+            "CMake": 64821,
+            "Starlark": 44415,
+            "Shell": 28043,
+            "Batchfile": 2105,
+            "C": 1364,
+            "Ruby": 1000,
+            "Roff": 648,
+            "Makefile": 481
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "ol",
+          "version": "7.2.2",
+          "github": "https://github.com/openlayers/openlayers",
+          "languages": {
+            "JavaScript": 6447858,
+            "CSS": 30401,
+            "Handlebars": 16554,
+            "Shell": 5827,
+            "TypeScript": 5520,
+            "HTML": 3218
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "geotiff",
+              "version": "2.0.7",
+              "github": "https://github.com/geotiffjs/geotiff.js",
+              "languages": {
+                "JavaScript": 241262,
+                "Shell": 6436,
+                "HTML": 236,
+                "Dockerfile": 59
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "lerc",
+                  "version": "3.0.0",
+                  "github": "https://github.com/Esri/lerc",
+                  "languages": {
+                    "C++": 368677,
+                    "C#": 44863,
+                    "Python": 43106,
+                    "C": 28469,
+                    "TypeScript": 17862,
+                    "HTML": 14253,
+                    "JavaScript": 5982,
+                    "CMake": 1940
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

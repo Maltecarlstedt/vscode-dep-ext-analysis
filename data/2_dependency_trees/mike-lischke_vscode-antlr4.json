@@ -1,0 +1,26 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "antlr4-c3@3.4.1": {
+      "name": "antlr4-c3",
+      "version": "3.4.1",
+      "github": "https://github.com/mike-lischke/antlr4-c3",
+      "languages": {
+        "TypeScript": 144268,
+        "C++": 86017,
+        "Dart": 44932,
+        "C#": 43645,
+        "Java": 40596,
+        "ANTLR": 32393,
+        "CMake": 10297,
+        "JavaScript": 9847,
+        "Shell": 800,
+        "Batchfile": 58
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

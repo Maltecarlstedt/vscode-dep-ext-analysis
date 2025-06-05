@@ -1,0 +1,40 @@
+{
+  "ext_native": true,
+  "dependencies": {
+    "nan@2.19.0": {
+      "name": "nan",
+      "version": "2.19.0",
+      "github": "https://github.com/nodejs/nan",
+      "languages": {
+        "C++": 364456,
+        "JavaScript": 71197,
+        "C": 6937,
+        "Python": 5058,
+        "CMake": 4239,
+        "Makefile": 3564
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "node-gyp@10.1.0": {
+      "name": "node-gyp",
+      "version": "10.1.0",
+      "github": "https://github.com/nodejs/node-gyp",
+      "languages": {
+        "Python": 1524276,
+        "JavaScript": 188336,
+        "Emacs Lisp": 14363,
+        "C#": 7931,
+        "C++": 1656,
+        "Shell": 1041,
+        "Batchfile": 201
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

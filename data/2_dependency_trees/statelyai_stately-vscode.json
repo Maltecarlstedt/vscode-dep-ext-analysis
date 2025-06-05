@@ -1,0 +1,532 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@preconstruct/cli@2.8.1": {
+      "name": "@preconstruct/cli",
+      "version": "2.8.1",
+      "github": "https://github.com/preconstruct/preconstruct.git#main",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "rollup",
+          "version": "2.79.1",
+          "github": "https://github.com/rollup/rollup",
+          "languages": {
+            "JavaScript": 8291026,
+            "TypeScript": 1115393,
+            "Rust": 204198,
+            "HTML": 5020,
+            "CSS": 37
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "@xstate/cli@0.5.17": {
+      "name": "@xstate/cli",
+      "version": "0.5.17",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "3.5.3",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "bser@unknown": {
+      "name": "bser",
+      "version": "unknown",
+      "github": "https://github.com/facebook/watchman",
+      "languages": {
+        "C++": 1400922,
+        "Python": 898662,
+        "Rust": 239936,
+        "Java": 152490,
+        "CMake": 121909,
+        "Thrift": 106460,
+        "C": 68154,
+        "JavaScript": 53008,
+        "Ruby": 16953,
+        "Shell": 8758,
+        "CSS": 5325,
+        "Dockerfile": 1604,
+        "Starlark": 1322,
+        "Batchfile": 366
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "cjs-module-lexer@unknown": {
+      "name": "cjs-module-lexer",
+      "version": "unknown",
+      "github": "https://github.com/nodejs/cjs-module-lexer",
+      "languages": {
+        "JavaScript": 786463,
+        "WebAssembly": 251477,
+        "C": 76440,
+        "Makefile": 1321,
+        "TypeScript": 27
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "fb-watchman@unknown": {
+      "name": "fb-watchman",
+      "version": "unknown",
+      "github": "https://github.com/facebook/watchman",
+      "languages": {
+        "C++": 1400922,
+        "Python": 898662,
+        "Rust": 239936,
+        "Java": 152490,
+        "CMake": 121909,
+        "Thrift": 106460,
+        "C": 68154,
+        "JavaScript": 53008,
+        "Ruby": 16953,
+        "Shell": 8758,
+        "CSS": 5325,
+        "Dockerfile": 1604,
+        "Starlark": 1322,
+        "Batchfile": 366
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "react-is@unknown": {
+      "name": "react-is",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100760,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "stately-vscode@2.1.0": {
+      "name": "stately-vscode",
+      "version": "2.1.0",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@xstate/inspect",
+          "version": "0.4.1",
+          "github": "https://github.com/davidkpiano/xstate",
+          "languages": {
+            "TypeScript": 1777900,
+            "Vue": 14434,
+            "JavaScript": 11760,
+            "Svelte": 7797,
+            "CSS": 4726,
+            "HTML": 1449
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "ws",
+              "version": "7.5.6",
+              "github": "https://github.com/websockets/ws",
+              "languages": {
+                "JavaScript": 434710
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bufferutil",
+                  "version": "unknown",
+                  "github": "https://github.com/websockets/bufferutil",
+                  "languages": {
+                    "C": 3682,
+                    "JavaScript": 2450,
+                    "Python": 848
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "utf-8-validate",
+                  "version": "unknown",
+                  "github": "https://github.com/websockets/utf-8-validate",
+                  "languages": {
+                    "JavaScript": 3173,
+                    "Python": 912,
+                    "C++": 899
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "turbo@1.1.2": {
+      "name": "turbo",
+      "version": "1.1.2",
+      "github": "https://github.com/vercel/turborepo",
+      "languages": {
+        "Rust": 3521291,
+        "TypeScript": 733256,
+        "Raku": 270042,
+        "JavaScript": 55920,
+        "Perl": 38643,
+        "Shell": 23988,
+        "Makefile": 8790,
+        "Dockerfile": 3292,
+        "Handlebars": 2192,
+        "Cap'n Proto": 1222,
+        "C++": 396
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "turbo-darwin-64",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-darwin-arm64",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-freebsd-64",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-freebsd-arm64",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-linux-32",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-linux-64",
+          "version": "1.1.2",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-linux-arm",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-linux-arm64",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-linux-mips64le",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-linux-ppc64le",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-windows-32",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "turbo-windows-64",
+          "version": "unknown",
+          "github": "https://github.com/vercel/turborepo",
+          "languages": {
+            "Rust": 3521291,
+            "TypeScript": 733256,
+            "Raku": 270042,
+            "JavaScript": 55920,
+            "Perl": 38643,
+            "Shell": 23988,
+            "Makefile": 8790,
+            "Dockerfile": 3292,
+            "Handlebars": 2192,
+            "Cap'n Proto": 1222,
+            "C++": 396
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

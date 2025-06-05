@@ -1,0 +1,113 @@
+{
+  "ext_native": true,
+  "dependencies": {
+    "node-ssh@13.1.0": {
+      "name": "node-ssh",
+      "version": "13.1.0",
+      "github": "https://github.com/steelbrain/node-ssh",
+      "languages": {
+        "TypeScript": 60948
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "ssh2",
+          "version": "1.13.0",
+          "github": "https://github.com/mscdex/ssh2",
+          "languages": {
+            "JavaScript": 758698,
+            "C++": 64172,
+            "C": 2096,
+            "Python": 449,
+            "Batchfile": 41
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bcrypt-pbkdf",
+              "version": "1.0.2",
+              "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+              "languages": {
+                "JavaScript": 23230
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "tweetnacl",
+                  "version": "0.14.5",
+                  "github": "https://github.com/dchest/tweetnacl-js",
+                  "languages": {
+                    "JavaScript": 2964046,
+                    "C": 45485,
+                    "Go": 3796,
+                    "HTML": 1898,
+                    "Makefile": 716
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "cpu-features",
+              "version": "0.0.8",
+              "github": "https://github.com/mscdex/cpu-features",
+              "languages": {
+                "C++": 5201,
+                "JavaScript": 1265,
+                "Python": 320
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "nan",
+                  "version": "2.17.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "nan",
+              "version": "2.17.0",
+              "github": "https://github.com/nodejs/nan",
+              "languages": {
+                "C++": 364456,
+                "JavaScript": 71197,
+                "C": 6937,
+                "Python": 5058,
+                "CMake": 4239,
+                "Makefile": 3564
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

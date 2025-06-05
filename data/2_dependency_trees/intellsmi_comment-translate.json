@@ -1,0 +1,96 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "onigasm@2.2.5": {
+      "name": "onigasm",
+      "version": "2.2.5",
+      "github": "https://github.com/NeekSandhu/onigasm",
+      "languages": {
+        "JavaScript": 22730,
+        "TypeScript": 22107,
+        "C++": 2389,
+        "Shell": 1647
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "vscode-textmate@4.4.0": {
+      "name": "vscode-textmate",
+      "version": "4.4.0",
+      "github": "https://github.com/Microsoft/vscode-textmate",
+      "languages": {
+        "TypeScript": 223821,
+        "JavaScript": 6234,
+        "SCSS": 6030,
+        "Groovy": 3928,
+        "CSS": 3257,
+        "HTML": 2518,
+        "Python": 2119,
+        "Perl": 1922,
+        "Ruby": 1703,
+        "PowerShell": 1432,
+        "Objective-C": 1387,
+        "Go": 1226,
+        "Clojure": 1206,
+        "Handlebars": 1064,
+        "Less": 1014,
+        "C++": 1000,
+        "Visual Basic .NET": 893,
+        "C": 818,
+        "PHP": 802,
+        "F#": 634,
+        "Shell": 634,
+        "CoffeeScript": 590,
+        "Java": 576,
+        "Makefile": 553,
+        "Rust": 532,
+        "Batchfile": 488,
+        "Dockerfile": 425,
+        "R": 362,
+        "ShaderLab": 330,
+        "Lua": 252,
+        "Swift": 220,
+        "Pug": 22
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "oniguruma",
+          "version": "7.2.3",
+          "github": "https://github.com/atom/node-oniguruma",
+          "languages": {
+            "JavaScript": 262993,
+            "C++": 18617,
+            "Python": 3930
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "nan",
+              "version": "2.20.0",
+              "github": "https://github.com/nodejs/nan",
+              "languages": {
+                "C++": 364456,
+                "JavaScript": 71197,
+                "C": 6937,
+                "Python": 5058,
+                "CMake": 4239,
+                "Makefile": 3564
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

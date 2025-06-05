@@ -1,0 +1,53 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "browser-sync@2.26.7": {
+      "name": "browser-sync",
+      "version": "2.26.7",
+      "github": "https://github.com/BrowserSync/browser-sync",
+      "languages": {
+        "JavaScript": 924090,
+        "TypeScript": 124900,
+        "HTML": 63141,
+        "Handlebars": 41698,
+        "SCSS": 41362,
+        "CSS": 19612,
+        "Shell": 1355
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "2.1.5",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

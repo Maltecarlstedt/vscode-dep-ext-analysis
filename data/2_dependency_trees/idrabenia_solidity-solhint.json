@@ -1,0 +1,53 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "solhint@1.5.1": {
+      "name": "solhint",
+      "version": "1.5.1",
+      "github": "https://github.com/protofire/solhint",
+      "languages": {
+        "JavaScript": 501805,
+        "Solidity": 42281,
+        "Shell": 916,
+        "Dockerfile": 120
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "antlr4",
+          "version": "4.7.1",
+          "github": "https://github.com/antlr/antlr4",
+          "languages": {
+            "Java": 2437464,
+            "C++": 1047730,
+            "C#": 1043537,
+            "Python": 951378,
+            "Swift": 873956,
+            "Dart": 587430,
+            "JavaScript": 500645,
+            "Go": 457229,
+            "ANTLR": 112525,
+            "GAP": 109926,
+            "Assembly": 92577,
+            "CMake": 35724,
+            "Objective-C++": 28237,
+            "C": 17247,
+            "Shell": 8062,
+            "Batchfile": 6675,
+            "Smalltalk": 2453,
+            "TypeScript": 804,
+            "Makefile": 688,
+            "Dockerfile": 684,
+            "Objective-C": 408
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

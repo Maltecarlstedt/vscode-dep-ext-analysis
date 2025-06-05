@@ -1,0 +1,303 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@alexa/acdl@0.3.3": {
+      "name": "@alexa/acdl",
+      "version": "0.3.3",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@aws-sdk/client-cloudformation",
+          "version": "3.329.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254502107,
+            "Java": 582632,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/util-user-agent-node",
+              "version": "3.329.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254502107,
+                "Java": 582632,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "aws-crt",
+                  "version": "unknown",
+                  "github": "https://github.com/awslabs/aws-crt-nodejs",
+                  "languages": {
+                    "TypeScript": 1121074,
+                    "C": 699141,
+                    "Python": 91310,
+                    "JavaScript": 27092,
+                    "Shell": 5595,
+                    "CMake": 3710,
+                    "HTML": 524,
+                    "Batchfile": 93
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "apl-viewhost-web@2024.2.0": {
+      "name": "apl-viewhost-web",
+      "version": "2024.2.0",
+      "github": "https://github.com/alexa/apl-viewhost-web",
+      "languages": {
+        "TypeScript": 674781,
+        "C++": 187308,
+        "CSS": 9738,
+        "CMake": 8800,
+        "JavaScript": 7818
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "bufferutil@4.0.3": {
+      "name": "bufferutil",
+      "version": "4.0.3",
+      "github": "https://github.com/websockets/bufferutil",
+      "languages": {
+        "C": 3682,
+        "JavaScript": 2450,
+        "Python": 848
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "jsdom@16.6.0": {
+      "name": "jsdom",
+      "version": "16.6.0",
+      "github": "https://github.com/jsdom/jsdom",
+      "languages": {
+        "JavaScript": 2834567,
+        "HTML": 665280,
+        "Roff": 253386,
+        "WebIDL": 128392,
+        "CSS": 54517,
+        "Python": 1426
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "canvas",
+          "version": "unknown",
+          "github": "https://github.com/Automattic/node-canvas",
+          "languages": {
+            "JavaScript": 628226,
+            "C++": 298423,
+            "C": 15610,
+            "Python": 7459,
+            "TypeScript": 1575,
+            "CSS": 557,
+            "HTML": 472
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "ws",
+          "version": "7.5.2",
+          "github": "https://github.com/websockets/ws",
+          "languages": {
+            "JavaScript": 434710
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bufferutil",
+              "version": "4.0.3",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "5.0.5",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "simple-oauth2@1.0.3": {
+      "name": "simple-oauth2",
+      "version": "1.0.3",
+      "github": "https://github.com/lelylan/simple-oauth2",
+      "languages": {
+        "JavaScript": 109885
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "request",
+          "version": "2.88.2",
+          "github": "https://github.com/request/request",
+          "languages": {
+            "JavaScript": 305377,
+            "Shell": 3006
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "http-signature",
+              "version": "1.2.0",
+              "github": "https://github.com/joyent/node-http-signature",
+              "languages": {
+                "JavaScript": 95746,
+                "Makefile": 13276,
+                "Emacs Lisp": 178
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "sshpk",
+                  "version": "1.16.1",
+                  "github": "https://github.com/joyent/node-sshpk",
+                  "languages": {
+                    "JavaScript": 302105,
+                    "Makefile": 15447
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "bcrypt-pbkdf",
+                      "version": "1.0.2",
+                      "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                      "languages": {
+                        "JavaScript": 23230
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "tweetnacl",
+                          "version": "0.14.5",
+                          "github": "https://github.com/dchest/tweetnacl-js",
+                          "languages": {
+                            "JavaScript": 2964046,
+                            "C": 45485,
+                            "Go": 3796,
+                            "HTML": 1898,
+                            "Makefile": 716
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tweetnacl",
+                      "version": "0.14.5",
+                      "github": "https://github.com/dchest/tweetnacl-js",
+                      "languages": {
+                        "JavaScript": 2964046,
+                        "C": 45485,
+                        "Go": 3796,
+                        "HTML": 1898,
+                        "Makefile": 716
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "utf-8-validate@5.0.5": {
+      "name": "utf-8-validate",
+      "version": "5.0.5",
+      "github": "https://github.com/websockets/utf-8-validate",
+      "languages": {
+        "JavaScript": 3173,
+        "Python": 912,
+        "C++": 899
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

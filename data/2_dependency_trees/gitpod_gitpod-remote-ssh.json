@@ -1,0 +1,116 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode/spdlog@unknown": {
+      "name": "@vscode/spdlog",
+      "version": "unknown",
+      "github": "https://github.com/microsoft/node-spdlog",
+      "languages": {
+        "JavaScript": 10642,
+        "C++": 9450,
+        "Python": 824
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "@vscode/sqlite3@unknown": {
+      "name": "@vscode/sqlite3",
+      "version": "unknown",
+      "github": "https://github.com/microsoft/vscode-node-sqlite3",
+      "languages": {
+        "PLpgSQL": 438281,
+        "C++": 113059,
+        "JavaScript": 106278,
+        "Python": 2383,
+        "Makefile": 1488,
+        "C": 1166,
+        "Dockerfile": 872,
+        "HTML": 251,
+        "Batchfile": 226,
+        "Shell": 188
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "native-is-elevated@unknown": {
+      "name": "native-is-elevated",
+      "version": "unknown",
+      "github": "https://github.com/arkon/native-is-elevated",
+      "languages": {
+        "C++": 1348,
+        "JavaScript": 936,
+        "Python": 583
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "native-keymap@unknown": {
+      "name": "native-keymap",
+      "version": "unknown",
+      "github": "https://github.com/Microsoft/node-native-keymap",
+      "languages": {
+        "C++": 42324,
+        "Objective-C++": 7970,
+        "C": 5109,
+        "JavaScript": 2436,
+        "Python": 1996
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "native-watchdog@unknown": {
+      "name": "native-watchdog",
+      "version": "unknown",
+      "github": "https://github.com/Microsoft/node-native-watchdog",
+      "languages": {
+        "C": 3688,
+        "C++": 2935,
+        "JavaScript": 2706,
+        "Python": 518
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "node-pty@unknown": {
+      "name": "node-pty",
+      "version": "unknown",
+      "github": "https://github.com/microsoft/node-pty",
+      "languages": {
+        "TypeScript": 73399,
+        "C++": 55652,
+        "JavaScript": 9490,
+        "Python": 2702,
+        "C": 1727
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "windows-foreground-love@unknown": {
+      "name": "windows-foreground-love",
+      "version": "unknown",
+      "github": "https://github.com/the-ress/node-windows-foreground-love",
+      "languages": {
+        "C": 5201,
+        "C++": 1573,
+        "JavaScript": 1357,
+        "Python": 546
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

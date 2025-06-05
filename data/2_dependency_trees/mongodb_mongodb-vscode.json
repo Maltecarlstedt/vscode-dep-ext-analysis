@@ -1,0 +1,3036 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@mongodb-js/compass-components@1.34.8": {
+      "name": "@mongodb-js/compass-components",
+      "version": "1.34.8",
+      "github": "https://github.com/mongodb-js/compass",
+      "languages": {
+        "TypeScript": 8289286,
+        "JavaScript": 738534,
+        "CSS": 67944,
+        "ANTLR": 35410,
+        "Shell": 30214,
+        "Less": 25822,
+        "Python": 3801,
+        "Go": 3074,
+        "HTML": 984,
+        "Dockerfile": 613
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@dnd-kit/core",
+          "version": "6.1.0",
+          "github": "https://github.com/clauderic/dnd-kit",
+          "languages": {
+            "TypeScript": 424849,
+            "CSS": 30860,
+            "JavaScript": 2270,
+            "HTML": 881
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@dnd-kit/accessibility",
+              "version": "3.1.0",
+              "github": "https://github.com/clauderic/dnd-kit",
+              "languages": {
+                "TypeScript": 424849,
+                "CSS": 30860,
+                "JavaScript": 2270,
+                "HTML": 881
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react-dom",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@dnd-kit/sortable",
+          "version": "7.0.2",
+          "github": "https://github.com/clauderic/dnd-kit",
+          "languages": {
+            "TypeScript": 424849,
+            "CSS": 30860,
+            "JavaScript": 2270,
+            "HTML": 881
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@dnd-kit/utilities",
+          "version": "3.2.2",
+          "github": "https://github.com/clauderic/dnd-kit",
+          "languages": {
+            "TypeScript": 424849,
+            "CSS": 30860,
+            "JavaScript": 2270,
+            "HTML": 881
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@leafygreen-ui/badge",
+          "version": "9.0.2",
+          "github": "https://github.com/mongodb/leafygreen-ui",
+          "languages": {
+            "TypeScript": 4280779,
+            "JavaScript": 39025,
+            "MDX": 9455,
+            "Shell": 3337,
+            "Less": 2672
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@leafygreen-ui/lib",
+              "version": "14.0.2",
+              "github": "https://github.com/mongodb/leafygreen-ui",
+              "languages": {
+                "TypeScript": 4280779,
+                "JavaScript": 39025,
+                "MDX": 9455,
+                "Shell": 3337,
+                "Less": 2672
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@leafygreen-ui/button",
+          "version": "22.0.2",
+          "github": "https://github.com/mongodb/leafygreen-ui",
+          "languages": {
+            "TypeScript": 4280779,
+            "JavaScript": 39025,
+            "MDX": 9455,
+            "Shell": 3337,
+            "Less": 2672
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@lg-tools/test-harnesses",
+              "version": "0.1.4",
+              "github": "",
+              "languages": {},
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@testing-library/dom",
+                  "version": "9.3.1",
+                  "github": "https://github.com/testing-library/dom-testing-library",
+                  "languages": {
+                    "JavaScript": 234479,
+                    "TypeScript": 68419
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "pretty-format",
+                      "version": "27.5.1",
+                      "github": "https://github.com/facebook/jest",
+                      "languages": {
+                        "TypeScript": 3539240,
+                        "JavaScript": 911724,
+                        "CSS": 25056,
+                        "Prolog": 3500,
+                        "Shell": 404,
+                        "Handlebars": 260
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "react-is",
+                          "version": "17.0.2",
+                          "github": "https://github.com/facebook/react",
+                          "languages": {
+                            "JavaScript": 5100320,
+                            "TypeScript": 2011063,
+                            "HTML": 111349,
+                            "CSS": 73350,
+                            "C++": 44290,
+                            "CoffeeScript": 18760,
+                            "C": 5227,
+                            "Shell": 4395,
+                            "Python": 259,
+                            "Makefile": 189
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@leafygreen-ui/checkbox",
+          "version": "14.1.2",
+          "github": "https://github.com/mongodb/leafygreen-ui",
+          "languages": {
+            "TypeScript": 4280779,
+            "JavaScript": 39025,
+            "MDX": 9455,
+            "Shell": 3337,
+            "Less": 2672
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-transition-group",
+              "version": "4.4.5",
+              "github": "https://github.com/reactjs/react-transition-group",
+              "languages": {
+                "JavaScript": 138230,
+                "SCSS": 3797
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@leafygreen-ui/popover",
+          "version": "13.0.3",
+          "github": "https://github.com/mongodb/leafygreen-ui",
+          "languages": {
+            "TypeScript": 4280779,
+            "JavaScript": 39025,
+            "MDX": 9455,
+            "Shell": 3337,
+            "Less": 2672
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@floating-ui/react",
+              "version": "0.26.28",
+              "github": "https://github.com/floating-ui/floating-ui",
+              "languages": {
+                "TypeScript": 1103749,
+                "MDX": 307003,
+                "JavaScript": 210521,
+                "CSS": 13205,
+                "HTML": 1538,
+                "Vue": 765
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@floating-ui/react-dom",
+                  "version": "2.1.2",
+                  "github": "https://github.com/floating-ui/floating-ui",
+                  "languages": {
+                    "TypeScript": 1103749,
+                    "MDX": 307003,
+                    "JavaScript": 210521,
+                    "CSS": 13205,
+                    "HTML": 1538,
+                    "Vue": 765
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react-dom",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "react",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@leafygreen-ui/portal",
+          "version": "6.0.2",
+          "github": "https://github.com/mongodb/leafygreen-ui",
+          "languages": {
+            "TypeScript": 4280779,
+            "JavaScript": 39025,
+            "MDX": 9455,
+            "Shell": 3337,
+            "Less": 2672
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@leafygreen-ui/select",
+          "version": "14.0.5",
+          "github": "https://github.com/mongodb/leafygreen-ui",
+          "languages": {
+            "TypeScript": 4280779,
+            "JavaScript": 39025,
+            "MDX": 9455,
+            "Shell": 3337,
+            "Less": 2672
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-is",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@leafygreen-ui/table",
+          "version": "13.0.5",
+          "github": "https://github.com/mongodb/leafygreen-ui",
+          "languages": {
+            "TypeScript": 4280779,
+            "JavaScript": 39025,
+            "MDX": 9455,
+            "Shell": 3337,
+            "Less": 2672
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@tanstack/react-table",
+              "version": "8.21.2",
+              "github": "https://github.com/TanStack/table",
+              "languages": {
+                "TypeScript": 469162,
+                "JavaScript": 75315,
+                "Svelte": 51
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@tanstack/react-virtual",
+              "version": "3.13.0",
+              "github": "https://github.com/TanStack/virtual",
+              "languages": {
+                "TypeScript": 68218,
+                "JavaScript": 1431
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@react-aria/interactions",
+          "version": "3.20.0",
+          "github": "https://github.com/adobe/react-spectrum",
+          "languages": {
+            "TypeScript": 8883112,
+            "JavaScript": 4778262,
+            "MDX": 4473748,
+            "CSS": 1175489,
+            "HTML": 53949,
+            "Handlebars": 31197,
+            "Shell": 23088,
+            "Makefile": 5559
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@react-aria/ssr",
+              "version": "3.9.0",
+              "github": "https://github.com/adobe/react-spectrum",
+              "languages": {
+                "TypeScript": 8883112,
+                "JavaScript": 4778262,
+                "MDX": 4473748,
+                "CSS": 1175489,
+                "HTML": 53949,
+                "Handlebars": 31197,
+                "Shell": 23088,
+                "Makefile": 5559
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "@react-types/shared",
+              "version": "3.22.0",
+              "github": "https://github.com/adobe/react-spectrum",
+              "languages": {
+                "TypeScript": 8883112,
+                "JavaScript": 4778262,
+                "MDX": 4473748,
+                "CSS": 1175489,
+                "HTML": 53949,
+                "Handlebars": 31197,
+                "Shell": 23088,
+                "Makefile": 5559
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@react-aria/utils",
+          "version": "3.22.0",
+          "github": "https://github.com/adobe/react-spectrum",
+          "languages": {
+            "TypeScript": 8883112,
+            "JavaScript": 4778262,
+            "MDX": 4473748,
+            "CSS": 1175489,
+            "HTML": 53949,
+            "Handlebars": 31197,
+            "Shell": 23088,
+            "Makefile": 5559
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@react-stately/utils",
+              "version": "3.9.0",
+              "github": "https://github.com/adobe/react-spectrum",
+              "languages": {
+                "TypeScript": 8883112,
+                "JavaScript": 4778262,
+                "MDX": 4473748,
+                "CSS": 1175489,
+                "HTML": 53949,
+                "Handlebars": 31197,
+                "Shell": 23088,
+                "Makefile": 5559
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@react-aria/visually-hidden",
+          "version": "3.8.7",
+          "github": "https://github.com/adobe/react-spectrum",
+          "languages": {
+            "TypeScript": 8883112,
+            "JavaScript": 4778262,
+            "MDX": 4473748,
+            "CSS": 1175489,
+            "HTML": 53949,
+            "Handlebars": 31197,
+            "Shell": 23088,
+            "Makefile": 5559
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "focus-trap-react",
+          "version": "9.0.2",
+          "github": "https://github.com/focus-trap/focus-trap-react",
+          "languages": {
+            "JavaScript": 82117
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "prop-types",
+              "version": "15.8.1",
+              "github": "https://github.com/facebook/prop-types",
+              "languages": {
+                "JavaScript": 180769
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-is",
+                  "version": "16.13.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react-dom",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-hotkeys-hook",
+          "version": "4.4.1",
+          "github": "https://github.com/JohannesKlauss/react-keymap-hook",
+          "languages": {
+            "TypeScript": 81827,
+            "JavaScript": 734
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-intersection-observer",
+          "version": "8.34.0",
+          "github": "https://github.com/thebuilder/react-intersection-observer",
+          "languages": {
+            "TypeScript": 69281,
+            "HTML": 660,
+            "MDX": 249,
+            "JavaScript": 214
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-virtualized-auto-sizer",
+          "version": "1.0.24",
+          "github": "https://github.com/bvaughn/react-virtualized-auto-sizer",
+          "languages": {
+            "TypeScript": 21626,
+            "JavaScript": 279
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react-window",
+          "version": "1.8.10",
+          "github": "https://github.com/bvaughn/react-window",
+          "languages": {
+            "JavaScript": 398124,
+            "CSS": 9776,
+            "HTML": 563
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "18.3.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@mongodb-js/connection-form@1.47.8": {
+      "name": "@mongodb-js/connection-form",
+      "version": "1.47.8",
+      "github": "https://github.com/mongodb-js/compass",
+      "languages": {
+        "TypeScript": 8289286,
+        "JavaScript": 738534,
+        "CSS": 67944,
+        "ANTLR": 35410,
+        "Shell": 30214,
+        "Less": 25822,
+        "Python": 3801,
+        "Go": 3074,
+        "HTML": 984,
+        "Dockerfile": 613
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@mongodb-js/compass-editor",
+          "version": "0.36.8",
+          "github": "https://github.com/mongodb-js/compass",
+          "languages": {
+            "TypeScript": 8289286,
+            "JavaScript": 738534,
+            "CSS": 67944,
+            "ANTLR": 35410,
+            "Shell": 30214,
+            "Less": 25822,
+            "Python": 3801,
+            "Go": 3074,
+            "HTML": 984,
+            "Dockerfile": 613
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@mongodb-js/mongodb-constants",
+              "version": "0.11.1",
+              "github": "https://github.com/mongodb-js/devtools-shared",
+              "languages": {
+                "TypeScript": 1438388,
+                "JavaScript": 61277,
+                "C++": 5770,
+                "Shell": 3527,
+                "Python": 801
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "mongodb-query-parser",
+              "version": "4.3.2",
+              "github": "https://github.com/mongodb-js/devtools-shared",
+              "languages": {
+                "TypeScript": 1438388,
+                "JavaScript": 61277,
+                "C++": 5770,
+                "Shell": 3527,
+                "Python": 801
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@mongodb-js/shell-bson-parser",
+          "version": "1.2.2",
+          "github": "https://github.com/mongodb-js/devtools-shared",
+          "languages": {
+            "TypeScript": 1438388,
+            "JavaScript": 61277,
+            "C++": 5770,
+            "Shell": 3527,
+            "Python": 801
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "mongodb-query-parser",
+          "version": "4.3.2",
+          "github": "https://github.com/mongodb-js/devtools-shared",
+          "languages": {
+            "TypeScript": 1438388,
+            "JavaScript": 61277,
+            "C++": 5770,
+            "Shell": 3527,
+            "Python": 801
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react",
+          "version": "18.3.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@mongodb-js/mongodb-constants@0.11.1": {
+      "name": "@mongodb-js/mongodb-constants",
+      "version": "0.11.1",
+      "github": "https://github.com/mongodb-js/devtools-shared",
+      "languages": {
+        "TypeScript": 1438388,
+        "JavaScript": 61277,
+        "C++": 5770,
+        "Shell": 3527,
+        "Python": 801
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "@mongosh/browser-runtime-electron@3.10.1": {
+      "name": "@mongosh/browser-runtime-electron",
+      "version": "3.10.1",
+      "github": "https://github.com/mongodb-js/mongosh",
+      "languages": {
+        "TypeScript": 3371930,
+        "Kotlin": 141168,
+        "JavaScript": 138100,
+        "Shell": 48869,
+        "Dockerfile": 15197,
+        "PowerShell": 967
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@mongosh/browser-runtime-core",
+          "version": "3.10.1",
+          "github": "https://github.com/mongodb-js/mongosh",
+          "languages": {
+            "TypeScript": 3371930,
+            "Kotlin": 141168,
+            "JavaScript": 138100,
+            "Shell": 48869,
+            "Dockerfile": 15197,
+            "PowerShell": 967
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@mongosh/autocomplete",
+              "version": "3.10.1",
+              "github": "https://github.com/mongodb-js/mongosh",
+              "languages": {
+                "TypeScript": 3371930,
+                "Kotlin": 141168,
+                "JavaScript": 138100,
+                "Shell": 48869,
+                "Dockerfile": 15197,
+                "PowerShell": 967
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@mongodb-js/mongodb-constants",
+                  "version": "0.10.4",
+                  "github": "https://github.com/mongodb-js/devtools-shared",
+                  "languages": {
+                    "TypeScript": 1438388,
+                    "JavaScript": 61277,
+                    "C++": 5770,
+                    "Shell": 3527,
+                    "Python": 801
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@mongosh/service-provider-core",
+          "version": "3.3.1",
+          "github": "https://github.com/mongodb-js/mongosh",
+          "languages": {
+            "TypeScript": 3371930,
+            "Kotlin": 141168,
+            "JavaScript": 138100,
+            "Shell": 48869,
+            "Dockerfile": 15197,
+            "PowerShell": 967
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "mongodb-client-encryption",
+              "version": "6.3.0",
+              "github": "https://github.com/mongodb-js/mongodb-client-encryption",
+              "languages": {
+                "C++": 64942,
+                "TypeScript": 30903,
+                "JavaScript": 18258,
+                "Python": 2534,
+                "Shell": 1512
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@mongosh/types",
+          "version": "3.6.0",
+          "github": "https://github.com/mongodb-js/mongosh",
+          "languages": {
+            "TypeScript": 3371930,
+            "Kotlin": 141168,
+            "JavaScript": 138100,
+            "Shell": 48869,
+            "Dockerfile": 15197,
+            "PowerShell": 967
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@mongodb-js/devtools-connect",
+              "version": "3.7.2",
+              "github": "https://github.com/mongodb-js/devtools-shared",
+              "languages": {
+                "TypeScript": 1438388,
+                "JavaScript": 61277,
+                "C++": 5770,
+                "Shell": 3527,
+                "Python": 801
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "@mongosh/service-provider-node-driver@3.8.1": {
+      "name": "@mongosh/service-provider-node-driver",
+      "version": "3.8.1",
+      "github": "https://github.com/mongodb-js/mongosh",
+      "languages": {
+        "TypeScript": 3371930,
+        "Kotlin": 141168,
+        "JavaScript": 138100,
+        "Shell": 48869,
+        "Dockerfile": 15197,
+        "PowerShell": 967
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@mongodb-js/devtools-connect",
+          "version": "3.7.2",
+          "github": "https://github.com/mongodb-js/devtools-shared",
+          "languages": {
+            "TypeScript": 1438388,
+            "JavaScript": 61277,
+            "C++": 5770,
+            "Shell": 3527,
+            "Python": 801
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@mongodb-js/devtools-proxy-support",
+              "version": "0.4.4",
+              "github": "https://github.com/mongodb-js/devtools-shared",
+              "languages": {
+                "TypeScript": 1438388,
+                "JavaScript": 61277,
+                "C++": 5770,
+                "Shell": 3527,
+                "Python": 801
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "@mongodb-js/oidc-http-server-pages",
+              "version": "1.1.4",
+              "github": "https://github.com/mongodb-js/devtools-shared",
+              "languages": {
+                "TypeScript": 1438388,
+                "JavaScript": 61277,
+                "C++": 5770,
+                "Shell": 3527,
+                "Python": 801
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "kerberos",
+              "version": "2.1.0",
+              "github": "https://github.com/mongodb-js/kerberos",
+              "languages": {
+                "C++": 83803,
+                "JavaScript": 40821,
+                "Shell": 7103,
+                "Python": 2704,
+                "C": 815
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "mongodb-client-encryption",
+              "version": "6.3.0",
+              "github": "https://github.com/mongodb-js/mongodb-client-encryption",
+              "languages": {
+                "C++": 64942,
+                "TypeScript": 30903,
+                "JavaScript": 18258,
+                "Python": 2534,
+                "Shell": 1512
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "mongodb-log-writer",
+              "version": "2.4.1",
+              "github": "https://github.com/mongodb-js/devtools-shared",
+              "languages": {
+                "TypeScript": 1438388,
+                "JavaScript": 61277,
+                "C++": 5770,
+                "Shell": 3527,
+                "Python": 801
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "os-dns-native",
+              "version": "1.2.1",
+              "github": "https://github.com/mongodb-js/os-dns-native",
+              "languages": {
+                "C++": 13647,
+                "JavaScript": 8132,
+                "Python": 774
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "node-addon-api",
+                  "version": "4.3.0",
+                  "github": "https://github.com/nodejs/node-addon-api",
+                  "languages": {
+                    "C++": 651642,
+                    "JavaScript": 237907,
+                    "Python": 14949,
+                    "C": 1789
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "kerberos",
+          "version": "2.1.0",
+          "github": "https://github.com/mongodb-js/kerberos",
+          "languages": {
+            "C++": 83803,
+            "JavaScript": 40821,
+            "Shell": 7103,
+            "Python": 2704,
+            "C": 815
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-addon-api",
+              "version": "6.1.0",
+              "github": "https://github.com/nodejs/node-addon-api",
+              "languages": {
+                "C++": 651642,
+                "JavaScript": 237907,
+                "Python": 14949,
+                "C": 1789
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "mongodb-client-encryption",
+          "version": "6.3.0",
+          "github": "https://github.com/mongodb-js/mongodb-client-encryption",
+          "languages": {
+            "C++": 64942,
+            "TypeScript": 30903,
+            "JavaScript": 18258,
+            "Python": 2534,
+            "Shell": 1512
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-addon-api",
+              "version": "4.3.0",
+              "github": "https://github.com/nodejs/node-addon-api",
+              "languages": {
+                "C++": 651642,
+                "JavaScript": 237907,
+                "Python": 14949,
+                "C": 1789
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "@mongosh/shell-api@3.10.1": {
+      "name": "@mongosh/shell-api",
+      "version": "3.10.1",
+      "github": "https://github.com/mongodb-js/mongosh",
+      "languages": {
+        "TypeScript": 3371930,
+        "Kotlin": 141168,
+        "JavaScript": 138100,
+        "Shell": 48869,
+        "Dockerfile": 15197,
+        "PowerShell": 967
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@mongosh/history",
+          "version": "2.4.6",
+          "github": "https://github.com/mongodb-js/mongosh",
+          "languages": {
+            "TypeScript": 3371930,
+            "Kotlin": 141168,
+            "JavaScript": 138100,
+            "Shell": 48869,
+            "Dockerfile": 15197,
+            "PowerShell": 967
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "mongodb-redact",
+              "version": "1.1.6",
+              "github": "https://github.com/mongodb-js/devtools-shared",
+              "languages": {
+                "TypeScript": 1438388,
+                "JavaScript": 61277,
+                "C++": 5770,
+                "Shell": 3527,
+                "Python": 801
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "mongodb-redact",
+          "version": "1.1.6",
+          "github": "https://github.com/mongodb-js/devtools-shared",
+          "languages": {
+            "TypeScript": 1438388,
+            "JavaScript": 61277,
+            "C++": 5770,
+            "Shell": 3527,
+            "Python": 801
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "mongodb-cloud-info@2.1.7": {
+      "name": "mongodb-cloud-info",
+      "version": "2.1.7",
+      "github": "https://github.com/mongodb-js/devtools-shared",
+      "languages": {
+        "TypeScript": 1438388,
+        "JavaScript": 61277,
+        "C++": 5770,
+        "Shell": 3527,
+        "Python": 801
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "mongodb-data-service@22.25.8": {
+      "name": "mongodb-data-service",
+      "version": "22.25.8",
+      "github": "https://github.com/mongodb-js/compass",
+      "languages": {
+        "TypeScript": 8289286,
+        "JavaScript": 738534,
+        "CSS": 67944,
+        "ANTLR": 35410,
+        "Shell": 30214,
+        "Less": 25822,
+        "Python": 3801,
+        "Go": 3074,
+        "HTML": 984,
+        "Dockerfile": 613
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@mongodb-js/compass-logging",
+          "version": "1.6.8",
+          "github": "https://github.com/mongodb-js/compass",
+          "languages": {
+            "TypeScript": 8289286,
+            "JavaScript": 738534,
+            "CSS": 67944,
+            "ANTLR": 35410,
+            "Shell": 30214,
+            "Less": 25822,
+            "Python": 3801,
+            "Go": 3074,
+            "HTML": 984,
+            "Dockerfile": 613
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "hadron-app-registry",
+              "version": "9.4.8",
+              "github": "https://github.com/mongodb-js/compass",
+              "languages": {
+                "TypeScript": 8289286,
+                "JavaScript": 738534,
+                "CSS": 67944,
+                "ANTLR": 35410,
+                "Shell": 30214,
+                "Less": 25822,
+                "Python": 3801,
+                "Go": 3074,
+                "HTML": 984,
+                "Dockerfile": 613
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-redux",
+                  "version": "8.1.3",
+                  "github": "https://github.com/reduxjs/react-redux",
+                  "languages": {
+                    "TypeScript": 342308,
+                    "JavaScript": 12125,
+                    "CSS": 8281
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "hoist-non-react-statics",
+                      "version": "3.3.2",
+                      "github": "https://github.com/mridgway/hoist-non-react-statics",
+                      "languages": {
+                        "JavaScript": 13237
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "react-is",
+                          "version": "16.13.1",
+                          "github": "https://github.com/facebook/react",
+                          "languages": {
+                            "JavaScript": 5100320,
+                            "TypeScript": 2011063,
+                            "HTML": 111349,
+                            "CSS": 73350,
+                            "C++": 44290,
+                            "CoffeeScript": 18760,
+                            "C": 5227,
+                            "Shell": 4395,
+                            "Python": 259,
+                            "Makefile": 189
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "react-dom",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "react-is",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "react-native",
+                      "version": "unknown",
+                      "github": "https://github.com/facebook/react-native",
+                      "languages": {
+                        "C++": 5253949,
+                        "JavaScript": 2991796,
+                        "Kotlin": 2978111,
+                        "Objective-C++": 1976960,
+                        "Java": 1337373,
+                        "Objective-C": 1233975,
+                        "Ruby": 446917,
+                        "CMake": 132354,
+                        "TypeScript": 78155,
+                        "Shell": 59529,
+                        "C": 50888,
+                        "Swift": 33777,
+                        "Assembly": 14920,
+                        "HTML": 1473
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "react",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    },
+                    {
+                      "name": "use-sync-external-store",
+                      "version": "1.4.0",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "react",
+                          "version": "18.3.1",
+                          "github": "https://github.com/facebook/react",
+                          "languages": {
+                            "JavaScript": 5100320,
+                            "TypeScript": 2011063,
+                            "HTML": 111349,
+                            "CSS": 73350,
+                            "C++": 44290,
+                            "CoffeeScript": 18760,
+                            "C": 5227,
+                            "Shell": 4395,
+                            "Python": 259,
+                            "Makefile": 189
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "react",
+                  "version": "18.3.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "reflux",
+                  "version": "0.4.1",
+                  "github": "https://github.com/reflux/refluxjs",
+                  "languages": {
+                    "JavaScript": 80881
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "hadron-ipc",
+              "version": "3.4.8",
+              "github": "https://github.com/mongodb-js/compass",
+              "languages": {
+                "TypeScript": 8289286,
+                "JavaScript": 738534,
+                "CSS": 67944,
+                "ANTLR": 35410,
+                "Shell": 30214,
+                "Less": 25822,
+                "Python": 3801,
+                "Go": 3074,
+                "HTML": 984,
+                "Dockerfile": 613
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "electron",
+                  "version": "32.3.3",
+                  "github": "https://github.com/electron/electron",
+                  "languages": {
+                    "C++": 3923001,
+                    "TypeScript": 2248111,
+                    "Objective-C++": 399894,
+                    "JavaScript": 145351,
+                    "Python": 131218,
+                    "Objective-C": 41761,
+                    "HTML": 12057,
+                    "Shell": 8704,
+                    "C": 2472,
+                    "CSS": 2369
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "mongodb-log-writer",
+              "version": "2.4.1",
+              "github": "https://github.com/mongodb-js/devtools-shared",
+              "languages": {
+                "TypeScript": 1438388,
+                "JavaScript": 61277,
+                "C++": 5770,
+                "Shell": 3527,
+                "Python": 801
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "18.3.1",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@mongodb-js/compass-utils",
+          "version": "0.8.8",
+          "github": "https://github.com/mongodb-js/compass",
+          "languages": {
+            "TypeScript": 8289286,
+            "JavaScript": 738534,
+            "CSS": 67944,
+            "ANTLR": 35410,
+            "Shell": 30214,
+            "Less": 25822,
+            "Python": 3801,
+            "Go": 3074,
+            "HTML": 984,
+            "Dockerfile": 613
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@electron/remote",
+              "version": "2.1.2",
+              "github": "https://github.com/electron/remote",
+              "languages": {
+                "TypeScript": 88835,
+                "JavaScript": 332
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "electron",
+                  "version": "32.3.3",
+                  "github": "https://github.com/electron/electron",
+                  "languages": {
+                    "C++": 3923001,
+                    "TypeScript": 2248111,
+                    "Objective-C++": 399894,
+                    "JavaScript": 145351,
+                    "Python": 131218,
+                    "Objective-C": 41761,
+                    "HTML": 12057,
+                    "Shell": 8704,
+                    "C": 2472,
+                    "CSS": 2369
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "electron",
+              "version": "32.3.3",
+              "github": "https://github.com/electron/electron",
+              "languages": {
+                "C++": 3923001,
+                "TypeScript": 2248111,
+                "Objective-C++": 399894,
+                "JavaScript": 145351,
+                "Python": 131218,
+                "Objective-C": 41761,
+                "HTML": 12057,
+                "Shell": 8704,
+                "C": 2472,
+                "CSS": 2369
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@mongodb-js/devtools-connect",
+          "version": "3.7.2",
+          "github": "https://github.com/mongodb-js/devtools-shared",
+          "languages": {
+            "TypeScript": 1438388,
+            "JavaScript": 61277,
+            "C++": 5770,
+            "Shell": 3527,
+            "Python": 801
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@mongodb-js/devtools-proxy-support",
+          "version": "0.4.4",
+          "github": "https://github.com/mongodb-js/devtools-shared",
+          "languages": {
+            "TypeScript": 1438388,
+            "JavaScript": 61277,
+            "C++": 5770,
+            "Shell": 3527,
+            "Python": 801
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "pac-proxy-agent",
+              "version": "7.0.2",
+              "github": "https://github.com/TooTallNate/proxy-agents",
+              "languages": {
+                "TypeScript": 218188,
+                "JavaScript": 15003
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@tootallnate/quickjs-emscripten",
+                  "version": "0.23.0",
+                  "github": "https://github.com/justjake/quickjs-emscripten",
+                  "languages": {
+                    "TypeScript": 677729,
+                    "Makefile": 143764,
+                    "C": 40130,
+                    "JavaScript": 7986,
+                    "Shell": 1186
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "ssh2",
+              "version": "1.15.0",
+              "github": "https://github.com/mscdex/ssh2",
+              "languages": {
+                "JavaScript": 758698,
+                "C++": 64172,
+                "C": 2096,
+                "Python": 449,
+                "Batchfile": 41
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bcrypt-pbkdf",
+                  "version": "1.0.2",
+                  "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                  "languages": {
+                    "JavaScript": 23230
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "tweetnacl",
+                      "version": "0.14.5",
+                      "github": "https://github.com/dchest/tweetnacl-js",
+                      "languages": {
+                        "JavaScript": 2964046,
+                        "C": 45485,
+                        "Go": 3796,
+                        "HTML": 1898,
+                        "Makefile": 716
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "cpu-features",
+                  "version": "0.0.9",
+                  "github": "https://github.com/mscdex/cpu-features",
+                  "languages": {
+                    "C++": 5201,
+                    "JavaScript": 1265,
+                    "Python": 320
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "nan",
+                      "version": "2.18.0",
+                      "github": "https://github.com/nodejs/nan",
+                      "languages": {
+                        "C++": 364456,
+                        "JavaScript": 71197,
+                        "C": 6937,
+                        "Python": 5058,
+                        "CMake": 4239,
+                        "Makefile": 3564
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "nan",
+                  "version": "2.18.0",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "system-ca",
+              "version": "2.0.1",
+              "github": "https://github.com/mongodb-js/system-ca",
+              "languages": {
+                "TypeScript": 6841
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "macos-export-certificate-and-key",
+                  "version": "unknown",
+                  "github": "https://github.com/mongodb-js/macos-export-certificate-and-key",
+                  "languages": {
+                    "C++": 12530,
+                    "JavaScript": 4970,
+                    "Python": 869
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "win-export-certificate-and-key",
+                  "version": "unknown",
+                  "github": "https://github.com/mongodb-js/win-export-certificate-and-key",
+                  "languages": {
+                    "C++": 11912,
+                    "JavaScript": 7589,
+                    "Python": 664
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mongodb-client-encryption",
+          "version": "6.3.0",
+          "github": "https://github.com/mongodb-js/mongodb-client-encryption",
+          "languages": {
+            "C++": 64942,
+            "TypeScript": 30903,
+            "JavaScript": 18258,
+            "Python": 2534,
+            "Shell": 1512
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "mongodb-log-writer@2.4.1": {
+      "name": "mongodb-log-writer",
+      "version": "2.4.1",
+      "github": "https://github.com/mongodb-js/devtools-shared",
+      "languages": {
+        "TypeScript": 1438388,
+        "JavaScript": 61277,
+        "C++": 5770,
+        "Shell": 3527,
+        "Python": 801
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "mongodb-query-parser@4.3.2": {
+      "name": "mongodb-query-parser",
+      "version": "4.3.2",
+      "github": "https://github.com/mongodb-js/devtools-shared",
+      "languages": {
+        "TypeScript": 1438388,
+        "JavaScript": 61277,
+        "C++": 5770,
+        "Shell": 3527,
+        "Python": 801
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@mongodb-js/shell-bson-parser",
+          "version": "1.2.2",
+          "github": "https://github.com/mongodb-js/devtools-shared",
+          "languages": {
+            "TypeScript": 1438388,
+            "JavaScript": 61277,
+            "C++": 5770,
+            "Shell": 3527,
+            "Python": 801
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "mongodb@6.16.0": {
+      "name": "mongodb",
+      "version": "6.16.0",
+      "github": "https://github.com/mongodb/node-mongodb-native",
+      "languages": {
+        "TypeScript": 4003216,
+        "JavaScript": 861189,
+        "Shell": 41852,
+        "Python": 16790,
+        "Makefile": 2936
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@aws-sdk/credential-providers",
+          "version": "3.750.0",
+          "github": "https://github.com/aws/aws-sdk-js-v3",
+          "languages": {
+            "TypeScript": 254454969,
+            "Java": 582449,
+            "JavaScript": 260885,
+            "Gherkin": 39106,
+            "Smithy": 4879,
+            "Objective-C": 4129,
+            "Makefile": 3152,
+            "Ruby": 2260,
+            "Starlark": 602,
+            "Handlebars": 393,
+            "Shell": 181
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@aws-sdk/client-cognito-identity",
+              "version": "3.750.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254454969,
+                "Java": 582449,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@aws-sdk/util-user-agent-node",
+                  "version": "3.750.0",
+                  "github": "https://github.com/aws/aws-sdk-js-v3",
+                  "languages": {
+                    "TypeScript": 254454969,
+                    "Java": 582449,
+                    "JavaScript": 260885,
+                    "Gherkin": 39106,
+                    "Smithy": 4879,
+                    "Objective-C": 4129,
+                    "Makefile": 3152,
+                    "Ruby": 2260,
+                    "Starlark": 602,
+                    "Handlebars": 393,
+                    "Shell": 181
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "aws-crt",
+                      "version": "unknown",
+                      "github": "https://github.com/awslabs/aws-crt-nodejs",
+                      "languages": {
+                        "TypeScript": 1121074,
+                        "C": 699141,
+                        "Python": 91310,
+                        "JavaScript": 27092,
+                        "Shell": 5595,
+                        "CMake": 3710,
+                        "HTML": 524,
+                        "Batchfile": 93
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "@aws-sdk/credential-provider-sso",
+              "version": "3.750.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254454969,
+                "Java": 582449,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@aws-sdk/client-sso",
+                  "version": "3.750.0",
+                  "github": "https://github.com/aws/aws-sdk-js-v3",
+                  "languages": {
+                    "TypeScript": 254454969,
+                    "Java": 582449,
+                    "JavaScript": 260885,
+                    "Gherkin": 39106,
+                    "Smithy": 4879,
+                    "Objective-C": 4129,
+                    "Makefile": 3152,
+                    "Ruby": 2260,
+                    "Starlark": 602,
+                    "Handlebars": 393,
+                    "Shell": 181
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@aws-sdk/util-user-agent-node",
+                      "version": "3.750.0",
+                      "github": "https://github.com/aws/aws-sdk-js-v3",
+                      "languages": {
+                        "TypeScript": 254454969,
+                        "Java": 582449,
+                        "JavaScript": 260885,
+                        "Gherkin": 39106,
+                        "Smithy": 4879,
+                        "Objective-C": 4129,
+                        "Makefile": 3152,
+                        "Ruby": 2260,
+                        "Starlark": 602,
+                        "Handlebars": 393,
+                        "Shell": 181
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "aws-crt",
+                          "version": "unknown",
+                          "github": "https://github.com/awslabs/aws-crt-nodejs",
+                          "languages": {
+                            "TypeScript": 1121074,
+                            "C": 699141,
+                            "Python": 91310,
+                            "JavaScript": 27092,
+                            "Shell": 5595,
+                            "CMake": 3710,
+                            "HTML": 524,
+                            "Batchfile": 93
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "@aws-sdk/nested-clients",
+              "version": "3.750.0",
+              "github": "https://github.com/aws/aws-sdk-js-v3",
+              "languages": {
+                "TypeScript": 254454969,
+                "Java": 582449,
+                "JavaScript": 260885,
+                "Gherkin": 39106,
+                "Smithy": 4879,
+                "Objective-C": 4129,
+                "Makefile": 3152,
+                "Ruby": 2260,
+                "Starlark": 602,
+                "Handlebars": 393,
+                "Shell": 181
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@aws-sdk/util-user-agent-node",
+                  "version": "3.750.0",
+                  "github": "https://github.com/aws/aws-sdk-js-v3",
+                  "languages": {
+                    "TypeScript": 254454969,
+                    "Java": 582449,
+                    "JavaScript": 260885,
+                    "Gherkin": 39106,
+                    "Smithy": 4879,
+                    "Objective-C": 4129,
+                    "Makefile": 3152,
+                    "Ruby": 2260,
+                    "Starlark": 602,
+                    "Handlebars": 393,
+                    "Shell": 181
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "aws-crt",
+                      "version": "unknown",
+                      "github": "https://github.com/awslabs/aws-crt-nodejs",
+                      "languages": {
+                        "TypeScript": 1121074,
+                        "C": 699141,
+                        "Python": 91310,
+                        "JavaScript": 27092,
+                        "Shell": 5595,
+                        "CMake": 3710,
+                        "HTML": 524,
+                        "Batchfile": 93
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@mongodb-js/saslprep",
+          "version": "1.2.2",
+          "github": "https://github.com/mongodb-js/devtools-shared",
+          "languages": {
+            "TypeScript": 1438522,
+            "JavaScript": 61277,
+            "C++": 5770,
+            "Shell": 3527,
+            "Python": 801
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@mongodb-js/zstd",
+          "version": "unknown",
+          "github": "https://github.com/mongodb-js/zstd",
+          "languages": {
+            "JavaScript": 11075,
+            "C++": 6970,
+            "Shell": 2854,
+            "Python": 1824
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "kerberos",
+          "version": "2.1.0",
+          "github": "https://github.com/mongodb-js/kerberos",
+          "languages": {
+            "C++": 83803,
+            "JavaScript": 40821,
+            "Shell": 7103,
+            "Python": 2704,
+            "C": 815
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "mongodb-client-encryption",
+          "version": "6.3.0",
+          "github": "https://github.com/mongodb-js/mongodb-client-encryption",
+          "languages": {
+            "C++": 64942,
+            "TypeScript": 30903,
+            "JavaScript": 18258,
+            "Python": 2534,
+            "Shell": 1512
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react-dom@18.3.1": {
+      "name": "react-dom",
+      "version": "18.3.1",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100320,
+        "TypeScript": 2011063,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react",
+          "version": "18.3.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "scheduler",
+          "version": "0.23.2",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react@18.3.1": {
+      "name": "react",
+      "version": "18.3.1",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100320,
+        "TypeScript": 2011063,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

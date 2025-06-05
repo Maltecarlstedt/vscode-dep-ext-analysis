@@ -1,0 +1,48 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "csscomb@4.3.0": {
+      "name": "csscomb",
+      "version": "4.3.0",
+      "github": "https://github.com/csscomb/csscomb.js",
+      "languages": {
+        "JavaScript": 228016,
+        "CSS": 54172,
+        "Shell": 1225
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "vow-fs",
+          "version": "0.3.6",
+          "github": "https://github.com/dfilatov/vow-fs",
+          "languages": {
+            "JavaScript": 24762
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "uuid",
+              "version": "2.0.3",
+              "github": "https://github.com/defunctzombie/node-uuid",
+              "languages": {
+                "JavaScript": 15883,
+                "Gnuplot": 5822,
+                "Shell": 1101,
+                "C": 613
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

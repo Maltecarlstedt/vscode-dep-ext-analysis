@@ -1,0 +1,69 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "node-window-manager@2.2.3": {
+      "name": "node-window-manager",
+      "version": "2.2.3",
+      "github": "https://github.com/sentialx/node-window-manager",
+      "languages": {
+        "C++": 14006,
+        "Objective-C++": 10262,
+        "TypeScript": 8469,
+        "JavaScript": 778,
+        "Python": 555
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "extract-file-icon",
+          "version": "0.3.2",
+          "github": "https://github.com/sentialx/extract-file-icon",
+          "languages": {
+            "C++": 7582,
+            "Objective-C++": 1289,
+            "Python": 757,
+            "TypeScript": 330,
+            "JavaScript": 276
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-addon-api",
+              "version": "1.7.1",
+              "github": "https://github.com/nodejs/node-addon-api",
+              "languages": {
+                "C++": 651642,
+                "JavaScript": 237907,
+                "Python": 14949,
+                "C": 1789
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "node-addon-api",
+          "version": "2.0.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

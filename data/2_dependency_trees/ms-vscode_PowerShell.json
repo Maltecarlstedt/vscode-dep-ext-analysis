@@ -1,0 +1,53 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "mocha@11.1.0": {
+      "name": "mocha",
+      "version": "11.1.0",
+      "github": "https://github.com/mochajs/mocha",
+      "languages": {
+        "JavaScript": 1137112,
+        "MDX": 98788,
+        "Astro": 30223,
+        "CSS": 11874,
+        "TypeScript": 5152,
+        "HTML": 1033,
+        "CoffeeScript": 328
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "3.6.0",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

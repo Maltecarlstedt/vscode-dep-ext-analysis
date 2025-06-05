@@ -1,0 +1,73 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "npm@8.19.4": {
+      "name": "npm",
+      "version": "8.19.4",
+      "github": "https://github.com/npm/cli",
+      "languages": {
+        "JavaScript": 13592801,
+        "Handlebars": 25866,
+        "Shell": 10986,
+        "PowerShell": 3366,
+        "Batchfile": 1180
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@npmcli/run-script",
+          "version": "4.2.1",
+          "github": "https://github.com/npm/run-script",
+          "languages": {
+            "JavaScript": 28513,
+            "Shell": 51,
+            "Batchfile": 34
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-gyp",
+              "version": "9.1.0",
+              "github": "https://github.com/nodejs/node-gyp",
+              "languages": {
+                "Python": 1524276,
+                "JavaScript": 188336,
+                "Emacs Lisp": 14363,
+                "C#": 7931,
+                "C++": 1656,
+                "Shell": 1041,
+                "Batchfile": 201
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "node-gyp",
+          "version": "9.1.0",
+          "github": "https://github.com/nodejs/node-gyp",
+          "languages": {
+            "Python": 1524276,
+            "JavaScript": 188336,
+            "Emacs Lisp": 14363,
+            "C#": 7931,
+            "C++": 1656,
+            "Shell": 1041,
+            "Batchfile": 201
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

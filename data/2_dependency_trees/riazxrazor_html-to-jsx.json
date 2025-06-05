@@ -1,0 +1,183 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "htmltojsx@0.3.0": {
+      "name": "htmltojsx",
+      "version": "0.3.0",
+      "github": "https://github.com/reactjs/react-magic",
+      "languages": {
+        "JavaScript": 54668,
+        "CSS": 4174,
+        "HTML": 2322
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "jsdom-no-contextify",
+          "version": "3.1.0",
+          "github": "https://github.com/crealogix/jsdom",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "request",
+              "version": "2.85.0",
+              "github": "https://github.com/request/request",
+              "languages": {
+                "JavaScript": 305377,
+                "Shell": 3006
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "http-signature",
+                  "version": "1.2.0",
+                  "github": "https://github.com/joyent/node-http-signature",
+                  "languages": {
+                    "JavaScript": 95746,
+                    "Makefile": 13276,
+                    "Emacs Lisp": 178
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "sshpk",
+                      "version": "1.14.1",
+                      "github": "https://github.com/arekinath/node-sshpk",
+                      "languages": {
+                        "JavaScript": 304051,
+                        "Makefile": 15447
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bcrypt-pbkdf",
+                          "version": "1.0.1",
+                          "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                          "languages": {
+                            "JavaScript": 23230
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": false,
+                          "depth": 5,
+                          "dependencies": [
+                            {
+                              "name": "tweetnacl",
+                              "version": "0.14.5",
+                              "github": "https://github.com/dchest/tweetnacl-js",
+                              "languages": {
+                                "JavaScript": 2964046,
+                                "C": 45485,
+                                "Go": 3796,
+                                "HTML": 1898,
+                                "Makefile": 716
+                              },
+                              "contains_compiled": true,
+                              "has_cpp_directly": true,
+                              "depth": 6,
+                              "dependencies": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "tweetnacl",
+                          "version": "0.14.5",
+                          "github": "https://github.com/dchest/tweetnacl-js",
+                          "languages": {
+                            "JavaScript": 2964046,
+                            "C": 45485,
+                            "Go": 3796,
+                            "HTML": 1898,
+                            "Makefile": 716
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "react-dom",
+          "version": "15.4.2",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "15.4.2",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "15.4.2",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "antlr4@4.13.1-patch-1": {
+      "name": "antlr4",
+      "version": "4.13.1-patch-1",
+      "github": "https://github.com/antlr/antlr4",
+      "languages": {
+        "Java": 2437464,
+        "C++": 1047730,
+        "C#": 1043537,
+        "Python": 951378,
+        "Swift": 873956,
+        "Dart": 587430,
+        "JavaScript": 500645,
+        "Go": 457229,
+        "ANTLR": 112525,
+        "GAP": 109926,
+        "Assembly": 92577,
+        "CMake": 35747,
+        "Objective-C++": 28237,
+        "C": 17247,
+        "Shell": 8062,
+        "Batchfile": 6675,
+        "Smalltalk": 2453,
+        "TypeScript": 804,
+        "Makefile": 688,
+        "Dockerfile": 684,
+        "Objective-C": 408
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

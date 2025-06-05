@@ -1,0 +1,161 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "npm@6.14.6": {
+      "name": "npm",
+      "version": "6.14.6",
+      "github": "https://github.com/npm/cli",
+      "languages": {
+        "JavaScript": 13592801,
+        "Handlebars": 25866,
+        "Shell": 10986,
+        "PowerShell": 3366,
+        "Batchfile": 1180
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-gyp",
+          "version": "5.1.0",
+          "github": "https://github.com/nodejs/node-gyp",
+          "languages": {
+            "Python": 1524276,
+            "JavaScript": 188336,
+            "Emacs Lisp": 14363,
+            "C#": 7931,
+            "C++": 1656,
+            "Shell": 1041,
+            "Batchfile": 201
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "npm-lifecycle",
+          "version": "3.1.4",
+          "github": "https://github.com/npm/lifecycle",
+          "languages": {
+            "JavaScript": 27117,
+            "Shell": 172,
+            "Batchfile": 148
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "node-gyp",
+              "version": "5.1.0",
+              "github": "https://github.com/nodejs/node-gyp",
+              "languages": {
+                "Python": 1524276,
+                "JavaScript": 188336,
+                "Emacs Lisp": 14363,
+                "C#": 7931,
+                "C++": 1656,
+                "Shell": 1041,
+                "Batchfile": 201
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "request",
+          "version": "2.88.0",
+          "github": "https://github.com/request/request",
+          "languages": {
+            "JavaScript": 305377,
+            "Shell": 3006
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "http-signature",
+              "version": "1.2.0",
+              "github": "https://github.com/joyent/node-http-signature",
+              "languages": {
+                "JavaScript": 95746,
+                "Makefile": 13276,
+                "Emacs Lisp": 178
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "sshpk",
+                  "version": "1.14.2",
+                  "github": "https://github.com/arekinath/node-sshpk",
+                  "languages": {
+                    "JavaScript": 304051,
+                    "Makefile": 15447
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "bcrypt-pbkdf",
+                      "version": "1.0.2",
+                      "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                      "languages": {
+                        "JavaScript": 23230
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "tweetnacl",
+                          "version": "0.14.5",
+                          "github": "https://github.com/dchest/tweetnacl-js",
+                          "languages": {
+                            "JavaScript": 2964046,
+                            "C": 45485,
+                            "Go": 3796,
+                            "HTML": 1898,
+                            "Makefile": 716
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tweetnacl",
+                      "version": "0.14.5",
+                      "github": "https://github.com/dchest/tweetnacl-js",
+                      "languages": {
+                        "JavaScript": 2964046,
+                        "C": 45485,
+                        "Go": 3796,
+                        "HTML": 1898,
+                        "Makefile": 716
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

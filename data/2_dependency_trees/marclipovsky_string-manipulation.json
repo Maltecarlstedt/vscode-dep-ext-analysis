@@ -1,0 +1,52 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "nodemon@3.1.7": {
+      "name": "nodemon",
+      "version": "3.1.7",
+      "github": "https://github.com/remy/nodemon",
+      "languages": {
+        "JavaScript": 198579,
+        "HTML": 28039,
+        "jq": 4350,
+        "CSS": 2057,
+        "Dockerfile": 917,
+        "Shell": 219
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "chokidar",
+          "version": "3.5.3",
+          "github": "https://github.com/paulmillr/chokidar",
+          "languages": {
+            "TypeScript": 134725,
+            "JavaScript": 352
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

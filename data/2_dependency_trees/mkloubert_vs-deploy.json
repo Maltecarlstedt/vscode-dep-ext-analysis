@@ -1,0 +1,93 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "ssh2-sftp-client@1.1.0": {
+      "name": "ssh2-sftp-client",
+      "version": "1.1.0",
+      "github": "https://github.com/jyu213/ssh2-sftp-client",
+      "languages": {
+        "JavaScript": 223895
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "ssh2",
+          "version": "0.4.15",
+          "github": "https://github.com/mscdex/ssh2",
+          "languages": {
+            "JavaScript": 758698,
+            "C++": 64172,
+            "C": 2096,
+            "Python": 449,
+            "Batchfile": 41
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "sshpk@1.14.1": {
+      "name": "sshpk",
+      "version": "1.14.1",
+      "github": "https://github.com/arekinath/node-sshpk",
+      "languages": {
+        "JavaScript": 304051,
+        "Makefile": 15447
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bcrypt-pbkdf",
+          "version": "1.0.1",
+          "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+          "languages": {
+            "JavaScript": 23230
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "tweetnacl",
+              "version": "0.14.5",
+              "github": "https://github.com/dchest/tweetnacl-js",
+              "languages": {
+                "JavaScript": 2964046,
+                "C": 45485,
+                "Go": 3796,
+                "HTML": 1898,
+                "Makefile": 716
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "tweetnacl",
+          "version": "0.14.5",
+          "github": "https://github.com/dchest/tweetnacl-js",
+          "languages": {
+            "JavaScript": 2964046,
+            "C": 45485,
+            "Go": 3796,
+            "HTML": 1898,
+            "Makefile": 716
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

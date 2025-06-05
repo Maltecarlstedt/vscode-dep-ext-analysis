@@ -1,0 +1,76 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "jest-editor-support@28.1.0": {
+      "name": "jest-editor-support",
+      "version": "28.1.0",
+      "github": "https://github.com/jest-community/jest-editor-support",
+      "languages": {
+        "TypeScript": 171610,
+        "JavaScript": 1896
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "jest-snapshot",
+          "version": "24.9.0",
+          "github": "https://github.com/facebook/jest",
+          "languages": {
+            "TypeScript": 3545270,
+            "JavaScript": 911886,
+            "CSS": 25056,
+            "Prolog": 3500,
+            "Shell": 404,
+            "Handlebars": 260
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "pretty-format",
+              "version": "24.9.0",
+              "github": "https://github.com/facebook/jest",
+              "languages": {
+                "TypeScript": 3545270,
+                "JavaScript": 911886,
+                "CSS": 25056,
+                "Prolog": 3500,
+                "Shell": 404,
+                "Handlebars": 260
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-is",
+                  "version": "16.13.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

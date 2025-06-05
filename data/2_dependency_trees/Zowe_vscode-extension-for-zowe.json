@@ -1,0 +1,750 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@zowe/zowe-explorer-api@3.2.0-SNAPSHOT": {
+      "name": "@zowe/zowe-explorer-api",
+      "version": "3.2.0-SNAPSHOT",
+      "github": "https://github.com/zowe/zowe-explorer-vscode",
+      "languages": {
+        "TypeScript": 4076814,
+        "Rust": 34735,
+        "JavaScript": 24273,
+        "Gherkin": 11734,
+        "HTML": 3142,
+        "CSS": 2019,
+        "Shell": 362
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@zowe/imperative",
+          "version": "8.21.0",
+          "github": "https://github.com/zowe/zowe-cli",
+          "languages": {
+            "TypeScript": 10275449,
+            "Shell": 206148,
+            "Rust": 116697,
+            "JavaScript": 68650,
+            "REXX": 6384,
+            "JCL": 4790,
+            "HTML": 2191,
+            "Batchfile": 50
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "jest-diff",
+              "version": "29.7.0",
+              "github": "https://github.com/jestjs/jest",
+              "languages": {
+                "TypeScript": 3539240,
+                "JavaScript": 911724,
+                "CSS": 25056,
+                "Prolog": 3500,
+                "Shell": 404,
+                "Handlebars": 260
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "pretty-format",
+                  "version": "29.7.0",
+                  "github": "https://github.com/jestjs/jest",
+                  "languages": {
+                    "TypeScript": 3539240,
+                    "JavaScript": 911724,
+                    "CSS": 25056,
+                    "Prolog": 3500,
+                    "Shell": 404,
+                    "Handlebars": 260
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react-is",
+                      "version": "18.3.1",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pacote",
+              "version": "18.0.6",
+              "github": "https://github.com/npm/pacote",
+              "languages": {
+                "JavaScript": 227624
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "@npmcli/run-script",
+                  "version": "8.1.0",
+                  "github": "https://github.com/npm/run-script",
+                  "languages": {
+                    "JavaScript": 28513,
+                    "Shell": 51,
+                    "Batchfile": 34
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "node-gyp",
+                      "version": "10.3.1",
+                      "github": "https://github.com/nodejs/node-gyp",
+                      "languages": {
+                        "Python": 1524276,
+                        "JavaScript": 188336,
+                        "Emacs Lisp": 14363,
+                        "C#": 7931,
+                        "C++": 1656,
+                        "Shell": 1041,
+                        "Batchfile": 201
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "@zowe/zos-uss-for-zowe-sdk",
+          "version": "8.21.0",
+          "github": "https://github.com/zowe/zowe-cli",
+          "languages": {
+            "TypeScript": 10275449,
+            "Shell": 206148,
+            "Rust": 116697,
+            "JavaScript": 68650,
+            "REXX": 6384,
+            "JCL": 4790,
+            "HTML": 2191,
+            "Batchfile": 50
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "ssh2",
+              "version": "1.16.0",
+              "github": "https://github.com/mscdex/ssh2",
+              "languages": {
+                "JavaScript": 758698,
+                "C++": 64172,
+                "C": 2096,
+                "Python": 449,
+                "Batchfile": 41
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "bcrypt-pbkdf",
+                  "version": "1.0.2",
+                  "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+                  "languages": {
+                    "JavaScript": 23230
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "tweetnacl",
+                      "version": "0.14.5",
+                      "github": "https://github.com/dchest/tweetnacl-js",
+                      "languages": {
+                        "JavaScript": 2964046,
+                        "C": 45485,
+                        "Go": 3796,
+                        "HTML": 1898,
+                        "Makefile": 716
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "cpu-features",
+                  "version": "0.0.10",
+                  "github": "https://github.com/mscdex/cpu-features",
+                  "languages": {
+                    "C++": 5201,
+                    "JavaScript": 1265,
+                    "Python": 320
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "nan",
+                      "version": "2.22.2",
+                      "github": "https://github.com/nodejs/nan",
+                      "languages": {
+                        "C++": 364456,
+                        "JavaScript": 71197,
+                        "C": 6937,
+                        "Python": 5058,
+                        "CMake": 4239,
+                        "Makefile": 3564
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                },
+                {
+                  "name": "nan",
+                  "version": "2.22.2",
+                  "github": "https://github.com/nodejs/nan",
+                  "languages": {
+                    "C++": 364456,
+                    "JavaScript": 71197,
+                    "C": 6937,
+                    "Python": 5058,
+                    "CMake": 4239,
+                    "Makefile": 3564
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "webviews@3.2.0-SNAPSHOT": {
+      "name": "webviews",
+      "version": "3.2.0-SNAPSHOT",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@szhsin/react-menu",
+          "version": "4.4.1",
+          "github": "https://github.com/szhsin/react-menu",
+          "languages": {
+            "JavaScript": 272232,
+            "SCSS": 34832,
+            "Shell": 506
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react-dom",
+              "version": "19.1.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "19.1.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "scheduler",
+                  "version": "0.26.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react-transition-state",
+              "version": "2.3.1",
+              "github": "https://github.com/szhsin/react-transition-state",
+              "languages": {
+                "JavaScript": 42316,
+                "CSS": 2621,
+                "HTML": 1756,
+                "Shell": 513
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-dom",
+                  "version": "19.1.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                },
+                {
+                  "name": "react",
+                  "version": "19.1.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react",
+              "version": "19.1.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@vscode/webview-ui-toolkit",
+          "version": "1.4.0",
+          "github": "https://github.com/microsoft/vscode-webview-ui-toolkit",
+          "languages": {
+            "TypeScript": 81721,
+            "JavaScript": 13921
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@microsoft/fast-react-wrapper",
+              "version": "0.3.25",
+              "github": "https://github.com/Microsoft/fast",
+              "languages": {
+                "TypeScript": 1419078,
+                "MDX": 365569,
+                "JavaScript": 66184,
+                "HTML": 47349,
+                "CSS": 11482
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react",
+                  "version": "19.1.0",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react",
+              "version": "19.1.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "ag-grid-react",
+          "version": "32.3.7",
+          "github": "https://github.com/ag-grid/ag-grid",
+          "languages": {
+            "TypeScript": 8861124,
+            "SCSS": 308232,
+            "JavaScript": 163889,
+            "CSS": 142650,
+            "Shell": 46244,
+            "Vue": 9570,
+            "HTML": 1018,
+            "sed": 879
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "prop-types",
+              "version": "15.8.1",
+              "github": "https://github.com/facebook/prop-types",
+              "languages": {
+                "JavaScript": 180769
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "react-is",
+                  "version": "16.13.1",
+                  "github": "https://github.com/facebook/react",
+                  "languages": {
+                    "JavaScript": 5100320,
+                    "TypeScript": 2011063,
+                    "HTML": 111349,
+                    "CSS": 73350,
+                    "C++": 44290,
+                    "CoffeeScript": 18760,
+                    "C": 5227,
+                    "Shell": 4395,
+                    "Python": 259,
+                    "Makefile": 189
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": true,
+                  "depth": 3,
+                  "dependencies": []
+                }
+              ]
+            },
+            {
+              "name": "react-dom",
+              "version": "19.1.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "react",
+              "version": "19.1.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "zowe-explorer-ftp-extension@3.2.0-SNAPSHOT": {
+      "name": "zowe-explorer-ftp-extension",
+      "version": "3.2.0-SNAPSHOT",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@zowe/zos-ftp-for-zowe-cli",
+          "version": "3.0.0",
+          "github": "https://github.com/zowe/zowe-cli-ftp-plugin",
+          "languages": {
+            "TypeScript": 393824,
+            "Shell": 10791,
+            "JavaScript": 3704,
+            "JCL": 290
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@zowe/imperative",
+              "version": "8.0.0",
+              "github": "https://github.com/zowe/zowe-cli",
+              "languages": {
+                "TypeScript": 10275449,
+                "Shell": 206148,
+                "Rust": 116697,
+                "JavaScript": 68650,
+                "REXX": 6384,
+                "JCL": 4790,
+                "HTML": 2191,
+                "Batchfile": 50
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "jest-diff",
+                  "version": "29.7.0",
+                  "github": "https://github.com/jestjs/jest",
+                  "languages": {
+                    "TypeScript": 3539240,
+                    "JavaScript": 911724,
+                    "CSS": 25056,
+                    "Prolog": 3500,
+                    "Shell": 404,
+                    "Handlebars": 260
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "pretty-format",
+                      "version": "29.7.0",
+                      "github": "https://github.com/jestjs/jest",
+                      "languages": {
+                        "TypeScript": 3539240,
+                        "JavaScript": 911724,
+                        "CSS": 25056,
+                        "Prolog": 3500,
+                        "Shell": 404,
+                        "Handlebars": 260
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "react-is",
+                          "version": "18.3.1",
+                          "github": "https://github.com/facebook/react",
+                          "languages": {
+                            "JavaScript": 5100320,
+                            "TypeScript": 2011063,
+                            "HTML": 111349,
+                            "CSS": 73350,
+                            "C++": 44290,
+                            "CoffeeScript": 18760,
+                            "C": 5227,
+                            "Shell": 4395,
+                            "Python": 259,
+                            "Makefile": 189
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "pacote",
+                  "version": "18.0.6",
+                  "github": "https://github.com/npm/pacote",
+                  "languages": {
+                    "JavaScript": 227624
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "@npmcli/run-script",
+                      "version": "8.1.0",
+                      "github": "https://github.com/npm/run-script",
+                      "languages": {
+                        "JavaScript": 28513,
+                        "Shell": 51,
+                        "Batchfile": 34
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": false,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "node-gyp",
+                          "version": "10.2.0",
+                          "github": "https://github.com/nodejs/node-gyp",
+                          "languages": {
+                            "Python": 1524276,
+                            "JavaScript": 188336,
+                            "Emacs Lisp": 14363,
+                            "C#": 7931,
+                            "C++": 1656,
+                            "Shell": 1041,
+                            "Batchfile": 201
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

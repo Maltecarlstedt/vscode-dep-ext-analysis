@@ -1,0 +1,610 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@serialport/bindings-cpp@10.7.0": {
+      "name": "@serialport/bindings-cpp",
+      "version": "10.7.0",
+      "github": "https://github.com/serialport/bindings-cpp",
+      "languages": {
+        "C++": 85103,
+        "TypeScript": 61627,
+        "Python": 1891,
+        "JavaScript": 1224,
+        "C": 656
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@serialport/parser-readline",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@serialport/parser-delimiter",
+              "version": "10.3.0",
+              "github": "https://github.com/serialport/node-serialport",
+              "languages": {
+                "TypeScript": 138207,
+                "JavaScript": 21662,
+                "HTML": 1269,
+                "C++": 307
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "node-addon-api",
+          "version": "4.3.0",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "@vscode/webview-ui-toolkit@1.0.0": {
+      "name": "@vscode/webview-ui-toolkit",
+      "version": "1.0.0",
+      "github": "https://github.com/microsoft/vscode-webview-ui-toolkit",
+      "languages": {
+        "TypeScript": 81721,
+        "JavaScript": 13921
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@microsoft/fast-react-wrapper",
+          "version": "0.1.48",
+          "github": "https://github.com/Microsoft/fast",
+          "languages": {
+            "TypeScript": 1419078,
+            "MDX": 365569,
+            "JavaScript": 66184,
+            "HTML": 47349,
+            "CSS": 11482
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "18.2.0",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "18.2.0",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "consolite@0.3.10": {
+      "name": "consolite",
+      "version": "0.3.10",
+      "github": "https://github.com/jakobrosenberg/consolite",
+      "languages": {
+        "JavaScript": 14353,
+        "TypeScript": 3894
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "probs",
+          "version": "1.1.0-17",
+          "github": "",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "jest-diff",
+              "version": "27.5.1",
+              "github": "https://github.com/facebook/jest",
+              "languages": {
+                "TypeScript": 3539240,
+                "JavaScript": 911724,
+                "CSS": 25056,
+                "Prolog": 3500,
+                "Shell": 404,
+                "Handlebars": 260
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "pretty-format",
+                  "version": "27.5.1",
+                  "github": "https://github.com/facebook/jest",
+                  "languages": {
+                    "TypeScript": 3539240,
+                    "JavaScript": 911724,
+                    "CSS": 25056,
+                    "Prolog": 3500,
+                    "Shell": 404,
+                    "Handlebars": 260
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "react-is",
+                      "version": "17.0.2",
+                      "github": "https://github.com/facebook/react",
+                      "languages": {
+                        "JavaScript": 5100320,
+                        "TypeScript": 2011063,
+                        "HTML": 111349,
+                        "CSS": 73350,
+                        "C++": 44290,
+                        "CoffeeScript": 18760,
+                        "C": 5227,
+                        "Shell": 4395,
+                        "Python": 259,
+                        "Makefile": 189
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "jest-snapshot",
+              "version": "27.5.1",
+              "github": "https://github.com/facebook/jest",
+              "languages": {
+                "TypeScript": 3539240,
+                "JavaScript": 911724,
+                "CSS": 25056,
+                "Prolog": 3500,
+                "Shell": 404,
+                "Handlebars": 260
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": false,
+              "depth": 2,
+              "dependencies": [
+                {
+                  "name": "jest-haste-map",
+                  "version": "27.5.1",
+                  "github": "https://github.com/facebook/jest",
+                  "languages": {
+                    "TypeScript": 3539240,
+                    "JavaScript": 911724,
+                    "CSS": 25056,
+                    "Prolog": 3500,
+                    "Shell": 404,
+                    "Handlebars": 260
+                  },
+                  "contains_compiled": true,
+                  "has_cpp_directly": false,
+                  "depth": 3,
+                  "dependencies": [
+                    {
+                      "name": "fb-watchman",
+                      "version": "2.0.1",
+                      "github": "https://github.com/facebook/watchman",
+                      "languages": {
+                        "C++": 1400922,
+                        "Python": 898662,
+                        "Rust": 239936,
+                        "Java": 152490,
+                        "CMake": 121909,
+                        "Thrift": 106460,
+                        "C": 68154,
+                        "JavaScript": 53008,
+                        "Ruby": 16953,
+                        "Shell": 8758,
+                        "CSS": 5325,
+                        "Dockerfile": 1604,
+                        "Starlark": 1322,
+                        "Batchfile": 366
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": [
+                        {
+                          "name": "bser",
+                          "version": "2.1.1",
+                          "github": "https://github.com/facebook/watchman",
+                          "languages": {
+                            "C++": 1400922,
+                            "Python": 898662,
+                            "Rust": 239936,
+                            "Java": 152490,
+                            "CMake": 121909,
+                            "Thrift": 106460,
+                            "C": 68154,
+                            "JavaScript": 53008,
+                            "Ruby": 16953,
+                            "Shell": 8758,
+                            "CSS": 5325,
+                            "Dockerfile": 1604,
+                            "Starlark": 1322,
+                            "Batchfile": 366
+                          },
+                          "contains_compiled": true,
+                          "has_cpp_directly": true,
+                          "depth": 5,
+                          "dependencies": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "fsevents",
+                      "version": "unknown",
+                      "github": "https://github.com/fsevents/fsevents",
+                      "languages": {
+                        "C": 12888,
+                        "JavaScript": 11408,
+                        "Python": 716,
+                        "Shell": 438
+                      },
+                      "contains_compiled": true,
+                      "has_cpp_directly": true,
+                      "depth": 4,
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "micropython-ctl-cont@1.15.3": {
+      "name": "micropython-ctl-cont",
+      "version": "1.15.3",
+      "github": "https://github.com/metachris/micropython-ctl",
+      "languages": {
+        "TypeScript": 81529,
+        "JavaScript": 26590,
+        "Shell": 1704,
+        "Batchfile": 999
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "serialport",
+          "version": "10.4.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "ws",
+          "version": "7.5.7",
+          "github": "https://github.com/websockets/ws",
+          "languages": {
+            "JavaScript": 434710
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "bufferutil",
+              "version": "unknown",
+              "github": "https://github.com/websockets/bufferutil",
+              "languages": {
+                "C": 3682,
+                "JavaScript": 2450,
+                "Python": 848
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            },
+            {
+              "name": "utf-8-validate",
+              "version": "unknown",
+              "github": "https://github.com/websockets/utf-8-validate",
+              "languages": {
+                "JavaScript": 3173,
+                "Python": 912,
+                "C++": 899
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "serialport@10.4.0": {
+      "name": "serialport",
+      "version": "10.4.0",
+      "github": "https://github.com/serialport/node-serialport",
+      "languages": {
+        "TypeScript": 138207,
+        "JavaScript": 21662,
+        "HTML": 1269,
+        "C++": 307
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@serialport/bindings-cpp",
+          "version": "10.7.0",
+          "github": "https://github.com/serialport/bindings-cpp",
+          "languages": {
+            "C++": 85103,
+            "TypeScript": 61627,
+            "Python": 1891,
+            "JavaScript": 1224,
+            "C": 656
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-byte-length",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-cctalk",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-delimiter",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-inter-byte-timeout",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-packet-length",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-readline",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@serialport/parser-delimiter",
+              "version": "10.3.0",
+              "github": "https://github.com/serialport/node-serialport",
+              "languages": {
+                "TypeScript": 138207,
+                "JavaScript": 21662,
+                "HTML": 1269,
+                "C++": 307
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "@serialport/parser-ready",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-regex",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-slip-encoder",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/parser-spacepacket",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "@serialport/stream",
+          "version": "10.3.0",
+          "github": "https://github.com/serialport/node-serialport",
+          "languages": {
+            "TypeScript": 138207,
+            "JavaScript": 21662,
+            "HTML": 1269,
+            "C++": 307
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

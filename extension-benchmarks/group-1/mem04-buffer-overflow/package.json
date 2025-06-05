@@ -1,0 +1,59 @@
+{
+  "name": "buffer-overflows",
+  "displayName": "buffer-overflows",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "buffer-overflows.unsafeMemcpy",
+        "title": "Buffers: Run Unsafe Memcpy"
+      },
+      {
+        "command": "buffer-overflows.unsafeStrcpy",
+        "title": "Buffers: Run Unsafe Strcpy"
+      },
+      {
+        "command": "buffer-overflows.unsafeStrcat",
+        "title": "Buffers: Run Unsafe Strcat"
+      },
+      {
+        "command": "buffer-overflows.mallocTooSmall",
+        "title": "Buffers: Run Malloc Too Small"
+      },
+      {
+        "command": "buffer-overflows.safeMemcpy",
+        "title": "Buffers: Run Safe Memcpy"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.96.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.16.0"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^8.3.0"
+  },
+  "files": [
+    "extension.js",
+    "native/build/Release/addon.node"
+  ]
+}

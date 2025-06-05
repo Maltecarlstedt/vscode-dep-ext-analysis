@@ -1,0 +1,423 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@rjsf/core@2.3.0": {
+      "name": "@rjsf/core",
+      "version": "2.3.0",
+      "github": "https://github.com/rjsf-team/react-jsonschema-form",
+      "languages": {
+        "TypeScript": 2124618,
+        "JavaScript": 647846,
+        "CSS": 19237,
+        "MDX": 5532,
+        "HTML": 689,
+        "Shell": 47
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react-is",
+          "version": "16.13.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "react",
+          "version": "unknown",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100771,
+            "TypeScript": 2011603,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "adal-node@unknown": {
+      "name": "adal-node",
+      "version": "unknown",
+      "github": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+      "languages": {
+        "TypeScript": 4083103,
+        "JavaScript": 49315,
+        "C++": 3861,
+        "PowerShell": 2213,
+        "HTML": 1888,
+        "C": 199,
+        "Shell": 76,
+        "SCSS": 36
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "cpu-features@unknown": {
+      "name": "cpu-features",
+      "version": "unknown",
+      "github": "https://github.com/mscdex/cpu-features",
+      "languages": {
+        "C++": 5201,
+        "JavaScript": 1265,
+        "Python": 320
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "gethue@unknown": {
+      "name": "gethue",
+      "version": "unknown",
+      "github": "https://github.com/cloudera/hue",
+      "languages": {
+        "JavaScript": 39377296,
+        "Python": 18432549,
+        "Mako": 3234767,
+        "TypeScript": 1881791,
+        "HTML": 1660967,
+        "Yacc": 1070437,
+        "Vue": 401726,
+        "Less": 380692,
+        "XSLT": 368058,
+        "CSS": 320917,
+        "Thrift": 299395,
+        "Vim Snippet": 226931,
+        "Lex": 218765,
+        "Shell": 210567,
+        "SCSS": 142197,
+        "Makefile": 88989,
+        "Lua": 78382,
+        "Java": 16989,
+        "C++": 15709,
+        "Dockerfile": 15074,
+        "Batchfile": 10044,
+        "LiveScript": 5747,
+        "Praat": 3781,
+        "Cython": 3246,
+        "Objective-C": 2672,
+        "PLpgSQL": 2547,
+        "R": 2445,
+        "Nix": 2212,
+        "LSL": 2080,
+        "Liquid": 1883,
+        "Answer Set Programming": 1865,
+        "M4": 1751,
+        "Scala": 1541,
+        "Pascal": 1412,
+        "TeX": 1345,
+        "ActionScript": 1133,
+        "Groovy": 1080,
+        "Closure Templates": 1072,
+        "FreeMarker": 1017,
+        "Forth": 979,
+        "ABAP": 962,
+        "VBScript": 938,
+        "Haml": 920,
+        "Tcl": 899,
+        "VHDL": 830,
+        "Clojure": 794,
+        "Sass": 770,
+        "Twig": 761,
+        "EJS": 752,
+        "AutoHotkey": 720,
+        "Gherkin": 699,
+        "Elixir": 692,
+        "Stylus": 682,
+        "Perl": 678,
+        "Go": 641,
+        "Common Lisp": 632,
+        "Mask": 597,
+        "Pug": 584,
+        "Scheme": 559,
+        "OCaml": 539,
+        "Ruby": 531,
+        "G-code": 521,
+        "Cirru": 520,
+        "GLSL": 512,
+        "Haskell": 512,
+        "Assembly": 506,
+        "Rust": 495,
+        "Dart": 489,
+        "Elm": 487,
+        "Erlang": 487,
+        "Vala": 485,
+        "Haxe": 447,
+        "PowerShell": 418,
+        "CoffeeScript": 403,
+        "Eiffel": 375,
+        "PigLatin": 371,
+        "PHP": 351,
+        "OpenSCAD": 333,
+        "D": 324,
+        "Verilog": 274,
+        "Lean": 213,
+        "Julia": 210,
+        "MATLAB": 203,
+        "Handlebars": 173,
+        "Io": 140,
+        "XQuery": 114,
+        "Ada": 99,
+        "ColdFusion": 86,
+        "C#": 83,
+        "HiveQL": 43,
+        "COBOL": 4,
+        "jq": 4
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "hoist-non-react-statics@unknown": {
+      "name": "hoist-non-react-statics",
+      "version": "unknown",
+      "github": "https://github.com/mridgway/hoist-non-react-statics",
+      "languages": {
+        "JavaScript": 13237
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react-is",
+          "version": "16.13.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "nan@unknown": {
+      "name": "nan",
+      "version": "unknown",
+      "github": "https://github.com/nodejs/nan",
+      "languages": {
+        "C++": 364456,
+        "JavaScript": 71197,
+        "C": 6937,
+        "Python": 5058,
+        "CMake": 4239,
+        "Makefile": 3564
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "node-gyp@unknown": {
+      "name": "node-gyp",
+      "version": "unknown",
+      "github": "https://github.com/nodejs/node-gyp",
+      "languages": {
+        "Python": 1524276,
+        "JavaScript": 188336,
+        "Emacs Lisp": 14363,
+        "C#": 7931,
+        "C++": 1656,
+        "Shell": 1041,
+        "Batchfile": 201
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "prop-types@unknown": {
+      "name": "prop-types",
+      "version": "unknown",
+      "github": "https://github.com/facebook/prop-types",
+      "languages": {
+        "JavaScript": 180769
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "react-is",
+          "version": "16.13.1",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "react-dom@unknown": {
+      "name": "react-dom",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100771,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "react-is@unknown": {
+      "name": "react-is",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100760,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "react@unknown": {
+      "name": "react",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100771,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "scheduler@unknown": {
+      "name": "scheduler",
+      "version": "unknown",
+      "github": "https://github.com/facebook/react",
+      "languages": {
+        "JavaScript": 5100760,
+        "TypeScript": 2011603,
+        "HTML": 111349,
+        "CSS": 73350,
+        "C++": 44290,
+        "CoffeeScript": 18760,
+        "C": 5227,
+        "Shell": 4395,
+        "Python": 259,
+        "Makefile": 189
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "sqlite3@unknown": {
+      "name": "sqlite3",
+      "version": "unknown",
+      "github": "https://github.com/TryGhost/node-sqlite3",
+      "languages": {
+        "PLpgSQL": 528281,
+        "JavaScript": 107836,
+        "C++": 103186,
+        "Python": 1725,
+        "Makefile": 1488,
+        "C": 1249,
+        "Dockerfile": 607,
+        "HTML": 251
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "ssh2@unknown": {
+      "name": "ssh2",
+      "version": "unknown",
+      "github": "https://github.com/mscdex/ssh2",
+      "languages": {
+        "JavaScript": 758698,
+        "C++": 64172,
+        "C": 2096,
+        "Python": 449,
+        "Batchfile": 41
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

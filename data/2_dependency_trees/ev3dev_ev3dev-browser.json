@@ -1,0 +1,64 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "dbus-next@0.8.2": {
+      "name": "dbus-next",
+      "version": "0.8.2",
+      "github": "https://github.com/dbusjs/node-dbus-next",
+      "languages": {
+        "JavaScript": 214317,
+        "Handlebars": 12088,
+        "Dockerfile": 821,
+        "Makefile": 306
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@nornagon/put",
+          "version": "0.0.8",
+          "github": "https://github.com/nornagon/node-put",
+          "languages": {
+            "JavaScript": 5514,
+            "C": 278
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "abstract-socket",
+          "version": "unknown",
+          "github": "https://github.com/saghul/node-abstractsocket",
+          "languages": {
+            "JavaScript": 9030,
+            "C++": 4785,
+            "Python": 226
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "ssh2@0.5.5": {
+      "name": "ssh2",
+      "version": "0.5.5",
+      "github": "https://github.com/mscdex/ssh2",
+      "languages": {
+        "JavaScript": 758698,
+        "C++": 64172,
+        "C": 2096,
+        "Python": 449,
+        "Batchfile": 41
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

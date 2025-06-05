@@ -1,0 +1,159 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@vscode/webview-ui-toolkit@0.9.0": {
+      "name": "@vscode/webview-ui-toolkit",
+      "version": "0.9.0",
+      "github": "https://github.com/microsoft/vscode-webview-ui-toolkit",
+      "languages": {
+        "TypeScript": 81721,
+        "JavaScript": 13921
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@microsoft/fast-react-wrapper",
+          "version": "0.1.26",
+          "github": "https://github.com/Microsoft/fast",
+          "languages": {
+            "TypeScript": 1421054,
+            "MDX": 365569,
+            "JavaScript": 66184,
+            "HTML": 47955,
+            "CSS": 11482
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "react",
+              "version": "17.0.2",
+              "github": "https://github.com/facebook/react",
+              "languages": {
+                "JavaScript": 5100320,
+                "TypeScript": 2011063,
+                "HTML": 111349,
+                "CSS": 73350,
+                "C++": 44290,
+                "CoffeeScript": 18760,
+                "C": 5227,
+                "Shell": 4395,
+                "Python": 259,
+                "Makefile": 189
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "react",
+          "version": "17.0.2",
+          "github": "https://github.com/facebook/react",
+          "languages": {
+            "JavaScript": 5100320,
+            "TypeScript": 2011063,
+            "HTML": 111349,
+            "CSS": 73350,
+            "C++": 44290,
+            "CoffeeScript": 18760,
+            "C": 5227,
+            "Shell": 4395,
+            "Python": 259,
+            "Makefile": 189
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "applicationinsights@2.3.3": {
+      "name": "applicationinsights",
+      "version": "2.3.3",
+      "github": "https://github.com/microsoft/ApplicationInsights-node.js",
+      "languages": {
+        "TypeScript": 439536,
+        "JavaScript": 64808,
+        "Shell": 222
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "applicationinsights-native-metrics",
+          "version": "unknown",
+          "github": "https://github.com/Microsoft/ApplicationInsights-node.js-native-metrics",
+          "languages": {
+            "C++": 12884,
+            "TypeScript": 3345,
+            "JavaScript": 1437,
+            "Python": 1256
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "workbox-build@6.4.2": {
+      "name": "workbox-build",
+      "version": "6.4.2",
+      "github": "https://github.com/googlechrome/workbox",
+      "languages": {
+        "JavaScript": 1147754,
+        "TypeScript": 519943,
+        "HTML": 18968,
+        "Handlebars": 13953,
+        "Nunjucks": 10656,
+        "CSS": 1131,
+        "Shell": 349
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "rollup",
+          "version": "2.60.2",
+          "github": "https://github.com/rollup/rollup",
+          "languages": {
+            "JavaScript": 8291026,
+            "TypeScript": 1115393,
+            "Rust": 204198,
+            "HTML": 5020,
+            "CSS": 37
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "fsevents",
+              "version": "unknown",
+              "github": "https://github.com/fsevents/fsevents",
+              "languages": {
+                "C": 12888,
+                "JavaScript": 11408,
+                "Python": 716,
+                "Shell": 438
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

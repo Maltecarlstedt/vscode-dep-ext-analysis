@@ -1,0 +1,24 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "prismjs@1.15.0": {
+      "name": "prismjs",
+      "version": "1.15.0",
+      "github": "https://github.com/LeaVerou/prism",
+      "languages": {
+        "TypeScript": 1117483,
+        "CSS": 42623,
+        "JavaScript": 15731,
+        "C": 543,
+        "Lua": 422,
+        "C++": 306,
+        "Shell": 244,
+        "Awk": 106
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}

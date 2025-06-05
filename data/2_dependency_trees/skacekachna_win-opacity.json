@@ -1,0 +1,63 @@
+{
+  "ext_native": true,
+  "dependencies": {
+    "node-addon-api@3.1.0": {
+      "name": "node-addon-api",
+      "version": "3.1.0",
+      "github": "https://github.com/nodejs/node-addon-api",
+      "languages": {
+        "C++": 651642,
+        "JavaScript": 237907,
+        "Python": 14949,
+        "C": 1789
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "ref-napi@3.0.2": {
+      "name": "ref-napi",
+      "version": "3.0.2",
+      "github": "https://github.com/node-ffi-napi/ref-napi",
+      "languages": {
+        "JavaScript": 73588,
+        "C++": 22464,
+        "Python": 719
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "get-symbol-from-current-process-h",
+          "version": "1.0.2",
+          "github": "https://github.com/node-ffi-napi/get-symbol-from-current-process-h",
+          "languages": {
+            "C": 572,
+            "JavaScript": 211
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "node-addon-api",
+          "version": "2.0.2",
+          "github": "https://github.com/nodejs/node-addon-api",
+          "languages": {
+            "C++": 651642,
+            "JavaScript": 237907,
+            "Python": 14949,
+            "C": 1789
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

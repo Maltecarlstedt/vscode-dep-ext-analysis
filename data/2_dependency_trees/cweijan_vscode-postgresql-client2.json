@@ -1,0 +1,121 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@exasol/exasol-driver-ts@0.3.0": {
+      "name": "@exasol/exasol-driver-ts",
+      "version": "0.3.0",
+      "github": "https://github.com/exasol/exasol-driver-ts",
+      "languages": {
+        "TypeScript": 80146,
+        "JavaScript": 568
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "node-forge",
+          "version": "1.3.1",
+          "github": "https://github.com/digitalbazaar/forge",
+          "languages": {
+            "JavaScript": 1642997,
+            "HTML": 73308,
+            "ActionScript": 25864,
+            "C": 13441,
+            "Python": 3547,
+            "CSS": 1244
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    },
+    "bufferutil@4.0.9": {
+      "name": "bufferutil",
+      "version": "4.0.9",
+      "github": "https://github.com/websockets/bufferutil",
+      "languages": {
+        "C": 3682,
+        "JavaScript": 2450,
+        "Python": 848
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "ssh2@0.5.4": {
+      "name": "ssh2",
+      "version": "0.5.4",
+      "github": "https://github.com/mscdex/ssh2",
+      "languages": {
+        "JavaScript": 758698,
+        "C++": 64172,
+        "C": 2096,
+        "Python": 449,
+        "Batchfile": 41
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "utf-8-validate@6.0.5": {
+      "name": "utf-8-validate",
+      "version": "6.0.5",
+      "github": "https://github.com/websockets/utf-8-validate",
+      "languages": {
+        "JavaScript": 3173,
+        "Python": 912,
+        "C++": 899
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    },
+    "ws@8.18.2": {
+      "name": "ws",
+      "version": "8.18.2",
+      "github": "https://github.com/websockets/ws",
+      "languages": {
+        "JavaScript": 434710
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bufferutil",
+          "version": "4.0.9",
+          "github": "https://github.com/websockets/bufferutil",
+          "languages": {
+            "C": 3682,
+            "JavaScript": 2450,
+            "Python": 848
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        },
+        {
+          "name": "utf-8-validate",
+          "version": "6.0.5",
+          "github": "https://github.com/websockets/utf-8-validate",
+          "languages": {
+            "JavaScript": 3173,
+            "Python": 912,
+            "C++": 899
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

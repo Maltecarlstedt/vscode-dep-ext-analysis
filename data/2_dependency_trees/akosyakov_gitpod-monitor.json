@@ -1,0 +1,62 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "@gitpod/supervisor-api-grpc@0.1.5-main.7002": {
+      "name": "@gitpod/supervisor-api-grpc",
+      "version": "0.1.5-main.7002",
+      "github": "",
+      "languages": {},
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "@grpc/grpc-js",
+          "version": "1.12.2",
+          "github": "https://github.com/grpc/grpc-node.git#master",
+          "languages": {},
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "@grpc/proto-loader",
+              "version": "0.7.13",
+              "github": "https://github.com/grpc/grpc-node",
+              "languages": {
+                "TypeScript": 1909092,
+                "JavaScript": 254032,
+                "C++": 31007,
+                "Shell": 20701,
+                "Dockerfile": 5360,
+                "CMake": 2907,
+                "Batchfile": 2711,
+                "PowerShell": 2270
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        },
+        {
+          "name": "google-protobuf",
+          "version": "3.21.4",
+          "github": "https://github.com/protocolbuffers/protobuf-javascript",
+          "languages": {
+            "JavaScript": 1814530,
+            "C++": 172379,
+            "Starlark": 4679,
+            "Shell": 4242,
+            "C": 1955
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": true,
+          "depth": 1,
+          "dependencies": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "ext_native": false,
+  "dependencies": {
+    "ssh2-streams@0.4.2": {
+      "name": "ssh2-streams",
+      "version": "0.4.2",
+      "github": "https://github.com/mscdex/ssh2-streams",
+      "languages": {
+        "JavaScript": 442970
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": false,
+      "depth": 0,
+      "dependencies": [
+        {
+          "name": "bcrypt-pbkdf",
+          "version": "1.0.2",
+          "github": "https://github.com/joyent/node-bcrypt-pbkdf",
+          "languages": {
+            "JavaScript": 23230
+          },
+          "contains_compiled": true,
+          "has_cpp_directly": false,
+          "depth": 1,
+          "dependencies": [
+            {
+              "name": "tweetnacl",
+              "version": "0.14.5",
+              "github": "https://github.com/dchest/tweetnacl-js",
+              "languages": {
+                "JavaScript": 2964046,
+                "C": 45485,
+                "Go": 3796,
+                "HTML": 1898,
+                "Makefile": 716
+              },
+              "contains_compiled": true,
+              "has_cpp_directly": true,
+              "depth": 2,
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    },
+    "ssh2@0.8.2": {
+      "name": "ssh2",
+      "version": "0.8.2",
+      "github": "https://github.com/mscdex/ssh2",
+      "languages": {
+        "JavaScript": 758698,
+        "C++": 64172,
+        "C": 2096,
+        "Python": 449,
+        "Batchfile": 41
+      },
+      "contains_compiled": true,
+      "has_cpp_directly": true,
+      "depth": 0,
+      "dependencies": []
+    }
+  }
+}
