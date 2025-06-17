@@ -16,7 +16,7 @@ master-thesis
 ├── scripts                # Scripts used in the research
 ├── .gitignore             # Git ignored files
 ├── README.md              # This file
-├── README.md              # Python requirements
+├── requirements.txt       # Python requirements
 ```
 
 ## Setup
@@ -82,7 +82,7 @@ cd scripts/1_scraping
 python scrape_extensions.py
 ```
 
-### Stage 2: Dependency Tree Construction
+### Stage 2: Extension Dependency Tree Construction
 ```bash
 cd scripts/2_discover_construct_tree
 python discover_construct_dependency_trees.py
@@ -134,7 +134,7 @@ python vulnerability_propagation_analysis.py --vuln-csv results.csv --ext-dirs e
 ## Authors & Acknowledgments
 - **Malte Carlstedt** – [GitHub](https://github.com/maltecarlstedt)
 - **Alexander Brunnegård** - [GitHuB](https://github.com/alexanderbrunnegard)
-- **Thesis Supervisor:** Mohannad Alhanahnah
+- **Thesis Supervisor:** Mohannad Alhanahnah [GitHub](https://github.com/Mohannadcse)
 
 ---
 
